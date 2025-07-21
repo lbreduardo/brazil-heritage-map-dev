@@ -716,7 +716,7 @@
         map.addLayer(layer_municipalities_1_simplified_1);
         allLayers.municipal_boundaries = layer_municipalities_1_simplified_1;
 
-        // Risk choropleth layer - SIMPLIFIED TO 3 RISK LEVELS
+        // Risk choropleth layer - NEW
         function pop_municipalities_with_combined_risk_simplified_2(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -730,47 +730,46 @@
                 },
                 mouseover: highlightFeature,
             });
-            
-            // Enhanced popup for risk areas - SIMPLIFIED TO 3 LEVELS
-            var riskScore = feature.properties['comprehensive_risk_score_mean'];
-            var riskLevel = 'Sem Risco';
-            var riskColor = '#95a5a6';
-            
-            if (riskScore !== null && riskScore > 0) {
-                if (riskScore <= 0.72) {
-                    riskLevel = 'Risco Médio';
-                    riskColor = '#f1c40f'; // Yellow
-                } else if (riskScore <= 1.5) {
-                    riskLevel = 'Risco Alto';
-                    riskColor = '#e67e22'; // Orange
-                } else {
-                    riskLevel = 'Risco Muito Alto';
-                    riskColor = '#e74c3c'; // Red
-                }
+
+            const props = feature.properties;
+            const heatIndex = props['heritage_heat_index'];
+            const heatClass = props['heritage_heat_class'];
+
+            // Determine color and label based on heat class
+            let heatColor = '#95a5a6';
+            let heatLabel = 'Nenhum';
+
+            if (heatClass === 'low') {
+                heatColor = '#f1c40f'; // Yellow
+                heatLabel = 'Baixo';
+            } else if (heatClass === 'high') {
+                heatColor = '#e74c3c'; // Red
+                heatLabel = 'Alto';
             }
-            
-            var popupContent = '<table>\
+
+            const popupContent = '<table>\
                     <tr>\
-                        <td colspan="2" class="heritage-title"><strong>' + (feature.properties['NM_MUN'] !== null ? autolinker.link(String(feature.properties['NM_MUN']).replace(/'/g, '\'').toLocaleString()) : '') + '</strong></td>\
+                        <td colspan="2" class="heritage-title"><strong>' + (props['NM_MUN'] ?? '') + '</strong></td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Estado</th>\
-                        <td>' + (feature.properties['SIGLA_UF'] !== null ? autolinker.link(String(feature.properties['SIGLA_UF']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <td>' + (props['SIGLA_UF'] ?? '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Nível de Risco</th>\
-                        <td class="risk-score" style="background-color: ' + riskColor + ' !important;">' + riskLevel + '</td>\
+                        <td class="risk-score" style="background-color: ' + heatColor + ' !important;">' + heatLabel + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Pontuação de Risco</th>\
-                        <td class="risk-score">' + (riskScore !== null ? riskScore.toFixed(3) : 'N/A') + '</td>\
+                        <td class="risk-score">' + (heatIndex !== null ? heatIndex.toFixed(2) : 'N/A') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Pontos de Patrimônio</th>\
-                        <td>' + (feature.properties['NUMPOINTS'] !== null ? autolinker.link(String(feature.properties['NUMPOINTS']).replace(/'/g, '\'').toLocaleString()) : '0') + '</td>\
+                        <th scope="row">Bens Culturais Protegidos</th>\
+                        <td>' + (props['NUMPOINTS'] ?? 0) + '</td>\
                     </tr>\
                 </table>';
-            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+
+            const content = removeEmptyRowsFromPopupContent(popupContent, feature);
             layer.on('popupopen', function(e) {
                 addClassToPopupIfMedia(content, e.popup);
             });
