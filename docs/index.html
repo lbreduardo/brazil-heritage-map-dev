@@ -765,7 +765,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Bens Culturais Protegidos</th>\
-                        <td>' + (props['NUMPOINTS'] ?? 0) + '</td>\
+                        <td>' + (props['NUMPOINTS'] !== null ? props['NUMPOINTS'] : 0) + '</td>\
                     </tr>\
                 </table>';
 
