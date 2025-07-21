@@ -228,26 +228,26 @@
             
             <!-- Risk Type Filter - UPDATED WITH HYDROLOGICAL RISK -->
             <div class="filter-section">
-                <h4>🔥 Tipos de Risco</h4>
+                <h4>🔥 Riscos</h4>
                 <div class="filter-checkbox" onclick="toggleRiskTypeFilter('dam')">
                     <input type="checkbox" id="risk_type_dam" checked>
                     <div class="risk-color-box" style="background-color: #e77148;"></div>
-                    <span>Risco de Barragens</span>
+                    <span>Desastre Tecnológico</span>
                 </div>
                 <div class="filter-checkbox" onclick="toggleRiskTypeFilter('fire')">
                     <input type="checkbox" id="risk_type_fire" checked>
                     <div class="risk-color-box" style="background-color: #e74c3c;"></div>
-                    <span>Risco de Fogo</span>
+                    <span>Incêndio Florestal</span>
                 </div>
                 <div class="filter-checkbox" onclick="toggleRiskTypeFilter('geological')">
                     <input type="checkbox" id="risk_type_geological" checked>
                     <div class="risk-color-box" style="background-color: #8e44ad;"></div>
-                    <span>Risco Geológico</span>
+                    <span>Movimento de Massa</span>
                 </div>
                 <div class="filter-checkbox" onclick="toggleRiskTypeFilter('hydrological')">
                     <input type="checkbox" id="risk_type_hydrological" checked>
                     <div class="risk-color-box" style="background-color: #2980b9;"></div>
-                    <span>Risco Hidrológico</span>
+                    <span>Inundações, Enxurradas e Alagamentos</span>
                 </div>
             </div>
             
@@ -961,11 +961,11 @@
                         <td class="risk-score">' + (riskScore !== null ? riskScore.toFixed(2) : 'N/A') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Risco de Barragens</th>\
+                        <th scope="row">Desastre Tecnológico</th>\
                         <td>' + (feature.properties['dam_risk_score'] !== null ? feature.properties['dam_risk_score'].toFixed(2) : 'N/A') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Risco de Fogo</th>\
+                        <th scope="row">Incêndio Florestal</th>\
                         <td>' + (feature.properties['fire_risk_score'] !== null ? feature.properties['fire_risk_score'].toFixed(2) : 'N/A') + '</td>\
                     </tr>\
                     <tr>\
@@ -1126,7 +1126,7 @@
 
         // Enhanced layer control with better legends - Portuguese version
         var overlaysTree = [
-            {label: '🏛️ Bens Culturais Materiais Protegidos<br /><table><tr><td style="text-align: center;"><div style="width:12px;height:12px;border-radius:50%;background:#f1c40f;display:inline-block;border:2px solid white;"></div></td><td>Bens Imóveis (Triângulo)</td></tr><tr><td style="text-align: center;"><div style="width:12px;height:12px;background:#f1c40f;display:inline-block;border:2px solid white;transform:rotate(45deg);"></div></td><td>Bens Móveis ou Integrados (Losango)</td></tr></table>', layer: layer_comprehensive_heritage_risk_4},
+            {label: '🏛️ Bens Culturais Materiais Protegidos<br /><table><tr><td style="text-align: center;"><div style="width:12px;height:12px;border-radius:50%;background:#f1c40f;display:inline-block;border:2px solid white;"></div></td><td>Bens Imóveis (Círculo)</td></tr><tr><td style="text-align: center;"><div style="width:12px;height:12px;background:#f1c40f;display:inline-block;border:2px solid white;transform:rotate(45deg);"></div></td><td>Bens Móveis ou Integrados (Losango)</td></tr></table>', layer: layer_comprehensive_heritage_risk_4},
             {label: '🏗️ Barragens Potencialmente Perigosas<br /><span style="color:#e77148;">Zonas de 5km ao Redor de Barragens</span>', layer: layer_snisb_dam_buffers_3},
             {label: '🎯 Cloroplético Municipal<br /><table><tr><td style="background:#f1c40f;width:20px;height:15px;"></td><td>Risco Médio</td></tr><tr><td style="background:#e67e22;width:20px;height:15px;"></td><td>Risco Alto</td></tr><tr><td style="background:#e74c3c;width:20px;height:15px;"></td><td>Risco Muito Alto</td></tr></table>', layer: layer_municipalities_with_combined_risk_simplified_2},
             {label: '🗺️ Limites Municipais', layer: layer_municipalities_1_simplified_1},
