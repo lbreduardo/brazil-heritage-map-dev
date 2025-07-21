@@ -777,35 +777,35 @@
             layer.bindPopup(content, { maxHeight: 400 });
         }
 
-        // FIXED CHOROPLETH STYLING - SIMPLIFIED TO 3 RISK LEVELS (Yellow, Orange, Red)
+        // FIXED CHOROPLETH STYLING
         function style_municipalities_with_combined_risk_simplified_2_0(feature) {
             const index = feature.properties.heritage_heat_index;
           let fillColor = "#ffffff"; // fallback para dados ausentes
 
             if (index > 576) {
-                fillColor = "#662506";
+                fillColor = "#7a0403";
             } else if (index > 228.8) {
-                fillColor = "#993404";
+                fillColor = "#bd2002";
             } else if (index > 88.2) {
-                fillColor = "#cc4c02";
+                fillColor = "#e94d0d";
             } else if (index > 31) {
-                fillColor = "#ec7014";
+                fillColor = "#fe8f29";
             } else if (index > 19) {
-                fillColor = "#fe9929";
+                fillColor = "#f2c93a";
             } else if (index > 13) {
-                fillColor = "#fec44f";
+                fillColor = "#c2f234";
             } else if (index > 8) {
-                fillColor = "#fee391";
+                fillColor = "#7eff55";
             } else if (index > 5) {
-                fillColor = "#fff7bc";
+                fillColor = "#2aefa1";
             } else if (index > 3) {
-                fillColor = "#ffffd4";
+                fillColor = "#1fc9dd";
             } else if (index > 1) {
-                fillColor = "#ffffe5";
+                fillColor = "#4390fe";
             } else if (index > 0) {
-                fillColor = "#fffff0";
+                fillColor = "#4455c4";
             } else {
-                fillColor = "#f7fcf5";
+                fillColor = "#30123b";
             }
 
             return {
