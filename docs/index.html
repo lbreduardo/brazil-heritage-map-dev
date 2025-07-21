@@ -213,7 +213,7 @@
             
             <!-- Heritage Type Filter -->
             <div class="filter-section">
-                <h4>🏛️ Tipos de Bens Culturais</h4>
+                <h4>🏛️ Bem Cultural Material</h4>
                 <div class="filter-checkbox" onclick="toggleHeritageFilter('immovable')">
                     <input type="checkbox" id="heritage_immovable" checked>
                     <div class="symbol circle" style="background-color: #27ae60;"></div>
@@ -222,7 +222,7 @@
                 <div class="filter-checkbox" onclick="toggleHeritageFilter('movable')">
                     <input type="checkbox" id="heritage_movable" checked>
                     <div class="symbol diamond" style="background-color: #3498db;"></div>
-                    <span>Bens Móveis</span>
+                    <span>Bens Móveis ou integrados</span>
                 </div>
             </div>
             
@@ -256,15 +256,15 @@
                 <h4>🗺️ Camadas do Mapa</h4>
                 <div class="filter-checkbox" onclick="toggleLayer('heritage')">
                     <input type="checkbox" id="layer_heritage" checked>
-                    <span>🏛️ Sítios de Bens Culturais</span>
+                    <span>🏛️ Bens Culturais Materiais Protegidos</span>
                 </div>
                 <div class="filter-checkbox" onclick="toggleLayer('dam_buffers')">
                     <input type="checkbox" id="layer_dam_buffers" checked>
-                    <span>🏗️ Zonas de Risco de Barragens</span>
+                    <span>🏗️ Barragens Potencialmente Perigosas</span>
                 </div>
                 <div class="filter-checkbox" onclick="toggleLayer('municipal_risk')">
                     <input type="checkbox" id="layer_municipal_risk" checked>
-                    <span>🎯 Áreas de Risco Municipal</span>
+                    <span>🎯 Cloroplético Municipal</span>
                 </div>
                 <div class="filter-checkbox" onclick="toggleLayer('municipal_boundaries')">
                     <input type="checkbox" id="layer_municipal_boundaries" checked>
@@ -356,33 +356,33 @@
             // Check heritage data
             if (typeof json_comprehensive_heritage_risk_4 !== 'undefined' && json_comprehensive_heritage_risk_4.features) {
                 dataStatus.heritage = json_comprehensive_heritage_risk_4.features.length;
-                document.getElementById('heritageCount').innerHTML = '🏛️ Sítios de Bens Culturais: ' + dataStatus.heritage;
+                document.getElementById('heritageCount').innerHTML = '🏛️ Bens Culturais Materiais Protegidos: ' + dataStatus.heritage;
             } else {
-                document.getElementById('heritageCount').innerHTML = '🏛️ Sítios de Bens Culturais: ❌ Falha ao carregar';
+                document.getElementById('heritageCount').innerHTML = '🏛️ Bens Culturais Materiais Protegidos: ❌ Falha ao carregar';
             }
             
             // Check dam data
             if (typeof json_snisb_dam_buffers_3 !== 'undefined' && json_snisb_dam_buffers_3.features) {
                 dataStatus.dams = json_snisb_dam_buffers_3.features.length;
-                document.getElementById('damCount').innerHTML = '🏗️ Zonas de Barragens: ' + dataStatus.dams;
+                document.getElementById('damCount').innerHTML = '🏗️ Barragens Potencialmente Perigosas: ' + dataStatus.dams;
             } else {
-                document.getElementById('damCount').innerHTML = '🏗️ Zonas de Barragens: ❌ Falha ao carregar';
+                document.getElementById('damCount').innerHTML = '🏗️ Barragens Potencialmente Perigosas: ❌ Falha ao carregar';
             }
             
             // Check municipal boundaries
             if (typeof json_municipalities_1_simplified_1 !== 'undefined' && json_municipalities_1_simplified_1.features) {
                 dataStatus.municipalities = json_municipalities_1_simplified_1.features.length;
-                document.getElementById('municipalCount').innerHTML = '🗺️ Municípios: ' + dataStatus.municipalities;
+                document.getElementById('municipalCount').innerHTML = '🗺️ Limites Municipais: ' + dataStatus.municipalities;
             } else {
-                document.getElementById('municipalCount').innerHTML = '🗺️ Municípios: ❌ Falha ao carregar';
+                document.getElementById('municipalCount').innerHTML = '🗺️ Limites Municipais: ❌ Falha ao carregar';
             }
             
             // Check risk areas
             if (typeof json_municipalities_with_combined_risk_simplified_2 !== 'undefined' && json_municipalities_with_combined_risk_simplified_2.features) {
                 dataStatus.riskAreas = json_municipalities_with_combined_risk_simplified_2.features.length;
-                document.getElementById('riskCount').innerHTML = '🎯 Áreas de Risco: ' + dataStatus.riskAreas;
+                document.getElementById('riskCount').innerHTML = '🎯 Cloroplético Municipal: ' + dataStatus.riskAreas;
             } else {
-                document.getElementById('riskCount').innerHTML = '🎯 Áreas de Risco: ❌ Falha ao carregar';
+                document.getElementById('riskCount').innerHTML = '🎯 Cloroplético Municipal: ❌ Falha ao carregar';
             }
         }
         
@@ -1126,7 +1126,7 @@
 
         // Enhanced layer control with better legends - Portuguese version
         var overlaysTree = [
-            {label: '🏛️ Bens Culturais Materiais Protegidos<br /><table><tr><td style="text-align: center;"><div style="width:12px;height:12px;border-radius:50%;background:#f1c40f;display:inline-block;border:2px solid white;"></div></td><td>Bens Imóveis (Círculo)</td></tr><tr><td style="text-align: center;"><div style="width:12px;height:12px;background:#f1c40f;display:inline-block;border:2px solid white;transform:rotate(45deg);"></div></td><td>Bens Móveis (Losango)</td></tr></table>', layer: layer_comprehensive_heritage_risk_4},
+            {label: '🏛️ Bens Culturais Materiais Protegidos<br /><table><tr><td style="text-align: center;"><div style="width:12px;height:12px;border-radius:50%;background:#f1c40f;display:inline-block;border:2px solid white;"></div></td><td>Bens Imóveis (Círculo)</td></tr><tr><td style="text-align: center;"><div style="width:12px;height:12px;background:#f1c40f;display:inline-block;border:2px solid white;transform:rotate(45deg);"></div></td><td>Bens Móveis ou Integrados (Losango)</td></tr></table>', layer: layer_comprehensive_heritage_risk_4},
             {label: '🏗️ Barragens Potencialmente Perigosas<br /><span style="color:#e77148;">Zonas de 5km ao Redor de Barragens</span>', layer: layer_snisb_dam_buffers_3},
             {label: '🎯 Cloroplético Municipal<br /><table><tr><td style="background:#f1c40f;width:20px;height:15px;"></td><td>Risco Médio</td></tr><tr><td style="background:#e67e22;width:20px;height:15px;"></td><td>Risco Alto</td></tr><tr><td style="background:#e74c3c;width:20px;height:15px;"></td><td>Risco Muito Alto</td></tr></table>', layer: layer_municipalities_with_combined_risk_simplified_2},
             {label: '🗺️ Limites Municipais', layer: layer_municipalities_1_simplified_1},
