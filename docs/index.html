@@ -779,72 +779,48 @@
 
         // FIXED CHOROPLETH STYLING - SIMPLIFIED TO 3 RISK LEVELS (Yellow, Orange, Red)
         function style_municipalities_with_combined_risk_simplified_2_0(feature) {
-            var riskScore = feature.properties['comprehensive_risk_score_mean'];
-            
-            if (riskScore === null || riskScore === undefined || riskScore <= 0) {
-                return {
-                    pane: 'pane_municipalities_with_combined_risk_simplified_2',
-                    opacity: 0.5,
-                    color: 'rgba(149,165,166,0.8)',
-                    dashArray: '',
-                    lineCap: 'butt',
-                    lineJoin: 'miter',
-                    weight: 1.0,
-                    fill: true,
-                    fillOpacity: 0.2,
-                    fillColor: 'rgba(149,165,166,0.2)',
-                    interactive: true,
-                }
+            const index = feature.properties.heritage_heat_index;
+          let fillColor = "#ffffff"; // fallback para dados ausentes
+
+            if (index > 576) {
+                fillColor = "#662506";
+            } else if (index > 228.8) {
+                fillColor = "#993404";
+            } else if (index > 88.2) {
+                fillColor = "#cc4c02";
+            } else if (index > 31) {
+                fillColor = "#ec7014";
+            } else if (index > 19) {
+                fillColor = "#fe9929";
+            } else if (index > 13) {
+                fillColor = "#fec44f";
+            } else if (index > 8) {
+                fillColor = "#fee391";
+            } else if (index > 5) {
+                fillColor = "#fff7bc";
+            } else if (index > 3) {
+                fillColor = "#ffffd4";
+            } else if (index > 1) {
+                fillColor = "#ffffe5";
+            } else if (index > 0) {
+                fillColor = "#fffff0";
+            } else {
+                fillColor = "#f7fcf5";
             }
-            
-            // Medium Risk (0 - 0.72) - YELLOW
-            if (riskScore <= 0.72) {
-                return {
-                    pane: 'pane_municipalities_with_combined_risk_simplified_2',
-                    opacity: 1,
-                    color: 'rgba(241,196,15,1.0)',
-                    dashArray: '',
-                    lineCap: 'butt',
-                    lineJoin: 'miter',
-                    weight: 1.0,
-                    fill: true,
-                    fillOpacity: 0.7,
-                    fillColor: 'rgba(241,196,15,0.7)', // Yellow for medium risk
-                    interactive: true,
-                }
-            }
-            // High Risk (0.72 - 1.5) - ORANGE
-            else if (riskScore <= 1.5) {
-                return {
-                    pane: 'pane_municipalities_with_combined_risk_simplified_2',
-                    opacity: 1,
-                    color: 'rgba(230,126,34,1.0)',
-                    dashArray: '',
-                    lineCap: 'butt',
-                    lineJoin: 'miter',
-                    weight: 1.0,
-                    fill: true,
-                    fillOpacity: 0.7,
-                    fillColor: 'rgba(230,126,34,0.7)', // Orange for high risk
-                    interactive: true,
-                }
-            }
-            // Very High Risk (> 1.5) - RED
-            else {
-                return {
-                    pane: 'pane_municipalities_with_combined_risk_simplified_2',
-                    opacity: 1,
-                    color: 'rgba(231,76,60,1.0)',
-                    dashArray: '',
-                    lineCap: 'butt',
-                    lineJoin: 'miter',
-                    weight: 1.0,
-                    fill: true,
-                    fillOpacity: 0.8,
-                    fillColor: 'rgba(231,76,60,0.8)', // Red for very high risk
-                    interactive: true,
-                }
-            }
+
+            return {
+                pane: 'pane_municipalities_with_combined_risk_simplified_2',
+                opacity: 1,
+                color: '#ffffff',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 0.5,
+                fill: true,
+                fillOpacity: 0.8,
+                fillColor: fillColor,
+                interactive: true,
+            };
         }
 
         map.createPane('pane_municipalities_with_combined_risk_simplified_2');
