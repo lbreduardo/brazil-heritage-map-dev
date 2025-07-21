@@ -986,7 +986,7 @@
             var riskScore = feature.properties['comprehensive_risk_score'];
             
             // Determine risk color based on 3 levels
-            var fillColor = '#95a5a6'; // Default gray for no risk
+            var fillColor = '#8BC34A'; // Default light green for no risk
             if (riskScore !== null && riskScore !== undefined && riskScore > 0) {
                 if (riskScore <= 0.72) {
                     fillColor = '#f1c40f'; // Yellow - Medium risk
