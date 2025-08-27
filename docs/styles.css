@@ -1,0 +1,652 @@
+/* ==========================================
+   BASE STYLES
+   ========================================== */
+
+html, body, #map {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==========================================
+   BRAZIL SPOTLIGHT EFFECT - TARGETED
+   ========================================== */
+
+/* Keep base map normal */
+.leaflet-tile-container img {
+    filter: brightness(1) saturate(1) contrast(1);
+}
+
+/* Create bright spotlight overlay specifically for Brazil area */
+.leaflet-map-pane::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse 800px 600px at 60% 55%, 
+                                rgba(255,255,255,0.15) 0%, 
+                                rgba(255,255,255,0.08) 40%, 
+                                rgba(255,255,255,0) 70%);
+    pointer-events: none;
+    z-index: 50;
+    mix-blend-mode: overlay;
+}
+
+/* Enhance Brazilian features to stand out more */
+.leaflet-interactive[stroke*="140,140,140"] {
+    stroke: rgba(52, 152, 219, 0.8) !important;
+    stroke-width: 1.5 !important;
+}
+
+/* Make heritage sites extra bright */
+.leaflet-interactive[fill*="#"] {
+    filter: brightness(1.2) saturate(1.3) drop-shadow(0 0 2px rgba(255,255,255,0.3)) !important;
+}
+
+/* Keep controls bright */
+.leaflet-marker-icon,
+.leaflet-popup,
+.leaflet-control {
+    filter: brightness(1.1) !important;
+}
+
+/* ==========================================
+   FILTER PANEL STYLES
+   ========================================== */
+
+/* Advanced Filter Panel */
+.filter-panel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(20, 30, 40, 0.95);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    z-index: 1000;
+    font-size: 14px;
+    backdrop-filter: blur(5px);
+}
+
+.filter-panel h3 {
+    margin: 0 0 15px 0;
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section h4 {
+    margin: 0 0 10px 0;
+    color: #ecf0f1;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+/* Filter Checkboxes */
+.filter-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.filter-checkbox:hover {
+    background: rgba(52, 152, 219, 0.2);
+}
+
+.filter-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+/* Filter Symbols */
+.filter-checkbox .symbol {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    border: 2px solid white;
+}
+
+.symbol.circle {
+    border-radius: 50%;
+}
+
+.symbol.diamond {
+    transform: rotate(45deg);
+}
+
+.symbol.triangle {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid #27ae60;
+    border-top: none;
+    margin-right: 12px;
+    filter: drop-shadow(0 0 0 2px white);
+}
+
+.risk-color-box {
+    width: 20px;
+    height: 15px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Filter Action Buttons */
+.filter-btn {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.filter-btn-reset {
+    background: #e74c3c;
+    color: white;
+}
+
+.filter-btn-reset:hover {
+    background: #c0392b;
+    transform: translateY(-1px);
+}
+
+.filter-btn-show {
+    background: #27ae60;
+    color: white;
+}
+
+.filter-btn-show:hover {
+    background: #229954;
+    transform: translateY(-1px);
+}
+
+/* Toggle button for filter panel */
+.filter-toggle {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: rgba(52, 152, 219, 0.9);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1001;
+    font-size: 14px;
+    backdrop-filter: blur(3px);
+    transition: all 0.3s ease;
+}
+
+.filter-toggle:hover {
+    background: rgba(41, 128, 185, 1);
+    transform: translateY(-1px);
+}
+
+/* Filter statistics */
+.filter-stats {
+    background: rgba(52, 152, 219, 0.2);
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+/* ==========================================
+   POPUP STYLES
+   ========================================== */
+
+/* Enhanced popup styling with better contrast */
+.leaflet-popup-content-wrapper {
+    background: rgba(25, 35, 45, 0.97);
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.4);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+.leaflet-popup-content {
+    margin: 15px;
+}
+
+.leaflet-popup-content table {
+    background: transparent;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.leaflet-popup-content th {
+    background: rgba(52, 152, 219, 0.9);
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    border: 1px solid rgba(255,255,255,0.2);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.leaflet-popup-content td {
+    background: rgba(35, 45, 55, 0.9);
+    color: #ffffff;
+    padding: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.heritage-title {
+    background: rgba(231, 76, 60, 0.95) !important;
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+.risk-score {
+    background: rgba(230, 126, 34, 0.95) !important;
+    color: white !important;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+/* ==========================================
+   DATA STATUS PANEL
+   ========================================== */
+
+/* Enhanced Data Status Panel */
+.data-status {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(20, 30, 40, 0.95);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(52, 152, 219, 0.2);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* Timestamp styling */
+.timestamp {
+    color: #3498db;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+/* ==========================================
+   ICM CLASSIFICATION STYLES
+   ========================================== */
+
+/* Enhanced ICM Classification badges */
+.icm-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 5px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.icm-a { 
+    background: linear-gradient(135deg, #27ae60, #2ecc71); 
+    color: white; 
+}
+
+.icm-b { 
+    background: linear-gradient(135deg, #f1c40f, #f39c12); 
+    color: #2c3e50; 
+}
+
+.icm-c { 
+    background: linear-gradient(135deg, #e67e22, #d35400); 
+    color: white; 
+}
+
+.icm-d { 
+    background: linear-gradient(135deg, #e74c3c, #c0392b); 
+    color: white; 
+}
+
+/* ==========================================
+   LOADING INDICATOR
+   ========================================== */
+
+/* Enhanced loading indicator */
+.loading-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.9);
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    z-index: 10000;
+    display: none;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(52, 152, 219, 0.3);
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+
+/* ==========================================
+   STATE DROPDOWN STYLING
+   ========================================== */
+
+.state-selector {
+    margin-bottom: 15px;
+}
+
+.state-selector select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(52, 152, 219, 0.2);
+}
+
+.state-selector select:hover {
+    border-color: #2980b9;
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+    transform: translateY(-1px);
+}
+
+.state-selector select:focus {
+    outline: none;
+    border-color: #e74c3c;
+    box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
+}
+
+.state-info {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.state-info p {
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.state-info strong {
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/* ==========================================
+   PDF UPLOAD STYLES
+   ========================================== */
+
+/* Enhanced PDF Upload Area */
+.upload-area {
+    border: 2px dashed #3498db;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(52, 152, 219, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.upload-area:hover {
+    background: rgba(52, 152, 219, 0.2);
+    border-color: #2980b9;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+.upload-area p {
+    margin: 5px 0;
+    color: #ecf0f1;
+}
+
+/* Enhanced Uploaded PDF List */
+.uploaded-file {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 6px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+}
+
+.uploaded-file:hover {
+    background: rgba(255, 255, 255, 0.18);
+    transform: translateX(2px);
+}
+
+/* Enhanced File Risk Indicators */
+.file-risk {
+    padding: 3px 6px;
+    border-radius: 12px;
+    font-size: 9px;
+    font-weight: bold;
+    margin: 0 5px;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.risk-low { 
+    background: linear-gradient(135deg, #27ae60, #2ecc71); 
+    color: white; 
+}
+
+.risk-medium { 
+    background: linear-gradient(135deg, #f1c40f, #f39c12); 
+    color: #2c3e50; 
+}
+
+.risk-high { 
+    background: linear-gradient(135deg, #e74c3c, #c0392b); 
+    color: white; 
+}
+
+/* Enhanced Remove File Button */
+.remove-file {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(231, 76, 60, 0.3);
+}
+
+.remove-file:hover {
+    background: linear-gradient(135deg, #c0392b, #a93226);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(231, 76, 60, 0.4);
+}
+
+/* PDF Upload Stats */
+.pdf-stats {
+    background: rgba(52, 152, 219, 0.15);
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 10px;
+    color: #ecf0f1;
+    text-align: center;
+    border: 1px solid rgba(52, 152, 219, 0.2);
+}
+
+/* No PDFs Message */
+.no-pdfs {
+    font-size: 10px; 
+    color: #7f8c8d; 
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+
+/* ==========================================
+   ENHANCED MAP CONTROLS
+   ========================================== */
+
+/* Style Leaflet controls for better integration */
+.leaflet-control-zoom {
+    border: none !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3) !important;
+}
+
+.leaflet-control-zoom a {
+    background: rgba(52, 152, 219, 0.9) !important;
+    color: white !important;
+    border: none !important;
+    transition: all 0.3s ease !important;
+}
+
+.leaflet-control-zoom a:hover {
+    background: rgba(41, 128, 185, 1) !important;
+    transform: scale(1.05) !important;
+}
+
+/* Search control styling */
+.leaflet-control-search {
+    backdrop-filter: blur(5px) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3) !important;
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN
+   ========================================== */
+
+/* Enhanced mobile responsiveness */
+@media (max-width: 768px) {
+    .filter-panel {
+        width: 280px;
+        right: 5px;
+        top: 5px;
+        max-height: 70vh;
+        backdrop-filter: blur(8px);
+    }
+    
+    .filter-toggle {
+        right: 5px;
+        top: 50px;
+    }
+    
+    .data-status {
+        bottom: 5px;
+        left: 5px;
+        font-size: 11px;
+    }
+    
+    .upload-area {
+        padding: 8px;
+    }
+    
+    .uploaded-file {
+        font-size: 10px;
+        padding: 6px;
+    }
+    
+    /* Enhance touch targets on mobile */
+    .filter-checkbox {
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-panel {
+        width: 250px;
+        font-size: 12px;
+    }
+    
+    .filter-section h4 {
+        font-size: 12px;
+    }
+    
+    .data-status {
+        font-size: 10px;
+        padding: 8px;
+    }
+    
+    .upload-area {
+        padding: 6px;
+    }
+    
+    .upload-area p {
+        font-size: 10px;
+    }
+    
+    .uploaded-file {
+        font-size: 9px;
+        padding: 5px;
+    }
+}
+
+/* ==========================================
+   ACCESSIBILITY IMPROVEMENTS
+   ========================================== */
+
+/* Focus indicators for keyboard navigation */
+.filter-checkbox input[type="checkbox"]:focus {
+    outline: 2px solid #3498db;
+    outline-offset: 2px;
+}
+
+.filter-btn:focus {
+    outline: 2px solid #3498db;
+    outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .filter-panel {
+        background: rgba(0, 0, 0, 0.95);
+        border: 2px solid #ffffff;
+    }
+    
+    .leaflet-popup-content-wrapper {
+        background: rgba(0, 0, 0, 0.98);
+        border: 2px solid #ffffff;
+    }
+}
