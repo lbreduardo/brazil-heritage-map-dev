@@ -122,8 +122,18 @@ html, body, #map {
     border: 2px solid white;
 }
 
-.symbol.circle {
-    border-radius: 50%;
+.symbol.triangle {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 12px solid;
+    background: none !important;
+    border-bottom-color: inherit;
+}
+
+.symbol.triangle[style*="background-color: #27ae60"] {
+    border-bottom-color: #27ae60 !important;
 }
 
 .symbol.diamond {

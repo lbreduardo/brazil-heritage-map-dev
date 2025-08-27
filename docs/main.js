@@ -207,18 +207,23 @@ function normalizeText(text) {
 }
 
 function updateTimestamp() {
-    var now = new Date();
-    var options = {
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit',
-        timeZone: 'America/Sao_Paulo'
-    };
-    var timestamp = now.toLocaleString('pt-BR', options);
-    document.getElementById('lastUpdate').innerHTML = 'Última Atualização: ' + timestamp;
+    fetch('./data_info.json')
+        .then(response => response.json())
+        .then(data => {
+            // Find the most recent timestamp
+            var timestamps = Object.values(data).map(t => new Date(t));
+            var latestTimestamp = new Date(Math.max(...timestamps));
+            
+            document.getElementById('lastUpdate').innerHTML = 
+                'Última Atualização dos Dados: ' + latestTimestamp.toLocaleString('pt-BR');
+        })
+        .catch(error => {
+            console.warn('Could not load data timestamps:', error);
+            // Fallback to current time
+            var now = new Date();
+            document.getElementById('lastUpdate').innerHTML = 
+                'Última Atualização: ' + now.toLocaleString('pt-BR');
+        });
 }
 
 function getDominantRiskType(properties) {
@@ -583,14 +588,20 @@ function applyAllFilters() {
 }
 
 function toggleLayer(layerName) {
+    console.log('Toggling layer:', layerName);
+    
     filters.layers[layerName] = !filters.layers[layerName];
     document.getElementById('layer_' + layerName).checked = filters.layers[layerName];
     
     var layer = allLayers[layerName];
+    console.log('Layer found:', layer);
+    console.log('New state:', filters.layers[layerName]);
+    
     if (layer) {
         if (filters.layers[layerName]) {
             if (!map.hasLayer(layer)) {
                 map.addLayer(layer);
+                console.log('Added layer to map');
             }
             if (layerName === 'heritage') {
                 applyAllFilters();
@@ -598,41 +609,59 @@ function toggleLayer(layerName) {
         } else {
             if (map.hasLayer(layer)) {
                 map.removeLayer(layer);
+                console.log('Removed layer from map');
             }
         }
+    } else {
+        console.log('ERROR: Layer not found in allLayers');
     }
 }
 
 function resetAllFilters() {
-    for (var category in filters) {
-        for (var item in filters[category]) {
-            filters[category][item] = false;
-            
-            var checkboxId;
-            if (category === 'heritage') {
-                checkboxId = 'heritage_' + item;
-            } else if (category === 'risk') {
-                checkboxId = 'risk_' + item;
-            } else if (category === 'riskType') {
-                checkboxId = 'risk_type_' + item;
-            } else if (category === 'layers') {
-                checkboxId = 'layer_' + item;
-            }
-            
-            var checkbox = document.getElementById(checkboxId);
-            if (checkbox) {
-                checkbox.checked = false;
-            }
-        }
-    }
+    // Reset heritage types to true so they show when layer is re-enabled
+    filters.heritage.immovable = true;
+    filters.heritage.movable = true;
     
-    applyAllFilters();
+    // Reset risk levels to true so they show when layer is re-enabled  
+    filters.risk.medium = true;
+    filters.risk.high = true;
+    filters.risk.very_high = true;
     
+    // Reset risk types to true so they show when layer is re-enabled
+    filters.riskType.dam = true;
+    filters.riskType.fire = true;
+    filters.riskType.natural = true;
+    filters.riskType.no_risk = true;
+    
+    // Turn OFF all layers
+    filters.layers.heritage = false;
+    filters.layers.dam_buffers = false;
+    filters.layers.municipal_risk = false;
+    filters.layers.municipal_boundaries = false;
+    
+    // Update only the checkboxes that actually exist in your HTML
+    document.getElementById('heritage_immovable').checked = true;
+    document.getElementById('heritage_movable').checked = true;
+    document.getElementById('risk_type_dam').checked = true;
+    document.getElementById('risk_type_fire').checked = true;
+    document.getElementById('risk_type_natural').checked = true;
+    document.getElementById('risk_type_no_risk').checked = true;
+    
+    // Turn off layer checkboxes
+    document.getElementById('layer_heritage').checked = false;
+    document.getElementById('layer_dam_buffers').checked = false;
+    document.getElementById('layer_municipal_risk').checked = false;
+    document.getElementById('layer_municipal_boundaries').checked = false;
+    
+    // Remove all layers from map
     for (var layerName in allLayers) {
         if (allLayers[layerName] && map.hasLayer(allLayers[layerName])) {
             map.removeLayer(allLayers[layerName]);
         }
     }
+    
+    // Apply the filters to update visibility
+    applyAllFilters();
 }
 
 function showAllLayers() {
@@ -774,12 +803,12 @@ function pop_municipalities_1_simplified_1(feature, layer) {
 function style_municipalities_1_simplified_1_0() {
     return {
         pane: 'pane_municipalities_1_simplified_1',
-        opacity: 0.4,
-        color: 'rgba(100,100,100,0.4)',
+        opacity: 1,
+        color: 'rgba(50,50,50,0.4)',
         dashArray: '',
         lineCap: 'butt',
         lineJoin: 'miter',
-        weight: 0.5,
+        weight: 1.5,
         fill: false,
         interactive: false,
     }
@@ -802,7 +831,43 @@ map.addLayer(layer_municipalities_1_simplified_1);
 allLayers.municipal_boundaries = layer_municipalities_1_simplified_1;
 
 function pop_municipalities_with_combined_risk_simplified_2(feature, layer) {
-    // Empty function - no popups for municipal choropleth
+    var municipality = feature.properties['nome'] || feature.properties['NM_MUN'] || '';
+    var uf = feature.properties['uf'] || feature.properties['SIGLA_UF'] || '';
+    var municipalityKey = normalizeText(municipality + '_' + uf);
+    var icmClass = window.icmData && window.icmData[municipalityKey] ? window.icmData[municipalityKey] : 'N/A';
+    
+    // Get ICM color for badge
+    var icmColor = '#757575'; // Default gray
+    switch(icmClass) {
+        case 'A': icmColor = '#27ae60'; break; // Green
+        case 'B': icmColor = '#f39c12'; break; // Orange  
+        case 'C': icmColor = '#e67e22'; break; // Dark orange
+        case 'D': icmColor = '#e74c3c'; break; // Red
+    }
+    
+    var popupContent = '<table>\
+            <tr>\
+                <td colspan="2" class="heritage-title"><strong>' + municipality + '</strong></td>\
+            </tr>\
+            <tr>\
+                <th scope="row">Estado</th>\
+                <td>' + uf + '</td>\
+            </tr>\
+            <tr>\
+                <th scope="row">Classificação ICM</th>\
+                <td><span style="background-color: ' + icmColor + '; color: white; padding: 2px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;">' + icmClass + '</span></td>\
+            </tr>\
+            <tr>\
+                <th scope="row">Índice de Risco Geral</th>\
+                <td>' + (parseFloat(feature.properties['heritage_heat_index']) || 0).toFixed(2) + '</td>\
+            </tr>\
+            <tr>\
+                <th scope="row">Número de Bens Culturais</th>\
+                <td>' + (feature.properties['NUMPOINTS'] || 0) + '</td>\
+            </tr>\
+        </table>';
+    
+    layer.bindPopup(popupContent, {maxHeight: 400});
 }
 
 // CLIENT'S CHOROPLETH STYLING - Using heritage_heat_index with 12-level gradient
@@ -847,7 +912,7 @@ function style_municipalities_with_combined_risk_simplified_2_0(feature) {
         fill: true,
         fillOpacity: 0.8,
         fillColor: fillColor,
-        interactive: false,
+        interactive: true,
     };
 }
 
@@ -856,7 +921,7 @@ map.getPane('pane_municipalities_with_combined_risk_simplified_2').style.zIndex 
 map.getPane('pane_municipalities_with_combined_risk_simplified_2').style['mix-blend-mode'] = 'normal';
 var layer_municipalities_with_combined_risk_simplified_2 = new L.geoJson(json_municipalities_with_combined_risk_simplified_2, {
     attribution: '',
-    interactive: false,
+    interactive: true,
     dataVar: 'json_municipalities_with_combined_risk_simplified_2',
     layerName: 'layer_municipalities_with_combined_risk_simplified_2',
     pane: 'pane_municipalities_with_combined_risk_simplified_2',
@@ -1036,7 +1101,7 @@ function style_comprehensive_heritage_risk_4_0(feature) {
         dashArray: '',
         lineCap: 'butt',
         lineJoin: 'miter',
-        weight: 2.0,
+        weight: 0,
         fill: true,
         fillOpacity: 0.8,
         fillColor: riskInfo.color,
@@ -1075,23 +1140,23 @@ map.addLayer(layer_comprehensive_heritage_risk_4);
 allLayers.heritage = layer_comprehensive_heritage_risk_4;
 
 // Zoom-based boundary visibility
-map.on('zoomend', function() {
-    var currentZoom = map.getZoom();
+// map.on('zoomend', function() {
+//     var currentZoom = map.getZoom();
     
-    if (currentZoom < 7) {
-        if (map.hasLayer(allLayers.municipal_boundaries)) {
-            map.removeLayer(allLayers.municipal_boundaries);
-        }
-    } else {
-        if (!map.hasLayer(allLayers.municipal_boundaries) && filters.layers.municipal_boundaries) {
-            map.addLayer(allLayers.municipal_boundaries);
-        }
-    }
-});
+//     if (currentZoom < 7) {
+//         if (map.hasLayer(allLayers.municipal_boundaries)) {
+//             map.removeLayer(allLayers.municipal_boundaries);
+//         }
+//     } else {
+//         if (!map.hasLayer(allLayers.municipal_boundaries) && filters.layers.municipal_boundaries) {
+//             map.addLayer(allLayers.municipal_boundaries);
+//         }
+//     }
+// });
 
-setTimeout(function() {
-    map.fire('zoomend');
-}, 1000);
+// setTimeout(function() {
+//     map.fire('zoomend');
+// }, 1000);
 
 /* ==========================================
    SEARCH FUNCTIONALITY
