@@ -33,8 +33,7 @@ var filters = {
     riskType: {
     dam: true,
     fire: true,
-    natural: true,
-    hydro: true  // Use hydro instead of no_risk
+    geo_hydro: true 
 },
     layers: {
         heritage: true,
@@ -231,8 +230,13 @@ function getDominantRiskType(properties) {
     var fireRisk = parseFloat(properties['fire_risk_score']) || 0;
     var cemadenRisk = parseFloat(properties['cemaden_risk_score']) || 0;
     
+    // If the site has ANY CEMADEN risk, it now belongs to the merged 'geo_hydro' category
+    if (cemadenRisk > 0.1) {
+        return 'geo_hydro'; // This is the key change!
+    }
+    
     if (damRisk <= 0.1 && fireRisk <= 0.1 && cemadenRisk <= 0.1) {
-        return 'hydro'; // Low-risk sites go to hydro category
+        return 'geo_hydro'; // Low-risk sites now go to the merged category
     }
     
     var maxRisk = Math.max(damRisk, fireRisk, cemadenRisk);
@@ -241,13 +245,10 @@ function getDominantRiskType(properties) {
         return 'dam';
     } else if (maxRisk === fireRisk && fireRisk > 0) {
         return 'fire';
-    } else if (maxRisk === cemadenRisk && cemadenRisk > 0) {
-        // Use a deterministic method instead of random
-        var heritageId = properties['identificacao_bem'] || '';
-        return (heritageId.length % 2 === 0) ? 'natural' : 'hydro';
     }
+    // Removed the logic that assigned 'natural' or 'hydro'
     
-    return 'hydro';
+    return 'geo_hydro'; // Default fallback to the merged category
 }
 
 function optimizeMunicipalBoundaries() {
@@ -532,9 +533,12 @@ function applyAllFilters() {
         
         // Dominant Risk Type Filter
         // Dominant Risk Type Filter
+// Inside applyAllFilters(), find this section:
+// Dominant Risk Type Filter
 if (shouldShow) {
-    var anyRiskTypeSelected = filters.riskType.dam || filters.riskType.fire || 
-                        filters.riskType.natural || filters.riskType.hydro;
+    // OLD: var anyRiskTypeSelected = filters.riskType.dam || filters.riskType.fire || filters.riskType.natural || filters.riskType.hydro;
+    // NEW:
+    var anyRiskTypeSelected = filters.riskType.dam || filters.riskType.fire || filters.riskType.geo_hydro;
     
     if (anyRiskTypeSelected) {
         var riskTypeMatches = false;
@@ -614,8 +618,7 @@ function resetAllFilters() {
     filters.risk.very_high = true;
     filters.riskType.dam = true;
     filters.riskType.fire = true;
-    filters.riskType.natural = true;
-    filters.riskType.hydro = true;  // Add this line
+    filters.riskType.geo_hydro = true;  // Merged natural + hydro
     
     // Turn OFF all layers
     filters.layers.heritage = false;
@@ -628,8 +631,7 @@ function resetAllFilters() {
     document.getElementById('heritage_movable').checked = true;
     document.getElementById('risk_type_dam').checked = true;
     document.getElementById('risk_type_fire').checked = true;
-    document.getElementById('risk_type_natural').checked = true;
-    document.getElementById('risk_type_hydro').checked = true;  // This matches your HTML
+    document.getElementById('risk_type_geo_hydro').checked = true;  // Merged checkbox
     
     // Turn off layer checkboxes
     document.getElementById('layer_heritage').checked = false;
@@ -646,7 +648,6 @@ function resetAllFilters() {
     
     applyAllFilters();
 }
-
 function showAllLayers() {
     for (var category in filters) {
         for (var item in filters[category]) {
