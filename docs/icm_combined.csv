@@ -1,0 +1,5571 @@
+UF,Município,ICM_Classification
+MG,Itabirito,A
+MT,Cuiabá,A
+MG,Espera Feliz,A
+MG,Governador Valadares,A
+MG,Juiz de Fora,A
+RJ,Angra dos Reis,A
+RJ,Cachoeiras de Macacu,A
+RJ,Macaé,A
+RJ,Mangaratiba,A
+RJ,Niterói,A
+SP,Itápolis,A
+SP,Santo André,A
+PR,Curitiba,A
+SC,Brusque,A
+SC,Xanxerê,A
+RS,Cachoeira do Sul,A
+RS,Canoas,A
+RS,Pelotas,A
+MT,Sorriso,A
+AC,Rio Branco,A
+AM,Manaus,A
+PA,Parauapebas,A
+TO,Araguaína,A
+CE,Quixeramobim,A
+PB,Boa Ventura,A
+PE,Caruaru,A
+BA,Candeias,A
+BA,Salvador,A
+MG,Cristina,A
+MG,Rochedo de Minas,A
+ES,João Neiva,A
+ES,Santa Maria de Jetibá,A
+ES,Vitória,A
+RJ,Belford Roxo,A
+RJ,Maricá,A
+RJ,Nova Friburgo,A
+RJ,Petrópolis,A
+SP,Americana,A
+SP,Botucatu,A
+SP,Campinas,A
+SP,Guarulhos,A
+SP,Itapetininga,A
+SP,Jundiaí,A
+SP,Poá,A
+SP,São Bernardo do Campo,A
+SP,São Paulo,A
+PR,Quatro Barras,A
+PR,Rio Negro,A
+SC,Blumenau,A
+SC,Itajaí,A
+RS,Santo Ângelo,A
+MT,Chapada dos Guimarães,A
+TO,Porto Nacional,A
+TO,Palmas,A
+PE,Jaboatão dos Guararapes,A
+BA,Eunápolis,A
+BA,Sobradinho,A
+MG,Araguari,A
+MG,Contagem,A
+MG,Guiricema,A
+MG,Itapecerica,A
+MG,João Monlevade,A
+MG,Poços de Caldas,A
+ES,Montanha,A
+RJ,Itatiaia,A
+RJ,Nova Iguaçu,A
+RJ,São Pedro da Aldeia,A
+SP,Cordeirópolis,A
+SP,Cubatão,A
+SP,Paulínia,A
+SP,Pederneiras,A
+SP,Pindamonhangaba,A
+SP,Salto,A
+SP,Vinhedo,A
+SC,Balneário Camboriú,A
+RS,Charrua,A
+CE,Uruburetama,A
+PB,Santo André,A
+MG,Cláudio,A
+MG,Itutinga,A
+PR,Cascavel,A
+SC,Sombrio,A
+RN,Tangará,A
+BA,Alagoinhas,A
+MG,Conceição das Alagoas,A
+MG,Extrema,A
+MG,Felício dos Santos,A
+MG,Ibiraci,A
+MG,São José do Alegre,A
+ES,Boa Esperança,A
+SP,Batatais,A
+SP,Birigui,A
+SP,Caçapava,A
+SP,Itapeva,A
+SP,Mogi Guaçu,A
+SP,Morungaba,A
+SP,Nova Odessa,A
+PR,Colorado,A
+SC,Chapecó,A
+SC,Galvão,A
+RS,Farroupilha,A
+RS,Santo Expedito do Sul,A
+RS,Veranópolis,A
+MS,Costa Rica,A
+MT,Tangará da Serra,A
+PA,Pau DArco,A
+CE,Ubajara,A
+MG,Carmo do Cajuru,A
+MG,Felisburgo,A
+MG,Guaranésia,A
+MG,Igarapé,A
+MG,Ouro Branco,A
+MG,Rosário da Limeira,A
+MG,São Geraldo do Baixio,A
+SP,Araras,A
+SP,Fernandópolis,A
+SP,Iperó,A
+SP,Matão,A
+SP,Santa Cruz das Palmeiras,A
+SP,Votuporanga,A
+PR,Boa Esperança do Iguaçu,A
+PR,Enéas Marques,A
+PR,Lapa,A
+PR,Nova Cantu,A
+PR,Ortigueira,A
+PR,Rio Branco do Ivaí,A
+PR,Santa Lúcia,A
+PR,Sapopema,A
+SC,Luzerna,A
+SC,São Miguel do Oeste,A
+SC,Treviso,A
+RS,São Francisco de Paula,A
+RS,Sapiranga,A
+MS,Chapadão do Sul,A
+PA,Ourém,A
+TO,Miracema do Tocantins,A
+MA,São João Batista,A
+PI,Nossa Senhora de Nazaré,A
+PI,Oeiras,A
+PB,Nova Palmeira,A
+PE,Brejo da Madre de Deus,A
+AL,Água Branca,A
+AL,Boca da Mata,A
+SE,Barra dos Coqueiros,A
+SE,General Maynard,A
+BA,Barreiras,A
+MG,Cabeceira Grande,A
+MG,Curvelo,A
+MG,Frutal,A
+MG,Itaguara,A
+MG,Monte Sião,A
+MG,Nova Serrana,A
+MG,Ouro Fino,A
+MG,Paracatu,A
+MG,Pará de Minas,A
+MG,Rio Pomba,A
+MG,Santa Cruz do Escalvado,A
+MG,Soledade de Minas,A
+MG,Vazante,A
+ES,Pinheiros,A
+RJ,Duas Barras,A
+RJ,Porto Real,A
+RJ,Quissamã,A
+RJ,Vassouras,A
+SP,Aguaí,A
+SP,Artur Nogueira,A
+SP,Garça,A
+SP,Ilha Solteira,A
+SP,Jaguariúna,A
+SP,Olímpia,A
+SP,Parisi,A
+SP,Porto Feliz,A
+SP,Sarapuí,A
+SP,Vargem Grande Paulista,A
+PR,Cianorte,A
+PR,Corbélia,A
+PR,Coronel Vivida,A
+PR,Cruzeiro do Oeste,A
+PR,Figueira,A
+PR,Realeza,A
+PR,Telêmaco Borba,A
+PR,Toledo,A
+PR,Ubiratã,A
+SC,Salto Veloso,A
+SC,Vargeão,A
+RS,Antônio Prado,A
+RS,Arroio dos Ratos,A
+RS,Chiapetta,A
+RS,Guaporé,A
+RS,Ijuí,A
+MT,Poconé,A
+GO,Inhumas,A
+PA,Conceição do Araguaia,A
+MA,Estreito,A
+CE,Camocim,A
+CE,Itaitinga,A
+RN,Riacho de Santana,A
+PB,Dona Inês,A
+AL,Teotônio Vilela,A
+SE,Propriá,A
+BA,Capim Grosso,A
+BA,Luís Eduardo Magalhães,A
+BA,Poções,A
+MG,Itaúna,A
+MG,Muzambinho,A
+MG,Passa Quatro,A
+MG,Presidente Juscelino,A
+MG,Rio Doce,A
+MG,Rio Novo,A
+MG,Setubinha,A
+RJ,Carmo,A
+RJ,Pinheiral,A
+RJ,Quatis,A
+RJ,São José de Ubá,A
+SP,Agudos,A
+SP,Arco-Íris,A
+SP,Canas,A
+SP,Capela do Alto,A
+SP,Catanduva,A
+SP,Cerquilho,A
+SP,Indaiatuba,A
+SP,Itaí,A
+SP,Jaboticabal,A
+SP,Luís Antônio,A
+SP,Martinópolis,A
+SP,Monteiro Lobato,A
+SP,Salto de Pirapora,A
+SP,São Manuel,A
+SP,Taubaté,A
+SP,Tupã,A
+SP,Valentim Gentil,A
+PR,Alvorada do Sul,A
+PR,Assaí,A
+PR,Braganey,A
+PR,Espigão Alto do Iguaçu,A
+PR,Itapejara dOeste,A
+PR,Jaboti,A
+PR,Jandaia do Sul,A
+PR,Nova Prata do Iguaçu,A
+PR,Pinhão,A
+PR,Quedas do Iguaçu,A
+PR,Rio Bonito do Iguaçu,A
+PR,São Jorge dOeste,A
+PR,Siqueira Campos,A
+PR,Terra Rica,A
+PR,Tibagi,A
+SC,Anchieta,A
+SC,Barra Bonita,A
+SC,Descanso,A
+SC,Frei Rogério,A
+SC,Nova Itaberaba,A
+SC,Ponte Alta do Norte,A
+SC,Tunápolis,A
+RS,Barra do Quaraí,A
+RS,Brochier,A
+RS,Capão da Canoa,A
+RS,Carlos Barbosa,A
+RS,Relvado,A
+RS,São José do Norte,A
+RS,São Valentim,A
+RS,São Valentim do Sul,A
+RS,Selbach,A
+RS,Tiradentes do Sul,A
+RS,Três Cachoeiras,A
+MS,Bandeirantes,A
+MS,Guia Lopes da Laguna,A
+MT,Juína,A
+GO,Bonfinópolis,A
+GO,Silvânia,A
+RO,Ouro Preto do Oeste,A
+AM,São Sebastião do Uatumã,A
+PA,Mãe do Rio,A
+CE,Paracuru,A
+PB,Conde,A
+PB,Guarabira,A
+PB,Queimadas,A
+PE,Carpina,A
+PE,Condado,A
+PE,Paranatama,A
+PE,Sairé,A
+PE,Solidão,A
+PE,Terra Nova,A
+PE,Tupanatinga,A
+AL,Coité do Nóia,A
+AL,Pão de Açúcar,A
+SE,Cristinápolis,A
+SE,Indiaroba,A
+SE,Itabaianinha,A
+SE,Itaporanga dAjuda,A
+SE,Riachuelo,A
+BA,Amélia Rodrigues,A
+BA,Cruz das Almas,A
+BA,Irará,A
+MG,Alto Rio Doce,A
+MG,Bela Vista de Minas,A
+MG,Brasilândia de Minas,A
+MG,Guaxupé,A
+MG,Itatiaiuçu,A
+MG,Lagoa Santa,A
+MG,Monte Santo de Minas,A
+MG,São Gotardo,A
+RJ,Arraial do Cabo,A
+RJ,Iguaba Grande,A
+SP,Angatuba,A
+SP,Cabrália Paulista,A
+SP,Capão Bonito,A
+SP,Catiguá,A
+SP,Itapira,A
+SP,Macatuba,A
+SP,Osvaldo Cruz,A
+SP,Presidente Epitácio,A
+PR,Amaporã,A
+PR,Carlópolis,A
+PR,Catanduvas,A
+PR,Fênix,A
+PR,Marechal Cândido Rondon,A
+PR,Palmas,A
+PR,Paulo Frontin,A
+PR,Roncador,A
+PR,São Manoel do Paraná,A
+PR,Terra Boa,A
+PR,Três Barras do Paraná,A
+PR,Wenceslau Braz,A
+SC,Água Doce,A
+SC,Arvoredo,A
+SC,Catanduvas,A
+SC,Iraceminha,A
+RS,Ajuricaba,A
+RS,Arambaré,A
+RS,Balneário Pinhal,A
+RS,Cerro Grande,A
+RS,Cruzaltense,A
+RS,Dilermando de Aguiar,A
+RS,Entre Rios do Sul,A
+RS,Getúlio Vargas,A
+RS,Guaíba,A
+RS,Mato Queimado,A
+RS,Minas do Leão,A
+RS,Nova Prata,A
+RS,Novo Tiradentes,A
+RS,Santa Clara do Sul,A
+RS,Terra de Areia,A
+RS,Vacaria,A
+MT,Diamantino,A
+MT,Sapezal,A
+GO,Ceres,A
+GO,Santa Isabel,A
+AM,Santa Isabel do Rio Negro,A
+RR,Normandia,A
+PA,Maracanã,A
+TO,Colinas do Tocantins,A
+TO,Paraíso do Tocantins,A
+CE,Choró,A
+CE,Itapiúna,A
+CE,Tianguá,A
+RN,São Pedro,A
+PE,Salgadinho,A
+AL,Chã Preta,A
+AL,Ibateguara,A
+SE,Japoatã,A
+SE,Neópolis,A
+BA,Antônio Cardoso,A
+BA,Guajeru,A
+BA,Ourolândia,A
+BA,São Francisco do Conde,A
+BA,São Gabriel,A
+MG,Andradas,A
+MG,Baependi,A
+MG,Bocaiúva,A
+MG,Caranaíba,A
+MG,Coqueiral,A
+MG,Cristiano Otoni,A
+MG,Crucilândia,A
+MG,Curral de Dentro,A
+MG,Dores de Campos,A
+MG,Mercês,A
+MG,Patrocínio,A
+MG,Peçanha,A
+MG,Recreio,A
+MG,Sacramento,A
+MG,Santa Cruz de Minas,A
+MG,São Gonçalo do Sapucaí,A
+MG,São João da Mata,A
+MG,São Lourenço,A
+MG,São Sebastião do Paraíso,A
+MG,São Sebastião do Rio Verde,A
+RJ,São Sebastião do Alto,A
+SP,Casa Branca,A
+SP,Charqueada,A
+SP,Conchas,A
+SP,Flora Rica,A
+SP,Gavião Peixoto,A
+SP,Guatapará,A
+SP,Indiana,A
+SP,Jales,A
+SP,José Bonifácio,A
+SP,Juquitiba,A
+SP,Laranjal Paulista,A
+SP,Paulistânia,A
+SP,Sabino,A
+SP,Santa Cruz do Rio Pardo,A
+SP,São Miguel Arcanjo,A
+PR,Bom Jesus do Sul,A
+PR,Campo do Tenente,A
+PR,Contenda,A
+PR,Fernandes Pinheiro,A
+PR,Guaporema,A
+PR,Ivaiporã,A
+PR,Jardim Alegre,A
+PR,Jardim Olinda,A
+PR,Mato Rico,A
+PR,Nova Esperança,A
+PR,Rio Azul,A
+PR,Santa Izabel do Oeste,A
+PR,Santa Tereza do Oeste,A
+SC,Capivari de Baixo,A
+SC,Iporã do Oeste,A
+SC,Macieira,A
+SC,Peritiba,A
+SC,Pinhalzinho,A
+SC,Presidente Castello Branco,A
+SC,Urupema,A
+RS,Arroio do Sal,A
+RS,Campinas do Sul,A
+RS,Capivari do Sul,A
+RS,Carazinho,A
+RS,Encruzilhada do Sul,A
+RS,Imbé,A
+RS,Júlio de Castilhos,A
+RS,Palmares do Sul,A
+RS,Presidente Lucena,A
+RS,Quatro Irmãos,A
+RS,Santa Cecília do Sul,A
+MS,Paranaíba,A
+MT,Barra do Bugres,A
+GO,Alto Horizonte,A
+GO,Itapirapuã,A
+RO,Vilhena,A
+AC,Porto Walter,A
+TO,Combinado,A
+MA,Humberto de Campos,A
+PI,Capitão de Campos,A
+CE,Alto Santo,A
+CE,Horizonte,A
+CE,Jati,A
+CE,Umirim,A
+PB,Desterro,A
+PE,Vertente do Lério,A
+AL,Campo Alegre,A
+AL,Delmiro Gouveia,A
+BA,Canarana,A
+BA,Macururé,A
+BA,Novo Triunfo,A
+BA,São Desidério,A
+BA,Saubara,A
+MG,Cássia,A
+MG,Coronel Xavier Chaves,A
+MG,Delfinópolis,A
+MG,Delta,A
+MG,Frei Lagonegro,A
+MG,Itaipé,A
+MG,Medina,A
+MG,Paraopeba,A
+MG,Rodeiro,A
+MG,Tabuleiro,A
+SP,Andradina,A
+SP,Bom Jesus dos Perdões,A
+SP,Cândido Mota,A
+SP,Cesário Lange,A
+SP,Elias Fausto,A
+SP,Espírito Santo do Turvo,A
+SP,Fartura,A
+SP,Ibitinga,A
+SP,Ibiúna,A
+SP,Itajobi,A
+SP,Paranapanema,A
+SP,Paulicéia,A
+SP,Penápolis,A
+SP,Potim,A
+SP,Presidente Venceslau,A
+SP,Salto Grande,A
+SP,Santa Cruz da Esperança,A
+SP,Santa Rosa de Viterbo,A
+SP,Serra Negra,A
+SP,Tapiratiba,A
+SP,Teodoro Sampaio,A
+SP,Vista Alegre do Alto,A
+PR,Agudos do Sul,A
+PR,Ampére,A
+PR,Astorga,A
+PR,Bela Vista da Caroba,A
+PR,Califórnia,A
+PR,Cornélio Procópio,A
+PR,Cruzeiro do Iguaçu,A
+PR,Iguaraçu,A
+PR,Jesuítas,A
+PR,Lunardelli,A
+PR,Matelândia,A
+PR,Nova Aurora,A
+PR,Nova Tebas,A
+PR,Palmeira,A
+PR,Pérola dOeste,A
+PR,Reserva do Iguaçu,A
+PR,Rio Bom,A
+PR,Saudade do Iguaçu,A
+SC,Bandeirante,A
+SC,Bom Jesus,A
+SC,Paraíso,A
+SC,Riqueza,A
+RS,Arroio do Tigre,A
+RS,Barão,A
+RS,Cacequi,A
+RS,Casca,A
+RS,Lajeado do Bugre,A
+RS,São Pedro da Serra,A
+RS,Sede Nova,A
+RS,Três Passos,A
+MS,Camapuã,A
+MS,Figueirão,A
+MS,Iguatemi,A
+MS,Paraíso das Águas,A
+MS,Sete Quedas,A
+MT,Jauru,A
+MT,Porto Esperidião,A
+GO,Morrinhos,A
+PA,Afuá,A
+CE,Fortim,A
+CE,Mulungu,A
+RN,Carnaúba dos Dantas,A
+RN,Passa e Fica,A
+PB,Santa Helena,A
+PE,Brejão,A
+SE,Pedra Mole,A
+BA,Itarantim,A
+BA,Livramento de Nossa Senhora,A
+BA,Nova Redenção,A
+BA,Pedro Alexandre,A
+BA,Sento Sé,A
+MG,Arantina,A
+MG,Belmiro Braga,A
+MG,Capitão Andrade,A
+MG,Carmópolis de Minas,A
+MG,Cuparaque,A
+MG,Desterro de Entre Rios,A
+MG,Dom Joaquim,A
+MG,Gouveia,A
+MG,Guanhães,A
+MG,Imbé de Minas,A
+MG,João Pinheiro,A
+MG,Pedralva,A
+MG,Piranguinho,A
+MG,São Geraldo da Piedade,A
+MG,São José do Jacuri,A
+SP,Bocaina,A
+SP,Cosmópolis,A
+SP,Itapuí,A
+SP,Jarinu,A
+SP,Monte Alegre do Sul,A
+SP,Pirangi,A
+SP,Santa Lúcia,A
+SP,Santa Rita do Passa Quatro,A
+SP,Tarumã,A
+PR,Cafelândia,A
+PR,Campina da Lagoa,A
+PR,Conselheiro Mairinck,A
+PR,Nova Santa Bárbara,A
+PR,Paraíso do Norte,A
+PR,Piên,A
+PR,São Jorge do Patrocínio,A
+PR,Sertanópolis,A
+PR,Turvo,A
+PR,Verê,A
+PR,Alto Paraíso,A
+SC,Painel,A
+RS,Colorado,A
+RS,Putinga,A
+RS,São Martinho,A
+RS,São Paulo das Missões,A
+RS,Tavares,A
+RS,Triunfo,A
+RS,Tupanci do Sul,A
+MT,Guarantã do Norte,A
+GO,Cristalina,A
+GO,Pires do Rio,A
+GO,Santo Antônio do Descoberto,A
+PA,Santarém,B
+PB,Campina Grande,B
+AL,São Sebastião,B
+SE,Aracaju,B
+MG,Belo Horizonte,B
+ES,São Gabriel da Palha,B
+ES,Viana,B
+SP,Águas de Lindóia,B
+PR,União da Vitória,B
+SC,Florianópolis,B
+SC,Lages,B
+RS,Uruguaiana,B
+DF,Brasília,B
+RO,Porto Velho,B
+RN,Natal,B
+RN,Santa Maria,B
+PE,Ipojuca,B
+PE,Lajedo,B
+PE,Recife,B
+PE,Rio Formoso,B
+AL,Maceió,B
+BA,Jacobina,B
+MG,Além Paraíba,B
+MG,Barão de Cocais,B
+MG,Caratinga,B
+MG,Cataguases,B
+MG,Conceição do Mato Dentro,B
+MG,Lavras,B
+MG,Ouro Preto,B
+MG,Pirapora,B
+MG,Pouso Alegre,B
+MG,Três Corações,B
+MG,Visconde do Rio Branco,B
+ES,Santa Leopoldina,B
+ES,Vila Velha,B
+RJ,Barra Mansa,B
+RJ,Bom Jesus do Itabapoana,B
+RJ,Cantagalo,B
+RJ,Duque de Caxias,B
+RJ,Guapimirim,B
+RJ,Itaboraí,B
+RJ,Rio de Janeiro,B
+RJ,São Gonçalo,B
+RJ,Tanguá,B
+RJ,Teresópolis,B
+RJ,Três Rios,B
+SP,Campo Limpo Paulista,B
+SP,Campos do Jordão,B
+SP,Guararema,B
+SP,Itaquaquecetuba,B
+SP,Mogi das Cruzes,B
+SP,Registro,B
+SP,Santos,B
+PR,Francisco Beltrão,B
+PR,Morretes,B
+PR,São José dos Pinhais,B
+SC,Botuverá,B
+SC,Canoinhas,B
+SC,Corupá,B
+SC,Presidente Getúlio,B
+RS,Esteio,B
+MS,Anastácio,B
+MS,Corumbá,B
+RO,Ariquemes,B
+AC,Feijó,B
+AM,Presidente Figueiredo,B
+RR,Boa Vista,B
+PA,Oriximiná,B
+PA,Paragominas,B
+AP,Macapá,B
+MA,São José de Ribamar,B
+CE,Maranguape,B
+RN,Parnamirim,B
+PE,Abreu e Lima,B
+PE,Barreiros,B
+PE,Bezerros,B
+PE,Cabo de Santo Agostinho,B
+PE,Jaqueira,B
+PE,Paulista,B
+PE,São Lourenço da Mata,B
+AL,União dos Palmares,B
+BA,Entre Rios,B
+BA,Jucuruçu,B
+MG,Coronel Fabriciano,B
+MG,Ipatinga,B
+MG,Jeceaba,B
+MG,Mariana,B
+MG,Pedro Leopoldo,B
+MG,Ponte Nova,B
+MG,Resplendor,B
+MG,Sabará,B
+MG,Timóteo,B
+MG,Uberlândia,B
+ES,Itapemirim,B
+ES,Pancas,B
+ES,Vargem Alta,B
+RJ,Parati,B
+RJ,Resende,B
+RJ,Santo Antônio de Pádua,B
+RJ,Volta Redonda,B
+SP,Araraquara,B
+SP,Bebedouro,B
+SP,Cunha,B
+SP,Diadema,B
+SP,Francisco Morato,B
+SP,Guarujá,B
+SP,Itatiba,B
+SP,Lins,B
+SP,Lorena,B
+SP,Piracicaba,B
+SP,Ribeirão Pires,B
+SP,São Carlos,B
+SP,São José dos Campos,B
+SP,São Vicente,B
+SP,Sete Barras,B
+SP,Sorocaba,B
+SP,Várzea Paulista,B
+PR,Almirante Tamandaré,B
+PR,Araucária,B
+PR,Pinhais,B
+SC,Braço do Norte,B
+SC,Criciúma,B
+SC,Gaspar,B
+SC,Irineópolis,B
+SC,Jaguaruna,B
+SC,Nova Trento,B
+SC,Rio do Sul,B
+SC,São Bento do Sul,B
+RS,Cristal,B
+RS,Estrela,B
+RS,Feliz,B
+MS,Ponta Porã,B
+AM,Lábrea,B
+AM,Uarini,B
+MA,Conceição do Lago-Açu,B
+MA,São Luís,B
+CE,Crato,B
+RN,Mossoró,B
+PB,Cabedelo,B
+PB,João Pessoa,B
+PE,Catende,B
+PE,Escada,B
+PE,Moreno,B
+PE,Sirinhaém,B
+PE,Tamandaré,B
+AL,Cajueiro,B
+MG,Aimorés,B
+MG,Belo Oriente,B
+MG,Congonhas,B
+MG,Conselheiro Lafaiete,B
+MG,Guidoval,B
+MG,Malacacheta,B
+MG,Nova Lima,B
+MG,Raposos,B
+MG,Ribeirão das Neves,B
+MG,Rio Piracicaba,B
+MG,Sarzedo,B
+MG,Teófilo Otoni,B
+ES,Afonso Cláudio,B
+ES,Baixo Guandu,B
+ES,Colatina,B
+ES,Nova Venécia,B
+ES,São Mateus,B
+RJ,Bom Jardim,B
+RJ,Cardoso Moreira,B
+RJ,Laje do Muriaé,B
+RJ,Mesquita,B
+RJ,Paracambi,B
+RJ,Santa Maria Madalena,B
+RJ,Sumidouro,B
+SP,Barretos,B
+SP,Bragança Paulista,B
+SP,Eldorado,B
+SP,Espírito Santo do Pinhal,B
+SP,Hortolândia,B
+SP,Itanhaém,B
+SP,Itapecerica da Serra,B
+SP,Mauá,B
+SP,Osasco,B
+SP,Praia Grande,B
+SP,Rafard,B
+SP,Rio Claro,B
+SP,Santana de Parnaíba,B
+SP,São Bento do Sapucaí,B
+SP,Sumaré,B
+SP,Taboão da Serra,B
+SP,Tremembé,B
+PR,Campo Magro,B
+PR,Capitão Leônidas Marques,B
+PR,Dois Vizinhos,B
+SC,Abelardo Luz,B
+SC,Concórdia,B
+SC,Mafra,B
+SC,Pomerode,B
+RS,Bento Gonçalves,B
+RS,Encantado,B
+RS,Erechim,B
+RS,Novo Hamburgo,B
+RS,Porto Alegre,B
+RS,Porto Mauá,B
+RS,Santa Rosa,B
+RS,Sapucaia do Sul,B
+RS,Três Coroas,B
+MT,São Félix do Araguaia,B
+AC,Epitaciolândia,B
+AM,São Gabriel da Cachoeira,B
+PA,Itaituba,B
+MA,Açailândia,B
+MA,Monção,B
+CE,Lavras da Mangabeira,B
+PB,Santa Rita,B
+PE,Agrestina,B
+PE,Água Preta,B
+PE,Amaraji,B
+PE,Olinda,B
+PE,Trindade,B
+AL,Santa Luzia do Norte,B
+AL,São Miguel dos Campos,B
+SE,São Cristóvão,B
+BA,Camaçari,B
+BA,Itabuna,B
+BA,Lajedinho,B
+MG,Betim,B
+MG,Carmo do Rio Claro,B
+MG,Itabira,B
+MG,Novo Cruzeiro,B
+MG,Padre Paraíso,B
+MG,São João del Rei,B
+MG,Serro,B
+ES,Aracruz,B
+ES,Cachoeiro de Itapemirim,B
+ES,Itaguaçu,B
+ES,Mimoso do Sul,B
+ES,Rio Novo do Sul,B
+ES,Serra,B
+RJ,Campos dos Goytacazes,B
+RJ,Itaguaí,B
+RJ,Magé,B
+RJ,Queimados,B
+RJ,Silva Jardim,B
+RJ,Varre-Sai,B
+SP,Apiaí,B
+SP,Atibaia,B
+SP,Cajati,B
+SP,Guaratinguetá,B
+SP,Jacareí,B
+SP,Lençóis Paulista,B
+SP,Monte Mor,B
+SP,Pariquera-Açu,B
+SP,Peruíbe,B
+SP,Porto Ferreira,B
+SP,São Sebastião,B
+SP,Suzano,B
+PR,Foz do Iguaçu,B
+PR,Sengés,B
+PR,Umuarama,B
+SC,Camboriú,B
+SC,Dona Emma,B
+SC,Faxinal dos Guedes,B
+SC,Fraiburgo,B
+SC,Guaraciaba,B
+SC,Ibirama,B
+SC,Ilhota,B
+SC,Jaraguá do Sul,B
+SC,Joinville,B
+SC,Porto União,B
+SC,Schroeder,B
+RS,Bagé,B
+RS,Bom Princípio,B
+RS,Itati,B
+RS,Rio Grande,B
+RS,São Sebastião do Caí,B
+RS,Venâncio Aires,B
+MT,Várzea Grande,B
+RO,Jaru,B
+AM,Anamã,B
+AM,Atalaia do Norte,B
+AM,São Paulo de Olivença,B
+PA,Bragança,B
+PA,Terra Santa,B
+PA,Tucuruí,B
+MA,Cantanhede,B
+MA,Pedreiras,B
+CE,Pacatuba,B
+PE,Cortês,B
+PE,Igarassu,B
+PE,São José da Coroa Grande,B
+PE,Vitória de Santo Antão,B
+AL,Arapiraca,B
+AL,Marechal Deodoro,B
+AL,Paripueira,B
+AL,São José da Laje,B
+BA,Ituberá,B
+MG,Cajuri,B
+MG,Conceição dos Ouros,B
+MG,Montes Claros,B
+MG,Patos de Minas,B
+MG,Periquito,B
+MG,Viçosa,B
+ES,Ibitirama,B
+RJ,Areal,B
+RJ,Cambuci,B
+RJ,Cordeiro,B
+RJ,Miracema,B
+RJ,Paraíba do Sul,B
+RJ,Valença,B
+SP,Cajamar,B
+SP,Itaberá,B
+SP,Itariri,B
+SP,Ourinhos,B
+SP,Piquete,B
+SP,Ribeirão Preto,B
+PR,Guarapuava,B
+PR,Ponta Grossa,B
+SC,Araranguá,B
+SC,Benedito Novo,B
+SC,Bombinhas,B
+SC,Capinzal,B
+SC,Curitibanos,B
+SC,Itapema,B
+SC,Porto Belo,B
+SC,Pouso Redondo,B
+RS,Ibirubá,B
+MS,Campo Grande,B
+GO,Anápolis,B
+GO,Catalão,B
+RO,Pimenta Bueno,B
+PA,Ipixuna do Pará,B
+PA,Rondon do Pará,B
+MA,Pinheiro,B
+MA,Timbiras,B
+PI,Barras,B
+PI,Floriano,B
+PE,Barra de Guabiraba,B
+PE,São Benedito do Sul,B
+AL,Murici,B
+AL,Quebrangulo,B
+SE,Lagarto,B
+BA,Bom Jesus da Lapa,B
+BA,Juazeiro,B
+MG,Dona Euzébia,B
+MG,Santos Dumont,B
+MG,Ubá,B
+ES,Atilio Vivacqua,B
+ES,Fundão,B
+ES,Iconha,B
+ES,Linhares,B
+SP,Brodowski,B
+SP,Ilhabela,B
+SP,São Luís do Paraitinga,B
+PR,Colombo,B
+PR,Cruz Machado,B
+PR,Piraquara,B
+PR,Rolândia,B
+PR,São Miguel do Iguaçu,B
+SC,Alfredo Wagner,B
+SC,Ascurra,B
+SC,Forquilhinha,B
+SC,José Boiteux,B
+RS,Horizontina,B
+RS,Passo Fundo,B
+RS,Piratini,B
+RS,Taquara,B
+RS,Travesseiro,B
+GO,Jataí,B
+PA,Xinguara,B
+TO,Talismã,B
+PB,Maturéia,B
+PE,João Alfredo,B
+BA,Itaparica,B
+BA,Madre de Deus,B
+MG,Uberaba,B
+RJ,Cabo Frio,B
+SP,Paraguaçu Paulista,B
+SP,Santa Branca,B
+PR,Arapongas,B
+PR,Goioerê,B
+PR,Pontal do Paraná,B
+SC,Lebon Régis,B
+RS,São Domingos do Sul,B
+MT,Primavera do Leste,B
+MA,Centro Novo do Maranhão,B
+RN,Pedro Velho,B
+PE,Angelim,B
+BA,Dias dÁvila,B
+MG,Ituiutaba,B
+MG,Mário Campos,B
+MG,Nazareno,B
+ES,Águia Branca,B
+ES,Ponto Belo,B
+SP,Américo Brasiliense,B
+SP,Corumbataí,B
+SP,Monte Azul Paulista,B
+PR,Centenário do Sul,B
+PR,Planaltina do Paraná,B
+PR,Planalto,B
+PR,Ramilândia,B
+PR,Rosário do Ivaí,B
+PR,Santa Amélia,B
+PR,Santa Cecília do Pavão,B
+PR,Ventania,B
+PR,Vera Cruz do Oeste,B
+SC,Celso Ramos,B
+SC,Paial,B
+SC,São Bernardino,B
+RS,Água Santa,B
+RS,Cotiporã,B
+RS,Frederico Westphalen,B
+RS,Marau,B
+MS,Paranhos,B
+MT,Lucas do Rio Verde,B
+MT,Rondonópolis,B
+TO,Palmeiras do Tocantins,B
+PI,Inhuma,B
+PI,Lagoa do Barro do Piauí,B
+PI,Pimenteiras,B
+CE,Icapuí,B
+CE,Várzea Alegre,B
+RN,Bodó,B
+RN,Galinhos,B
+RN,Paraú,B
+RN,São Miguel,B
+RN,São Miguel do Gostoso,B
+PB,Areial,B
+PB,Serra Redonda,B
+PE,Carnaíba,B
+PE,Orobó,B
+PE,Toritama,B
+PE,Triunfo,B
+AL,Senador Rui Palmeira,B
+BA,Itaeté,B
+BA,Monte Santo,B
+MG,Bom Despacho,B
+MG,Campos Gerais,B
+MG,Catas Altas,B
+MG,Caxambu,B
+MG,Confins,B
+MG,Diamantina,B
+MG,Felixlândia,B
+MG,Fervedouro,B
+MG,Goianá,B
+MG,Leandro Ferreira,B
+MG,Mirabela,B
+MG,Paula Cândido,B
+MG,Santa Maria do Suaçuí,B
+MG,Santa Rita do Itueto,B
+MG,Santo Antônio do Jacinto,B
+MG,Simão Pereira,B
+MG,Tarumirim,B
+MG,Tiradentes,B
+RJ,Armação dos Búzios,B
+SP,Altinópolis,B
+SP,Araçoiaba da Serra,B
+SP,Cristais Paulista,B
+SP,Ituverava,B
+SP,Jaborandi,B
+SP,Lucianópolis,B
+SP,Maracaí,B
+SP,Pontal,B
+SP,Redenção da Serra,B
+SP,Riversul,B
+PR,Antônio Olinto,B
+PR,Campo Bonito,B
+PR,Capanema,B
+PR,Carambeí,B
+PR,Floresta,B
+PR,Guaíra,B
+PR,Inácio Martins,B
+PR,Itaúna do Sul,B
+PR,Marmeleiro,B
+PR,Paranapoema,B
+PR,Tamarana,B
+PR,Tapejara,B
+PR,Doutor Ulysses,B
+PR,Virmond,B
+PR,Vitorino,B
+PR,Xambrê,B
+SC,Cerro Negro,B
+SC,Formosa do Sul,B
+SC,Lajeado Grande,B
+SC,Modelo,B
+SC,Mondaí,B
+SC,Santiago do Sul,B
+RS,Boa Vista do Buricá,B
+RS,Bom Progresso,B
+RS,Candiota,B
+RS,Cerrito,B
+RS,Chuvisca,B
+RS,David Canabarro,B
+RS,Derrubadas,B
+RS,Dois Irmãos,B
+RS,Doutor Ricardo,B
+RS,Hulha Negra,B
+RS,Lagoa Vermelha,B
+RS,Miraguaí,B
+RS,Mostardas,B
+RS,Não-Me-Toque,B
+RS,Nova Bassano,B
+RS,Nova Bréscia,B
+RS,Palmitinho,B
+RS,Picada Café,B
+RS,Rodeio Bonito,B
+RS,Rolador,B
+RS,Santiago,B
+RS,Santo Antônio do Palma,B
+RS,São José das Missões,B
+RS,São Vicente do Sul,B
+RS,Tapejara,B
+RS,Tupanciretã,B
+RS,Vespasiano Corrêa,B
+MS,Glória de Dourados,B
+MT,Nossa Senhora do Livramento,B
+GO,Mineiros,B
+GO,Santa Helena de Goiás,B
+RO,Nova Brasilândia DOeste,B
+RR,Caroebe,B
+PA,Aurora do Pará,B
+PA,Bannach,B
+PA,Canaã dos Carajás,B
+PA,Capanema,B
+PA,Curuçá,B
+TO,Peixe,B
+MA,Governador Nunes Freire,B
+PI,Demerval Lobão,B
+PI,Francisco Macedo,B
+CE,Aracoiaba,B
+CE,Beberibe,B
+CE,Forquilha,B
+CE,Ibicuitinga,B
+CE,São Gonçalo do Amarante,B
+CE,Tauá,B
+RN,Currais Novos,B
+RN,Extremoz,B
+RN,Passagem,B
+PB,Areia,B
+PB,Baraúna,B
+PB,Catolé do Rocha,B
+PB,Itaporanga,B
+PB,Massaranduba,B
+PB,Monteiro,B
+PB,Joca Claudino,B
+PE,Chã de Alegria,B
+PE,Feira Nova,B
+PE,São José do Egito,B
+PE,Vertentes,B
+AL,Carneiros,B
+AL,Igreja Nova,B
+AL,Jacaré dos Homens,B
+AL,Junqueiro,B
+AL,Messias,B
+SE,Frei Paulo,B
+BA,Ibipeba,B
+BA,Lençóis,B
+BA,Morro do Chapéu,B
+BA,Mucugê,B
+BA,Queimadas,B
+BA,Retirolândia,B
+BA,Sítio do Mato,B
+BA,Terra Nova,B
+MG,Antônio Prado de Minas,B
+MG,Arcos,B
+MG,Barão de Monte Alto,B
+MG,Berizal,B
+MG,Brás Pires,B
+MG,Catuji,B
+MG,Delfim Moreira,B
+MG,Divinésia,B
+MG,Itamogi,B
+MG,Itanhandu,B
+MG,Itaobim,B
+MG,Jacutinga,B
+MG,José Gonçalves de Minas,B
+MG,Lamim,B
+MG,Leme do Prado,B
+MG,Maripá de Minas,B
+MG,Marliéria,B
+MG,Monte Belo,B
+MG,Monte Carmelo,B
+MG,Novo Oriente de Minas,B
+MG,Pai Pedro,B
+MG,Palma,B
+MG,Pedra Azul,B
+MG,Poté,B
+MG,Prados,B
+MG,Queluzito,B
+MG,Santana de Pirapama,B
+MG,Santa Vitória,B
+MG,São Brás do Suaçuí,B
+MG,São Sebastião do Anta,B
+MG,Senador José Bento,B
+MG,Taiobeiras,B
+MG,Verdelândia,B
+ES,Alto Rio Novo,B
+ES,Mucurici,B
+RJ,Rio das Flores,B
+SP,Águas de São Pedro,B
+SP,Álvaro de Carvalho,B
+SP,Bariri,B
+SP,Barra Bonita,B
+SP,Bofete,B
+SP,Boituva,B
+SP,Buritama,B
+SP,Colômbia,B
+SP,Cravinhos,B
+SP,Engenheiro Coelho,B
+SP,General Salgado,B
+SP,Getulina,B
+SP,Igarapava,B
+SP,Iracemápolis,B
+SP,Mariápolis,B
+SP,Mococa,B
+SP,Nova Luzitânia,B
+SP,Novo Horizonte,B
+SP,Patrocínio Paulista,B
+SP,Pereira Barreto,B
+SP,Pirajuí,B
+SP,Pompéia,B
+SP,Quadra,B
+SP,Santa Clara dOeste,B
+SP,Tanabi,B
+SP,Tietê,B
+PR,Adrianópolis,B
+PR,Alto Paraná,B
+PR,Candói,B
+PR,Cruzmaltina,B
+PR,Floraí,B
+PR,Honório Serpa,B
+PR,Indianópolis,B
+PR,Ivatuba,B
+PR,Mandaguaçu,B
+PR,Marilândia do Sul,B
+PR,Mariópolis,B
+PR,Mauá da Serra,B
+PR,Nova Londrina,B
+PR,Nova Olímpia,B
+PR,Palotina,B
+PR,Pinhalão,B
+PR,Porecatu,B
+PR,Salgado Filho,B
+PR,Santa Helena,B
+PR,Santa Inês,B
+PR,Santa Mariana,B
+PR,Santa Terezinha de Itaipu,B
+PR,Santo Antônio do Paraíso,B
+PR,São João do Ivaí,B
+PR,São Jorge do Ivaí,B
+PR,Sertaneja,B
+SC,Campo Belo do Sul,B
+SC,Jardinópolis,B
+SC,São João do Oeste,B
+SC,São João do Itaperiú,B
+SC,São José do Cedro,B
+SC,União do Oeste,B
+RS,Bozano,B
+RS,Butiá,B
+RS,Cândido Godói,B
+RS,Caseiros,B
+RS,Cerro Branco,B
+RS,Ciríaco,B
+RS,Condor,B
+RS,Coxilha,B
+RS,Crissiumal,B
+RS,Dois Irmãos das Missões,B
+RS,Herval,B
+RS,Erval Grande,B
+RS,Flores da Cunha,B
+RS,General Câmara,B
+RS,Gentil,B
+RS,Independência,B
+RS,Inhacorá,B
+RS,Nicolau Vergueiro,B
+RS,Palmeira das Missões,B
+RS,Panambi,B
+RS,Pedras Altas,B
+RS,Pinhal,B
+RS,Pinheiro Machado,B
+RS,Ponte Preta,B
+RS,São José do Sul,B
+RS,Tapes,B
+RS,Trindade do Sul,B
+RS,Vale Verde,B
+RS,Vila Flores,B
+RS,Vila Lângaro,B
+RS,Vila Maria,B
+MS,Anaurilândia,B
+MS,Antônio João,B
+MS,Aral Moreira,B
+MS,Ladário,B
+MS,Selvíria,B
+MT,Jaciara,B
+GO,Aparecida do Rio Doce,B
+GO,Cidade Ocidental,B
+GO,Minaçu,B
+GO,São Miguel do Araguaia,B
+AM,Barcelos,B
+RR,Rorainópolis,B
+TO,Angico,B
+TO,Natividade,B
+TO,São Sebastião do Tocantins,B
+MA,Igarapé Grande,B
+PI,Água Branca,B
+PI,Baixa Grande do Ribeiro,B
+PI,Coronel José Dias,B
+PI,Currais,B
+PI,Pedro II,B
+PI,Ribeiro Gonçalves,B
+PI,Santa Rosa do Piauí,B
+PI,São Félix do Piauí,B
+CE,Barroquinha,B
+CE,Cascavel,B
+RN,Alexandria,B
+RN,Areia Branca,B
+RN,Baía Formosa,B
+RN,Encanto,B
+RN,Itajá,B
+RN,Santana do Matos,B
+RN,São Fernando,B
+RN,Serrinha,B
+RN,Upanema,B
+PB,Água Branca,B
+PB,Cabaceiras,B
+PB,Cachoeira dos Índios,B
+PB,Juru,B
+PB,Lagoa Seca,B
+PB,Lastro,B
+PB,Mamanguape,B
+PB,Pedra Branca,B
+PB,Picuí,B
+PB,Solânea,B
+PE,Alagoinha,B
+PE,Camocim de São Félix,B
+PE,Iguaracy,B
+PE,Ingazeira,B
+PE,Itapissuma,B
+PE,Taquaritinga do Norte,B
+AL,Dois Riachos,B
+AL,Olho dÁgua das Flores,B
+AL,Porto de Pedras,B
+AL,São José da Tapera,B
+SE,Amparo de São Francisco,B
+SE,Arauá,B
+SE,Gararu,B
+SE,Malhador,B
+SE,Pedrinhas,B
+BA,Brumado,B
+BA,Buritirama,B
+BA,Caetité,B
+BA,Casa Nova,B
+BA,Elísio Medrado,B
+BA,Euclides da Cunha,B
+BA,Iguaí,B
+BA,Maetinga,B
+BA,Miguel Calmon,B
+BA,Pindobaçu,B
+BA,Piripá,B
+BA,Pojuca,B
+BA,Riacho de Santana,B
+BA,Santana,B
+BA,São Miguel das Matas,B
+BA,Uauá,B
+BA,Vera Cruz,B
+MG,Araporã,B
+MG,Arceburgo,B
+MG,Argirita,B
+MG,Barroso,B
+MG,Bicas,B
+MG,Bom Jesus do Amparo,B
+MG,Bueno Brandão,B
+MG,Cabo Verde,B
+MG,Cambuí,B
+MG,Carmésia,B
+MG,Conceição do Pará,B
+MG,Coronel Pacheco,B
+MG,Couto de Magalhães de Minas,B
+MG,Divisa Nova,B
+MG,Espírito Santo do Dourado,B
+MG,Estrela do Sul,B
+MG,Faria Lemos,B
+MG,Fortaleza de Minas,B
+MG,Gonzaga,B
+MG,Guarará,B
+MG,Ibiaí,B
+MG,Ibiracatu,B
+MG,Indianópolis,B
+MG,Inimutaba,B
+MG,Ipaba,B
+MG,Ipuiúna,B
+MG,Jenipapo de Minas,B
+MG,Juvenília,B
+MG,Liberdade,B
+MG,Mar de Espanha,B
+MG,Monsenhor Paulo,B
+MG,Pains,B
+MG,Paiva,B
+MG,Pimenta,B
+MG,Pratápolis,B
+MG,Rio Manso,B
+MG,Rio Vermelho,B
+MG,Rubim,B
+MG,Santa Juliana,B
+MG,Santana do Riacho,B
+MG,Santa Rita de Minas,B
+MG,São Gonçalo do Abaeté,B
+MG,São Sebastião do Rio Preto,B
+MG,Ubaí,B
+MG,Urucuia,B
+MG,Mathias Lobato,B
+SP,Altair,B
+SP,Alvinlândia,B
+SP,Anhembi,B
+SP,Barrinha,B
+SP,Bastos,B
+SP,Bernardino de Campos,B
+SP,Borebi,B
+SP,Brotas,B
+SP,Cajuru,B
+SP,Cássia dos Coqueiros,B
+SP,Colina,B
+SP,Coroados,B
+SP,Guará,B
+SP,Guarantã,B
+SP,Iacanga,B
+SP,Ibirarema,B
+SP,Ipeúna,B
+SP,Lagoinha,B
+SP,Lavrinhas,B
+SP,Miguelópolis,B
+SP,Mirandópolis,B
+SP,Mirassol,B
+SP,Mombuca,B
+SP,Monte Alto,B
+SP,Narandiba,B
+SP,Nipoã,B
+SP,Novais,B
+SP,Pedregulho,B
+SP,Piraju,B
+SP,Pitangueiras,B
+SP,Porangaba,B
+SP,Promissão,B
+SP,Regente Feijó,B
+SP,Restinga,B
+SP,Rio das Pedras,B
+SP,Rubiácea,B
+SP,Rubinéia,B
+SP,Sagres,B
+SP,Sales Oliveira,B
+SP,Santa Fé do Sul,B
+SP,Santa Gertrudes,B
+SP,Santa Maria da Serra,B
+SP,Santa Rita dOeste,B
+SP,Santo Antônio da Alegria,B
+SP,Santo Antônio do Pinhal,B
+SP,São José do Barreiro,B
+SP,São Pedro do Turvo,B
+SP,Serrana,B
+SP,Severínia,B
+SP,Tabatinga,B
+SP,Taquarivaí,B
+SP,Tuiuti,B
+SP,Ubarana,B
+SP,Viradouro,B
+PR,Assis Chateaubriand,B
+PR,Barbosa Ferraz,B
+PR,Bom Sucesso,B
+PR,Campo Mourão,B
+PR,Congonhinhas,B
+PR,Diamante DOeste,B
+PR,Douradina,B
+PR,Doutor Camargo,B
+PR,Formosa do Oeste,B
+PR,Foz do Jordão,B
+PR,Godoy Moreira,B
+PR,Guapirama,B
+PR,Ipiranga,B
+PR,Iracema do Oeste,B
+PR,Itaipulândia,B
+PR,Janiópolis,B
+PR,Kaloré,B
+PR,Lindoeste,B
+PR,Loanda,B
+PR,Lobato,B
+PR,Mangueirinha,B
+PR,Manoel Ribas,B
+PR,Mercedes,B
+PR,Mirador,B
+PR,Munhoz de Melo,B
+PR,Nova Aliança do Ivaí,B
+PR,Nova Esperança do Sudoeste,B
+PR,Nova Santa Rosa,B
+PR,Novo Itacolomi,B
+PR,Ourizona,B
+PR,Peabiru,B
+PR,Pitangueiras,B
+PR,Porto Barreiro,B
+PR,Prado Ferreira,B
+PR,Primeiro de Maio,B
+PR,Quarto Centenário,B
+PR,Quinta do Sol,B
+PR,Rondon,B
+PR,Sabáudia,B
+PR,Santa Fé,B
+PR,Santo Antônio do Caiuá,B
+PR,São João,B
+PR,São João do Caiuá,B
+PR,São Tomé,B
+PR,Sarandi,B
+SC,Bom Jesus do Oeste,B
+SC,Entre Rios,B
+SC,Ipuaçu,B
+SC,Jaborá,B
+SC,Princesa,B
+SC,Treze Tílias,B
+SC,Zortéa,B
+RS,Alecrim,B
+RS,Almirante Tamandaré do Sul,B
+RS,Araricá,B
+RS,Barão de Cotegipe,B
+RS,Boa Vista do Sul,B
+RS,Braga,B
+RS,Campestre da Serra,B
+RS,Campos Borges,B
+RS,Capão Bonito do Sul,B
+RS,Cidreira,B
+RS,Coqueiro Baixo,B
+RS,Dois Lajeados,B
+RS,Doutor Maurício Cardoso,B
+RS,Fagundes Varela,B
+RS,Floriano Peixoto,B
+RS,Garibaldi,B
+RS,Guarani das Missões,B
+RS,Ipiranga do Sul,B
+RS,Itacurubi,B
+RS,Jacuizinho,B
+RS,Lavras do Sul,B
+RS,Machadinho,B
+RS,Mampituba,B
+RS,Mato Leitão,B
+RS,Maximiliano de Almeida,B
+RS,Montauri,B
+RS,Muitos Capões,B
+RS,Nova Boa Vista,B
+RS,Paulo Bento,B
+RS,Quinze de Novembro,B
+RS,Rio dos Índios,B
+RS,Rondinha,B
+RS,Salto do Jacuí,B
+RS,São João do Polêsine,B
+RS,São José do Hortêncio,B
+RS,São José do Inhacorá,B
+RS,São Martinho da Serra,B
+RS,São Nicolau,B
+RS,São Pedro do Butiá,B
+RS,Senador Salgado Filho,B
+RS,Silveira Martins,B
+RS,Tenente Portela,B
+RS,Vale do Sol,B
+RS,Viadutos,B
+RS,Westfália,B
+MS,Angélica,B
+MS,Caarapó,B
+MS,Jardim,B
+MS,Novo Horizonte do Sul,B
+MS,Ribas do Rio Pardo,B
+MS,Tacuru,B
+MS,Vicentina,B
+MT,Alto Paraguai,B
+MT,Campo Verde,B
+MT,Cláudia,B
+MT,Colíder,B
+MT,Itanhangá,B
+MT,Juscimeira,B
+MT,Novo Mundo,B
+GO,Abadia de Goiás,B
+GO,Bela Vista de Goiás,B
+GO,Ipameri,B
+GO,Nerópolis,B
+GO,Palmeiras de Goiás,B
+GO,Pirenópolis,B
+GO,Santa Rita do Araguaia,B
+GO,Santa Rita do Novo Destino,B
+RO,Alta Floresta DOeste,B
+RO,Espigão DOeste,B
+RO,Alto Paraíso,B
+RO,Governador Jorge Teixeira,B
+RO,Vale do Paraíso,B
+RR,Bonfim,B
+RR,Cantá,B
+PA,Floresta do Araguaia,B
+PA,Ourilândia do Norte,B
+PA,Quatipuru,B
+TO,Buriti do Tocantins,B
+TO,Palmeirópolis,B
+TO,Santa Terezinha do Tocantins,B
+MA,Alcântara,B
+MA,Bom Jesus das Selvas,B
+MA,Matinha,B
+MA,Senador La Rocque,B
+PI,Alegrete do Piauí,B
+PI,Nazária,B
+PI,Paes Landim,B
+PI,Regeneração,B
+PI,Santo Antônio de Lisboa,B
+CE,Barbalha,B
+CE,Independência,B
+CE,Ipueiras,B
+CE,Jardim,B
+CE,Umari,B
+RN,Pau dos Ferros,B
+RN,Serra Caiada,B
+PB,Cajazeiras,B
+PB,Cuitegi,B
+PB,Esperança,B
+PB,Paulista,B
+PB,Poço de José de Moura,B
+PB,São Bentinho,B
+PB,São José de Piranhas,B
+PE,Araçoiaba,B
+PE,Frei Miguelinho,B
+PE,Glória do Goitá,B
+PE,Itambé,B
+PE,Jataúba,B
+PE,Salgueiro,B
+AL,Girau do Ponciano,B
+AL,Inhapi,B
+AL,Lagoa da Canoa,B
+AL,Mar Vermelho,B
+AL,Ouro Branco,B
+AL,Piaçabuçu,B
+SE,Divina Pastora,B
+SE,Santa Luzia do Itanhy,B
+BA,Andorinha,B
+BA,Buerarema,B
+BA,Caculé,B
+BA,Conceição do Coité,B
+BA,Manoel Vitorino,B
+BA,Maracás,B
+BA,Milagres,B
+BA,Muritiba,B
+BA,Palmas de Monte Alto,B
+BA,Pindaí,B
+BA,Rio do Antônio,B
+BA,São Gonçalo dos Campos,B
+MG,Alvarenga,B
+MG,Antônio Carlos,B
+MG,Araçaí,B
+MG,Araponga,B
+MG,Baldim,B
+MG,Bambuí,B
+MG,Bias Fortes,B
+MG,Bom Jardim de Minas,B
+MG,Bonfinópolis de Minas,B
+MG,Brazópolis,B
+MG,Buritis,B
+MG,Coluna,B
+MG,Conceição do Rio Verde,B
+MG,Datas,B
+MG,Divisópolis,B
+MG,São Gonçalo do Rio Preto,B
+MG,Formoso,B
+MG,Francisco Dumont,B
+MG,Guimarânia,B
+MG,Inhaúma,B
+MG,Itapeva,B
+MG,Jequitinhonha,B
+MG,Joaquim Felício,B
+MG,José Raydan,B
+MG,Lagoa da Prata,B
+MG,Luminárias,B
+MG,Marmelópolis,B
+MG,Minas Novas,B
+MG,Nacip Raydan,B
+MG,Olímpio Noronha,B
+MG,Paraguaçu,B
+MG,Paulistas,B
+MG,Presidente Kubitschek,B
+MG,Santa Helena de Minas,B
+MG,Santa Maria do Salto,B
+MG,Santo Antônio do Monte,B
+MG,São João do Manhuaçu,B
+MG,Tiros,B
+MG,Tocos do Moji,B
+MG,Três Pontas,B
+MG,Umburatiba,B
+SP,Caconde,B
+SP,Caiabu,B
+SP,Campina do Monte Alegre,B
+SP,Dirce Reis,B
+SP,Embaúba,B
+SP,Gastão Vidigal,B
+SP,Guaíra,B
+SP,Guaraci,B
+SP,Guararapes,B
+SP,Guareí,B
+SP,Indiaporã,B
+SP,Itirapina,B
+SP,Junqueirópolis,B
+SP,Lourdes,B
+SP,Lucélia,B
+SP,Magda,B
+SP,Mendonça,B
+SP,Murutinga do Sul,B
+SP,Nazaré Paulista,B
+SP,Nova Campina,B
+SP,Nova Europa,B
+SP,Pardinho,B
+SP,Piratininga,B
+SP,Presidente Alves,B
+SP,Santa Ernestina,B
+SP,Santo Anastácio,B
+SP,São Sebastião da Grama,B
+SP,Sarutaiá,B
+SP,Sebastianópolis do Sul,B
+SP,Sud Mennucci,B
+SP,Taquarituba,B
+SP,Tejupá,B
+SP,Trabiju,B
+SP,Uru,B
+SP,Valparaíso,B
+PR,Barra do Jacaré,B
+PR,Boa Ventura de São Roque,B
+PR,Bom Sucesso do Sul,B
+PR,Brasilândia do Sul,B
+PR,Campina do Simão,B
+PR,Castro,B
+PR,Diamante do Norte,B
+PR,Diamante do Sul,B
+PR,Guairaçá,B
+PR,Ibaiti,B
+PR,Imbaú,B
+PR,Inajá,B
+PR,Iporã,B
+PR,Itambaracá,B
+PR,Japira,B
+PR,Jundiaí do Sul,B
+PR,Jussara,B
+PR,Mandaguari,B
+PR,Marialva,B
+PR,Marumbi,B
+PR,Missal,B
+PR,Perobal,B
+PR,Ribeirão do Pinhal,B
+PR,Salto do Lontra,B
+PR,Santa Mônica,B
+PR,São Jerônimo da Serra,B
+PR,São José das Palmeiras,B
+PR,São Pedro do Iguaçu,B
+PR,Serranópolis do Iguaçu,B
+PR,Tapira,B
+PR,Teixeira Soares,B
+SC,Águas Frias,B
+SC,Cordilheira Alta,B
+SC,Passos Maia,B
+SC,Paulo Lopes,B
+SC,Santa Helena,B
+SC,Tigrinhos,B
+SC,Treze de Maio,B
+RS,Ametista do Sul,B
+RS,Boa Vista das Missões,B
+RS,Caiçara,B
+RS,Catuípe,B
+RS,Coronel Pilar,B
+RS,Dom Feliciano,B
+RS,Dona Francisca,B
+RS,Engenho Velho,B
+RS,Estação,B
+RS,Fortaleza dos Valos,B
+RS,Giruá,B
+RS,Gramado Xavier,B
+RS,Humaitá,B
+RS,Ilópolis,B
+RS,Jaquirana,B
+RS,Nova Alvorada,B
+RS,Nova Candelária,B
+RS,Nova Esperança do Sul,B
+RS,Roque Gonzales,B
+RS,Saldanha Marinho,B
+RS,Santo Antônio das Missões,B
+RS,São João da Urtiga,B
+RS,São Jorge,B
+RS,São Marcos,B
+RS,São Valério do Sul,B
+RS,Sarandi,B
+RS,Tio Hugo,B
+RS,Três de Maio,B
+RS,Três Palmeiras,B
+RS,Tunas,B
+RS,Vista Alegre do Prata,B
+MS,Aparecida do Taboado,B
+MS,Douradina,B
+MT,Ipiranga do Norte,B
+MT,Vila Bela da Santíssima Trindade,B
+MT,Novo São Joaquim,B
+MT,Pontal do Araguaia,B
+MT,Santa Carmem,B
+MT,Rondolândia,B
+GO,Alto Paraíso de Goiás,B
+GO,Aragoiânia,B
+GO,Cabeceiras,B
+GO,Carmo do Rio Verde,B
+GO,Leopoldo de Bulhões,B
+GO,Piranhas,B
+GO,Rubiataba,B
+RO,Alto Alegre dos Parecis,B
+RO,São Francisco do Guaporé,B
+PA,Curionópolis,B
+PA,Curralinho,B
+PA,Piçarra,B
+TO,Arraias,B
+TO,Gurupi,B
+TO,Recursolândia,B
+TO,Santa Tereza do Tocantins,B
+MA,João Lisboa,B
+MA,Morros,B
+MA,Pastos Bons,B
+MA,Primeira Cruz,B
+MA,Santa Luzia do Paruá,B
+MA,Vitorino Freire,B
+PI,Beneditinos,B
+PI,Betânia do Piauí,B
+PI,Colônia do Piauí,B
+PI,Dom Expedito Lopes,B
+PI,Geminiano,B
+CE,Frecheirinha,B
+CE,Groaíras,B
+CE,Jaguaretama,B
+CE,Orós,B
+CE,Paraipaba,B
+PB,Bananeiras,B
+PB,Passagem,B
+PB,Puxinanã,B
+PB,Salgadinho,B
+PB,Zabelê,B
+PE,Calçado,B
+PE,Jucati,B
+BA,Biritinga,B
+BA,Correntina,B
+BA,Mansidão,B
+BA,Santo Estêvão,B
+BA,Valente,B
+MG,Centralina,B
+MG,Conquista,B
+MG,Corinto,B
+MG,Cruzília,B
+MG,Espinosa,B
+MG,Fronteira,B
+MG,Gonçalves,B
+MG,Itaú de Minas,B
+MG,Lagoa Formosa,B
+MG,Natércia,B
+MG,Nova Módica,B
+MG,Nova Porteirinha,B
+MG,Pedra do Anta,B
+MG,Piedade de Ponte Nova,B
+MG,Santo Antônio do Rio Abaixo,B
+MG,São João do Pacuí,B
+SP,Barbosa,B
+SP,Brejo Alegre,B
+SP,Descalvado,B
+SP,Gália,B
+SP,Monte Castelo,B
+SP,Ocauçu,B
+SP,Pedrinhas Paulista,B
+SP,Poloni,B
+SP,Pongaí,B
+SP,Pontalinda,B
+SP,Ribeirão Bonito,B
+SP,Terra Roxa,B
+SP,Turmalina,B
+PR,Altônia,B
+PR,Ariranha do Ivaí,B
+PR,Cambira,B
+PR,Esperança Nova,B
+PR,Florestópolis,B
+PR,Ibema,B
+PR,Japurá,B
+PR,Nova Fátima,B
+PR,São João do Triunfo,B
+PR,São Pedro do Ivaí,B
+PR,São Sebastião da Amoreira,B
+SC,Belmonte,B
+SC,Brunópolis,B
+SC,Guarujá do Sul,B
+SC,Vargem Bonita,B
+RS,Bossoroca,B
+RS,Cristal do Sul,B
+RS,Dom Pedro de Alcântara,B
+RS,Formigueiro,B
+RS,Guabiju,B
+RS,Nonoai,B
+RS,Sagrada Família,B
+RS,São Miguel das Missões,B
+RS,Sertão Santana,B
+MS,Alcinópolis,B
+MT,General Carneiro,B
+MT,Rio Branco,B
+MT,Nova Marilândia,B
+GO,Hidrolina,B
+GO,Montividiu do Norte,B
+GO,Porangatu,B
+AP,Santana,C
+SC,Taió,C
+PA,Marabá,C
+CE,Caucaia,C
+PB,Itabaiana,C
+PE,Camaragibe,C
+AL,Atalaia,C
+MG,Vespasiano,C
+SP,São João da Boa Vista,C
+SC,Balneário Piçarras,C
+SC,Tubarão,C
+RS,Bom Retiro do Sul,C
+MT,Cáceres,C
+AC,Tarauacá,C
+PA,Óbidos,C
+AP,Laranjal do Jari,C
+MA,Barra do Corda,C
+MA,Lagoa Grande do Maranhão,C
+PI,Campo Maior,C
+PE,Maraial,C
+BA,Camacan,C
+MG,Brumadinho,C
+MG,Carandaí,C
+MG,Carmo de Minas,C
+MG,Miradouro,C
+MG,Muriaé,C
+MG,Nova Era,C
+ES,Alegre,C
+ES,Alfredo Chaves,C
+ES,Conceição do Castelo,C
+ES,Guaçuí,C
+RJ,Rio Bonito,C
+SP,Capivari,C
+SP,Embu das Artes,C
+SP,Jaú,C
+PR,Rio Branco do Sul,C
+SC,Garuva,C
+SC,Itaiópolis,C
+SC,Ituporanga,C
+SC,Xaxim,C
+RS,Campo Bom,C
+RS,Igrejinha,C
+RS,Santa Cruz do Sul,C
+MS,Batayporã,C
+MS,Dourados,C
+GO,Senador Canedo,C
+TO,Araguanã,C
+MA,Grajaú,C
+MA,Imperatriz,C
+PI,Teresina,C
+CE,Maracanaú,C
+CE,Sobral,C
+RN,Apodi,C
+PE,Gravatá,C
+PE,Quipapá,C
+AL,Coruripe,C
+AL,Rio Largo,C
+BA,Ilhéus,C
+MG,Caparaó,C
+MG,Conselheiro Pena,C
+MG,Entre Rios de Minas,C
+MG,Iapu,C
+MG,Ipanema,C
+MG,Itueta,C
+MG,Poço Fundo,C
+MG,Rio Acima,C
+MG,Sabinópolis,C
+MG,Sete Lagoas,C
+ES,Anchieta,C
+ES,Castelo,C
+ES,Jerônimo Monteiro,C
+ES,Pedro Canário,C
+RJ,Itaperuna,C
+RJ,Natividade,C
+RJ,São Fidélis,C
+SP,Bauru,C
+SP,Franco da Rocha,C
+SP,Mairinque,C
+SP,Mairiporã,C
+SP,São Caetano do Sul,C
+PR,Fazenda Rio Grande,C
+PR,Paranaguá,C
+PR,Pato Branco,C
+SC,Garopaba,C
+SC,Içara,C
+SC,Laurentino,C
+SC,Orleans,C
+SC,Tijucas,C
+SC,Timbó,C
+SC,Três Barras,C
+RS,Estância Velha,C
+RS,Gravataí,C
+RS,Itatiba do Sul,C
+RS,São Lourenço do Sul,C
+RS,Sobradinho,C
+RS,Teutônia,C
+MS,Aquidauana,C
+RO,Ji-Paraná,C
+RO,Nova Mamoré,C
+RO,Buritis,C
+AC,Rodrigues Alves,C
+AM,Tabatinga,C
+AM,Tefé,C
+PA,Bom Jesus do Tocantins,C
+AP,Pedra Branca do Amapari,C
+AP,Ferreira Gomes,C
+MA,Bacabal,C
+MA,Caxias,C
+MA,Colinas,C
+MA,Vitória do Mearim,C
+CE,Morada Nova,C
+RN,Caicó,C
+RN,Canguaretama,C
+PB,Pombal,C
+PE,Cumaru,C
+PE,Garanhuns,C
+PE,Goiana,C
+PE,Primavera,C
+PE,São Caitano,C
+PE,Serra Talhada,C
+AL,Barra de São Miguel,C
+AL,Campestre,C
+AL,Colônia Leopoldina,C
+SE,Nossa Senhora do Socorro,C
+BA,Ibotirama,C
+BA,Paratinga,C
+BA,Ubaíra,C
+MG,Astolfo Dutra,C
+MG,Formiga,C
+MG,Guaraciaba,C
+MG,Itabirinha,C
+MG,Itamarandiba,C
+MG,Machado,C
+MG,Mutum,C
+MG,Nanuque,C
+MG,Perdões,C
+MG,Santa Luzia,C
+MG,Santa Rita do Sapucaí,C
+MG,São Gonçalo do Rio Abaixo,C
+MG,São João Nepomuceno,C
+MG,Três Marias,C
+ES,Apiacá,C
+ES,Governador Lindemberg,C
+ES,Guarapari,C
+ES,Itarana,C
+ES,Piúma,C
+ES,Santa Teresa,C
+ES,São Domingos do Norte,C
+ES,Venda Nova do Imigrante,C
+RJ,Aperibé,C
+RJ,Araruama,C
+RJ,Carapebus,C
+RJ,Engenheiro Paulo de Frontin,C
+RJ,Piraí,C
+RJ,Rio das Ostras,C
+RJ,São João de Meriti,C
+RJ,Trajano de Moraes,C
+SP,Aparecida,C
+SP,Caraguatatuba,C
+SP,Cotia,C
+SP,Itararé,C
+SP,Louveira,C
+SP,Santa Bárbara dOeste,C
+SP,São José do Rio Preto,C
+SP,Tatuí,C
+PR,Guaratuba,C
+PR,Jacarezinho,C
+PR,Medianeira,C
+PR,Porto Amazonas,C
+SC,Campos Novos,C
+SC,Herval d'Oeste,C
+SC,Jacinto Machado,C
+SC,Morro da Fumaça,C
+SC,Nova Veneza,C
+SC,Ouro,C
+SC,Penha,C
+SC,Ponte Serrada,C
+SC,São Pedro de Alcântara,C
+SC,Vitor Meireles,C
+RS,Alvorada,C
+RS,Caraá,C
+RS,Caxias do Sul,C
+RS,Gramado,C
+RS,Montenegro,C
+RS,Pantano Grande,C
+RS,Rolante,C
+RS,São Gabriel,C
+RS,Soledade,C
+RS,Taquari,C
+RS,Torres,C
+MS,Nioaque,C
+GO,Aparecida de Goiânia,C
+GO,Formosa,C
+RO,Cacoal,C
+RO,Guajará-Mirim,C
+AM,Autazes,C
+AM,Barreirinha,C
+AM,Boa Vista do Ramos,C
+AM,Boca do Acre,C
+AM,Envira,C
+AM,Humaitá,C
+AM,Manacapuru,C
+AM,Tonantins,C
+PA,Almeirim,C
+PA,Barcarena,C
+PA,Belém,C
+PA,Castanhal,C
+PA,Juruti,C
+MA,Balsas,C
+MA,Lago da Pedra,C
+MA,Timon,C
+PI,Esperantina,C
+CE,Amontada,C
+CE,Fortaleza,C
+CE,Granja,C
+CE,Limoeiro do Norte,C
+CE,Marco,C
+RN,Touros,C
+PE,Afogados da Ingazeira,C
+PE,Gameleira,C
+PE,Macaparana,C
+PE,Petrolina,C
+AL,Jequiá da Praia,C
+AL,Maragogi,C
+AL,Matriz de Camaragibe,C
+AL,Pilar,C
+AL,Poço das Trincheiras,C
+AL,Viçosa,C
+SE,Poço Redondo,C
+BA,Jaguaquara,C
+BA,Lapão,C
+BA,Lauro de Freitas,C
+BA,Santa Cruz Cabrália,C
+BA,Teixeira de Freitas,C
+MG,Barra Longa,C
+MG,Buritizeiro,C
+MG,Camanducaia,C
+MG,Carangola,C
+MG,Ibirité,C
+MG,Itanhomi,C
+MG,Luisburgo,C
+MG,Oliveira,C
+MG,Patrocínio do Muriaé,C
+MG,Santana dos Montes,C
+ES,Barra de São Francisco,C
+ES,Cariacica,C
+ES,Domingos Martins,C
+ES,Ibiraçu,C
+ES,Laranja da Terra,C
+ES,Mantenópolis,C
+ES,Marataízes,C
+ES,Marilândia,C
+ES,Muqui,C
+ES,Presidente Kennedy,C
+ES,Rio Bananal,C
+ES,Sooretama,C
+ES,Vila Valério,C
+RJ,Comendador Levy Gasparian,C
+RJ,Macuco,C
+RJ,São João da Barra,C
+RJ,São José do Vale do Rio Preto,C
+RJ,Saquarema,C
+RJ,Seropédica,C
+SP,Amparo,C
+SP,Assis,C
+SP,Barueri,C
+SP,Cabreúva,C
+SP,Caieiras,C
+SP,Cananéia,C
+SP,Embu-Guaçu,C
+SP,Franca,C
+SP,Itu,C
+SP,Jandira,C
+SP,Juquiá,C
+SP,Mogi Mirim,C
+SP,Mongaguá,C
+SP,Pinhalzinho,C
+SP,Pirassununga,C
+SP,Ribeirão Branco,C
+SP,São José do Rio Pardo,C
+SP,Sertãozinho,C
+SP,Valinhos,C
+PR,Antonina,C
+PR,General Carneiro,C
+PR,Guaraniaçu,C
+PR,Guaraqueçaba,C
+PR,Imbituva,C
+PR,Irati,C
+PR,Iretama,C
+PR,Londrina,C
+PR,Paula Freitas,C
+PR,Querência do Norte,C
+PR,São Mateus do Sul,C
+SC,Agronômica,C
+SC,Araquari,C
+SC,Atalanta,C
+SC,Barra Velha,C
+SC,Bela Vista do Toldo,C
+SC,Chapadão do Lageado,C
+SC,Cocal do Sul,C
+SC,Coronel Freitas,C
+SC,Coronel Martins,C
+SC,Correia Pinto,C
+SC,Cunha Porã,C
+SC,Guaramirim,C
+SC,Joaçaba,C
+SC,Lauro Müller,C
+SC,Lindóia do Sul,C
+SC,Lontras,C
+SC,Major Vieira,C
+SC,Maravilha,C
+SC,Palma Sola,C
+SC,Rio das Antas,C
+SC,Rio do Oeste,C
+SC,Rio Negrinho,C
+SC,Santo Amaro da Imperatriz,C
+SC,São Joaquim,C
+SC,São Lourenço do Oeste,C
+SC,Seara,C
+SC,Urussanga,C
+RS,Camaquã,C
+RS,Candelária,C
+RS,Cruzeiro do Sul,C
+RS,Eldorado do Sul,C
+RS,Harmonia,C
+RS,Jaguarão,C
+RS,Jaguari,C
+RS,Nova Petrópolis,C
+RS,Parobé,C
+RS,São Sepé,C
+RS,Vera Cruz,C
+MS,Coxim,C
+MS,Naviraí,C
+MS,Três Lagoas,C
+MT,Confresa,C
+GO,Goiânia,C
+AC,Brasiléia,C
+AC,Cruzeiro do Sul,C
+AC,Jordão,C
+AC,Xapuri,C
+AM,Canutama,C
+AM,Iranduba,C
+AM,Jutaí,C
+AM,Manicoré,C
+AM,Maraã,C
+AM,Nova Olinda do Norte,C
+AM,Novo Aripuanã,C
+AM,Urucurituba,C
+RR,Caracaraí,C
+RR,Uiramutã,C
+PA,Acará,C
+PA,Eldorado dos Carajás,C
+PA,Itupiranga,C
+PA,Jacareacanga,C
+PA,Porto de Moz,C
+PA,São Félix do Xingu,C
+PA,São Miguel do Guamá,C
+AP,Vitória do Jari,C
+MA,Itapecuru Mirim,C
+MA,Pindaré-Mirim,C
+MA,Presidente Dutra,C
+MA,Rosário,C
+PI,Parnaíba,C
+PI,Piripiri,C
+CE,Acaraú,C
+CE,Cruz,C
+CE,Iguatu,C
+CE,Itapajé,C
+CE,Jaguaribe,C
+CE,Jaguaruana,C
+CE,Juazeiro do Norte,C
+CE,Palmácia,C
+CE,Santana do Acaraú,C
+RN,Açu,C
+PE,Belém de Maria,C
+PE,Bonito,C
+PE,Cachoeirinha,C
+PE,Chã Grande,C
+PE,Cupira,C
+PE,Ribeirão,C
+PE,Santa Maria da Boa Vista,C
+PE,Tabira,C
+PE,Vicência,C
+AL,Coqueiro Seco,C
+AL,Maravilha,C
+SE,Canindé de São Francisco,C
+BA,Itapebi,C
+BA,São Félix,C
+BA,Vitória da Conquista,C
+MG,Alfenas,C
+MG,Alvorada de Minas,C
+MG,Bertópolis,C
+MG,Boa Esperança,C
+MG,Caeté,C
+MG,Capelinha,C
+MG,Coroaci,C
+MG,Ervália,C
+MG,Eugenópolis,C
+MG,Itajubá,C
+MG,Manhuaçu,C
+MG,Manhumirim,C
+MG,Mantena,C
+MG,Matozinhos,C
+MG,Miraí,C
+MG,Pedras de Maria da Cruz,C
+MG,Salinas,C
+MG,Tumiritinga,C
+MG,Unaí,C
+MG,Várzea da Palma,C
+ES,Bom Jesus do Norte,C
+ES,Conceição da Barra,C
+ES,Dores do Rio Preto,C
+ES,Ecoporanga,C
+ES,Marechal Floriano,C
+RJ,Barra do Piraí,C
+RJ,Casimiro de Abreu,C
+RJ,Conceição de Macabu,C
+RJ,Italva,C
+RJ,Itaocara,C
+RJ,Japeri,C
+RJ,Nilópolis,C
+RJ,Paty do Alferes,C
+RJ,Rio Claro,C
+SP,Araçariguama,C
+SP,Arujá,C
+SP,Avaré,C
+SP,Carapicuíba,C
+SP,Holambra,C
+SP,Iguape,C
+SP,Itupeva,C
+SP,Limeira,C
+SP,Pedro de Toledo,C
+SP,Ribeira,C
+SP,Socorro,C
+SP,Tapiraí,C
+SP,Ubatuba,C
+SP,Votorantim,C
+PR,Cambé,C
+PR,Campina Grande do Sul,C
+PR,Campo Largo,C
+PR,Chopinzinho,C
+PR,Ibiporã,C
+PR,Mallet,C
+PR,Quitandinha,C
+PR,Santo Antônio do Sudoeste,C
+PR,São José da Boa Vista,C
+PR,São Pedro do Paraná,C
+PR,Tuneiras do Oeste,C
+SC,Apiúna,C
+SC,Biguaçu,C
+SC,Bom Retiro,C
+SC,Campo Erê,C
+SC,Canelinha,C
+SC,Doutor Pedrinho,C
+SC,Major Gercino,C
+SC,Maracajá,C
+SC,Navegantes,C
+SC,Otacílio Costa,C
+SC,Papanduva,C
+SC,Rio dos Cedros,C
+SC,São João Batista,C
+SC,São José,C
+SC,Saudades,C
+SC,Siderópolis,C
+SC,Timbé do Sul,C
+SC,Timbó Grande,C
+SC,Vargem,C
+SC,Witmarsum,C
+RS,Arroio do Meio,C
+RS,Canela,C
+RS,Erval Seco,C
+RS,Lajeado,C
+RS,Nova Palma,C
+RS,Nova Santa Rita,C
+RS,Paim Filho,C
+RS,Porto Vera Cruz,C
+RS,Rosário do Sul,C
+RS,Santa Maria,C
+RS,Santa Tereza,C
+RS,Tapera,C
+MS,Miranda,C
+MT,Barra do Garças,C
+GO,Goiás,C
+AC,Santa Rosa do Purus,C
+AM,Anori,C
+AM,Borba,C
+AM,Careiro da Várzea,C
+AM,Coari,C
+AM,Guajará,C
+AM,Manaquiri,C
+AM,Maués,C
+AM,Santo Antônio do Içá,C
+RR,Amajari,C
+PA,Aveiro,C
+PA,Monte Alegre,C
+PA,Novo Progresso,C
+PA,Rurópolis,C
+PA,São Domingos do Capim,C
+AP,Amapá,C
+AP,Porto Grande,C
+TO,Carmolândia,C
+MA,Coelho Neto,C
+MA,Miranda do Norte,C
+MA,Pirapemas,C
+MA,Santa Quitéria do Maranhão,C
+MA,Trizidela do Vale,C
+PI,Amarante,C
+PI,Castelo do Piauí,C
+PI,Palmeirais,C
+PI,Picos,C
+CE,Aracati,C
+CE,Icó,C
+CE,Irauçuba,C
+CE,Milagres,C
+CE,Porteiras,C
+RN,Jardim de Piranhas,C
+PB,Bayeux,C
+PB,Ingá,C
+PB,Sousa,C
+PE,Belo Jardim,C
+PE,Floresta,C
+PE,Limoeiro,C
+PE,Surubim,C
+AL,Santana do Ipanema,C
+AL,Satuba,C
+SE,Tobias Barreto,C
+BA,Antônio Gonçalves,C
+BA,Camamu,C
+BA,Conde,C
+BA,Irecê,C
+BA,Itajuípe,C
+BA,Itamaraju,C
+BA,Medeiros Neto,C
+BA,Nova Viçosa,C
+BA,Santa Maria da Vitória,C
+BA,Santo Amaro,C
+BA,Senhor do Bonfim,C
+BA,Simões Filho,C
+MG,Acaiaca,C
+MG,Almenara,C
+MG,Campo Belo,C
+MG,Caraí,C
+MG,Claro dos Poções,C
+MG,Divino,C
+MG,Dom Silvério,C
+MG,Ewbank da Câmara,C
+MG,Janaúba,C
+MG,Januária,C
+MG,Joanésia,C
+MG,Lagoa Dourada,C
+MG,Mateus Leme,C
+MG,Matias Barbosa,C
+MG,Orizânia,C
+MG,Passos,C
+MG,Pescador,C
+MG,Piraúba,C
+MG,Rio Casca,C
+MG,São Pedro do Suaçuí,C
+MG,Senhora de Oliveira,C
+MG,Turmalina,C
+ES,Divino de São Lourenço,C
+ES,Ibatiba,C
+ES,Irupi,C
+RJ,Mendes,C
+RJ,Miguel Pereira,C
+RJ,Porciúncula,C
+SP,Araçatuba,C
+SP,Bananal,C
+SP,Bertioga,C
+SP,Divinolândia,C
+SP,Guariba,C
+SP,Itapevi,C
+SP,Leme,C
+SP,Marília,C
+SP,Parapuã,C
+SP,Piracaia,C
+SP,Ribeirão Grande,C
+SP,Rio Grande da Serra,C
+SP,Salesópolis,C
+SP,São Lourenço da Serra,C
+SP,São Pedro,C
+SP,Tambaú,C
+PR,Ângulo,C
+PR,Ivaté,C
+PR,Maringá,C
+PR,Piraí do Sul,C
+PR,Santo Antônio da Platina,C
+PR,Sulina,C
+SC,Águas de Chapecó,C
+SC,Bocaina do Sul,C
+SC,Guabiruba,C
+SC,Indaial,C
+SC,Ipira,C
+SC,Ipumirim,C
+SC,Itapiranga,C
+SC,Marema,C
+SC,Massaranduba,C
+SC,Palmitos,C
+SC,Passo de Torres,C
+SC,Petrolândia,C
+SC,Presidente Nereu,C
+SC,Rancho Queimado,C
+SC,Rio do Campo,C
+SC,Rio Fortuna,C
+SC,Salete,C
+SC,São Francisco do Sul,C
+SC,Tangará,C
+SC,Turvo,C
+RS,Alegrete,C
+RS,Alto Feliz,C
+RS,Anta Gorda,C
+RS,Cachoeirinha,C
+RS,Campina das Missões,C
+RS,Canguçu,C
+RS,Capão do Leão,C
+RS,Coronel Bicaco,C
+RS,Entre-Ijuís,C
+RS,Ibiaçá,C
+RS,Ibirapuitã,C
+RS,Itaqui,C
+RS,Jaboticaba,C
+RS,Lindolfo Collor,C
+RS,Maquiné,C
+RS,Pedro Osório,C
+RS,Riozinho,C
+RS,Roca Sales,C
+RS,Santo Antônio da Patrulha,C
+RS,São Leopoldo,C
+RS,Viamão,C
+MS,Bela Vista,C
+MS,Coronel Sapucaia,C
+MS,Ivinhema,C
+MT,Comodoro,C
+MT,Paranatinga,C
+MT,Peixoto de Azevedo,C
+MT,Sinop,C
+GO,Alexânia,C
+GO,Faina,C
+GO,Itumbiara,C
+GO,Luziânia,C
+GO,Rio Verde,C
+GO,Uruaçu,C
+AM,Benjamin Constant,C
+AM,Beruri,C
+AM,Eirunepé,C
+AM,Itacoatiara,C
+AM,Itamarati,C
+AM,Tapauá,C
+PA,Altamira,C
+PA,Capitão Poço,C
+PA,Irituia,C
+PA,Marituba,C
+PA,Pacajá,C
+PA,São Geraldo do Araguaia,C
+PA,Vitória do Xingu,C
+AP,Oiapoque,C
+TO,Itacajá,C
+TO,Miranorte,C
+MA,Matões do Norte,C
+MA,Nina Rodrigues,C
+MA,Vargem Grande,C
+PI,Murici dos Portelas,C
+CE,Ipaporanga,C
+CE,Itapipoca,C
+CE,Jijoca de Jericoacoara,C
+CE,Pentecoste,C
+RN,Caraúbas,C
+RN,Ielmo Marinho,C
+RN,Lucrécia,C
+RN,Monte Alegre,C
+RN,Olho-dÁgua do Borges,C
+RN,Tibau do Sul,C
+PB,Conceição,C
+PB,Mãe dÁgua,C
+PB,São Mamede,C
+PE,Altinho,C
+PE,Nazaré da Mata,C
+PE,Palmares,C
+PE,Santa Cruz do Capibaribe,C
+PE,Sertânia,C
+PE,Venturosa,C
+AL,Barra de Santo Antônio,C
+AL,Estrela de Alagoas,C
+AL,São Miguel dos Milagres,C
+SE,Maruim,C
+BA,Belmonte,C
+BA,Caém,C
+BA,Cícero Dantas,C
+BA,Ipiaú,C
+BA,Itororó,C
+BA,Maragogipe,C
+BA,Nazaré,C
+BA,Ruy Barbosa,C
+BA,Tapiramutá,C
+BA,Teofilândia,C
+MG,Alpinópolis,C
+MG,Alto Caparaó,C
+MG,Barbacena,C
+MG,Canaã,C
+MG,Capinópolis,C
+MG,Carlos Chagas,C
+MG,Chácara,C
+MG,Chalé,C
+MG,Diogo de Vasconcelos,C
+MG,Dionísio,C
+MG,Divinópolis,C
+MG,Engenheiro Caldas,C
+MG,Ibituruna,C
+MG,Jampruca,C
+MG,Josenópolis,C
+MG,Lambari,C
+MG,Maria da Fé,C
+MG,Mato Verde,C
+MG,Ponto dos Volantes,C
+MG,Presidente Bernardes,C
+MG,São Geraldo,C
+MG,Silveirânia,C
+MG,Taparuba,C
+ES,Brejetuba,C
+ES,Iúna,C
+ES,Jaguaré,C
+ES,Muniz Freire,C
+ES,Vila Pavão,C
+RJ,São Francisco de Itabapoana,C
+SP,Águas da Prata,C
+SP,Itapirapuã Paulista,C
+SP,Itatinga,C
+SP,Miracatu,C
+SP,Pedreira,C
+SP,Piedade,C
+SP,Pratânia,C
+SP,Quintana,C
+SP,Silveiras,C
+PR,Altamira do Paraná,C
+PR,Borrazópolis,C
+PR,Cambará,C
+PR,Guaraci,C
+PR,Jaguapitã,C
+PR,Jaguariaíva,C
+PR,Jataizinho,C
+PR,Maria Helena,C
+PR,Prudentópolis,C
+SC,Anitápolis,C
+SC,Aurora,C
+SC,Braço do Trombudo,C
+SC,Laguna,C
+SC,Luiz Alves,C
+SC,Meleiro,C
+SC,Mirim Doce,C
+SC,Monte Castelo,C
+SC,Palmeira,C
+SC,Pedras Grandes,C
+SC,Rio Rufino,C
+SC,Rodeio,C
+SC,Sangão,C
+SC,São Carlos,C
+SC,São Ludgero,C
+SC,Vidal Ramos,C
+SC,Videira,C
+RS,Aceguá,C
+RS,Arroio Grande,C
+RS,Canudos do Vale,C
+RS,Capela de Santana,C
+RS,Chapada,C
+RS,Erebango,C
+RS,Esperança do Sul,C
+RS,Garruchos,C
+RS,Liberato Salzano,C
+RS,Manoel Viana,C
+RS,Marques de Souza,C
+RS,Muçum,C
+RS,Muliterno,C
+RS,Novo Barreiro,C
+RS,Portão,C
+RS,Porto Xavier,C
+RS,Quaraí,C
+RS,Redentora,C
+RS,Sertão,C
+MS,Bataguassu,C
+MS,Deodápolis,C
+MS,Taquarussu,C
+GO,Lagoa Santa,C
+AC,Marechal Thaumaturgo,C
+AM,Carauari,C
+AM,Careiro,C
+AM,Ipixuna,C
+PA,Breu Branco,C
+PA,Nova Ipixuna,C
+PA,São João do Araguaia,C
+AP,Mazagão,C
+TO,Guaraí,C
+TO,Nova Olinda,C
+TO,Pedro Afonso,C
+MA,Arame,C
+MA,Boa Vista do Gurupi,C
+MA,Buriticupu,C
+MA,Poção de Pedras,C
+MA,São Bernardo,C
+MA,São João do Soter,C
+PI,José de Freitas,C
+PI,Piracuruca,C
+CE,Altaneira,C
+CE,Deputado Irapuan Pinheiro,C
+CE,Eusébio,C
+CE,Ipaumirim,C
+CE,Pacajus,C
+CE,Quixadá,C
+CE,Russas,C
+CE,Tamboril,C
+CE,Uruoca,C
+RN,Água Nova,C
+RN,Campo Redondo,C
+RN,Grossos,C
+RN,Guamaré,C
+RN,Jardim do Seridó,C
+RN,Parelhas,C
+PB,Araruna,C
+PB,Bernardino Batista,C
+PB,Pirpirituba,C
+PB,Uiraúna,C
+PB,Várzea,C
+PE,Águas Belas,C
+PE,Cabrobó,C
+PE,Cedro,C
+PE,Lagoa do Carro,C
+PE,São José do Belmonte,C
+AL,Capela,C
+AL,Igaci,C
+AL,Major Isidoro,C
+AL,Mata Grande,C
+AL,Minador do Negrão,C
+SE,Boquim,C
+SE,Carira,C
+SE,Umbaúba,C
+BA,Adustina,C
+BA,Canápolis,C
+BA,Ibicaraí,C
+BA,Itaquara,C
+BA,Jitaúna,C
+BA,Macaúbas,C
+BA,Mata de São João,C
+BA,Mulungu do Morro,C
+BA,Palmeiras,C
+BA,Pintadas,C
+BA,Riachão das Neves,C
+BA,Teolândia,C
+BA,Una,C
+MG,Alfredo Vasconcelos,C
+MG,Campanha,C
+MG,Campestre,C
+MG,Campo Florido,C
+MG,Capitólio,C
+MG,Casa Grande,C
+MG,Divino das Laranjeiras,C
+MG,Fama,C
+MG,Francisco Sá,C
+MG,Franciscópolis,C
+MG,Igaratinga,C
+MG,Indaiabira,C
+MG,Itinga,C
+MG,Jaboticatubas,C
+MG,Ladainha,C
+MG,Lajinha,C
+MG,Montalvânia,C
+MG,Monte Azul,C
+MG,Ninheira,C
+MG,Pedra Dourada,C
+MG,Perdizes,C
+MG,Pirajuba,C
+MG,São Domingos do Prata,C
+MG,São João do Manteninha,C
+MG,São João do Paraíso,C
+MG,São Roque de Minas,C
+MG,São Sebastião da Vargem Alegre,C
+MG,Senador Cortes,C
+MG,Tocantins,C
+ES,Água Doce do Norte,C
+ES,São José do Calçado,C
+ES,São Roque do Canaã,C
+SP,Alambari,C
+SP,Alto Alegre,C
+SP,Arealva,C
+SP,Bálsamo,C
+SP,Itaoca,C
+SP,Lindóia,C
+SP,Macaubal,C
+SP,Pedranópolis,C
+SP,Rancharia,C
+SP,Rosana,C
+SP,Santa Isabel,C
+SP,Vargem,C
+PR,Abatiá,C
+PR,Alto Piquiri,C
+PR,Barracão,C
+PR,Bituruna,C
+PR,Boa Vista da Aparecida,C
+PR,Engenheiro Beltrão,C
+PR,Itaperuçu,C
+PR,Ivaí,C
+PR,Juranda,C
+SC,Abdon Batista,C
+SC,Arabutã,C
+SC,Caçador,C
+SC,Governador Celso Ramos,C
+SC,Lacerdópolis,C
+SC,Ponte Alta,C
+SC,Santa Cecília,C
+SC,Santa Terezinha,C
+SC,Santa Terezinha do Progresso,C
+SC,São José do Cerrito,C
+SC,São Martinho,C
+SC,Serra Alta,C
+RS,André da Rocha,C
+RS,Barracão,C
+RS,Caçapava do Sul,C
+RS,Coqueiros do Sul,C
+RS,Cruz Alta,C
+RS,Faxinal do Soturno,C
+RS,Fontoura Xavier,C
+RS,Forquetinha,C
+RS,Osório,C
+RS,Passa Sete,C
+RS,Pinhal da Serra,C
+RS,Ronda Alta,C
+RS,Sananduva,C
+RS,Santo Antônio do Planalto,C
+RS,São Borja,C
+MS,Água Clara,C
+MS,Bodoquena,C
+MS,Dois Irmãos do Buriti,C
+MS,Eldorado,C
+MS,Jaraguari,C
+MS,Jateí,C
+MS,Rio Brilhante,C
+MT,Nova Mutum,C
+MT,Nova Xavantina,C
+GO,Caçu,C
+GO,Itapaci,C
+GO,Trindade,C
+RO,Cerejeiras,C
+RO,Machadinho DOeste,C
+RO,São Felipe DOeste,C
+AC,Plácido de Castro,C
+PA,Cumaru do Norte,C
+PA,Vigia,C
+TO,Almas,C
+TO,Maurilândia do Tocantins,C
+MA,Governador Eugênio Barros,C
+MA,Penalva,C
+MA,Sítio Novo,C
+PI,Anísio de Abreu,C
+PI,Antônio Almeida,C
+PI,Arraial,C
+PI,Avelino Lopes,C
+PI,Belém do Piauí,C
+PI,Campinas do Piauí,C
+PI,Caridade do Piauí,C
+PI,Francisco Santos,C
+PI,Itaueira,C
+PI,Jaicós,C
+PI,Juazeiro do Piauí,C
+PI,Paquetá,C
+PI,Patos do Piauí,C
+PI,São Lourenço do Piauí,C
+PI,Vera Mendes,C
+CE,Acarape,C
+CE,Aiuaba,C
+CE,Alcântaras,C
+CE,Baixio,C
+CE,Brejo Santo,C
+CE,Catunda,C
+CE,Cedro,C
+CE,Chorozinho,C
+CE,Itaiçaba,C
+CE,Massapê,C
+CE,Nova Olinda,C
+CE,Nova Russas,C
+CE,Trairi,C
+RN,Arês,C
+RN,Brejinho,C
+RN,Caiçara do Norte,C
+RN,Equador,C
+RN,José da Penha,C
+RN,Jundiá,C
+RN,Lajes Pintadas,C
+RN,Major Sales,C
+RN,Martins,C
+RN,Monte das Gameleiras,C
+RN,Pedro Avelino,C
+RN,Santa Cruz,C
+RN,Serra de São Bento,C
+RN,Serra Negra do Norte,C
+RN,Severiano Melo,C
+RN,Umarizal,C
+PB,Alagoa Grande,C
+PB,Aparecida,C
+PB,Brejo dos Santos,C
+PB,Carrapateira,C
+PB,Coremas,C
+PB,Cuité,C
+PB,Lagoa,C
+PB,Olivedos,C
+PB,Ouro Velho,C
+PB,Poço Dantas,C
+PB,Princesa Isabel,C
+PB,Riacho de Santo Antônio,C
+PE,Bodocó,C
+PE,Capoeiras,C
+PE,Casinhas,C
+PE,Dormentes,C
+PE,Passira,C
+PE,Serrita,C
+PE,Terezinha,C
+AL,Belo Monte,C
+AL,Branquinha,C
+AL,Campo Grande,C
+AL,Craíbas,C
+AL,Piranhas,C
+AL,Tanque dArca,C
+SE,Capela,C
+SE,Graccho Cardoso,C
+SE,Japaratuba,C
+SE,Moita Bonita,C
+SE,Porto da Folha,C
+SE,São Miguel do Aleixo,C
+SE,Telha,C
+BA,Boa Vista do Tupim,C
+BA,Brotas de Macaúbas,C
+BA,Cairu,C
+BA,Campo Alegre de Lourdes,C
+BA,Candeal,C
+BA,Candiba,C
+BA,Castro Alves,C
+BA,Cordeiros,C
+BA,Glória,C
+BA,Ibicoara,C
+BA,Ibipitanga,C
+BA,Ibitiara,C
+BA,Itanhém,C
+BA,Itatim,C
+BA,Itiruçu,C
+BA,Jacaraci,C
+BA,Jeremoabo,C
+BA,Jussari,C
+BA,Lajedo do Tabocal,C
+BA,Oliveira dos Brejinhos,C
+BA,Quixabeira,C
+BA,Rio do Pires,C
+BA,São Domingos,C
+BA,Sátiro Dias,C
+BA,Sebastião Laranjeiras,C
+BA,Urandi,C
+MG,Aricanduva,C
+MG,Augusto de Lima,C
+MG,Braúnas,C
+MG,Cachoeira de Minas,C
+MG,Cambuquira,C
+MG,Catuti,C
+MG,Claraval,C
+MG,Conceição da Aparecida,C
+MG,Consolação,C
+MG,Córrego Novo,C
+MG,Dores do Turvo,C
+MG,Grão Mogol,C
+MG,Guaraciama,C
+MG,Itacambira,C
+MG,Itamarati de Minas,C
+MG,Japonvar,C
+MG,Laranjal,C
+MG,Lassance,C
+MG,Martinho Campos,C
+MG,Montezuma,C
+MG,Novorizonte,C
+MG,Oliveira Fortes,C
+MG,Passabém,C
+MG,Piranguçu,C
+MG,Piumhi,C
+MG,Pompéu,C
+MG,Porteirinha,C
+MG,Riacho dos Machados,C
+MG,Santana de Cataguases,C
+MG,São Bento Abade,C
+MG,São Félix de Minas,C
+MG,São Gonçalo do Pará,C
+MG,São João da Lagoa,C
+MG,São José da Lapa,C
+MG,São Pedro da União,C
+MG,São Vicente de Minas,C
+MG,Serranópolis de Minas,C
+MG,Silvianópolis,C
+MG,Tupaciguara,C
+SP,Adolfo,C
+SP,Álvares Machado,C
+SP,Américo de Campos,C
+SP,Bady Bassitt,C
+SP,Barra do Turvo,C
+SP,Bilac,C
+SP,Boracéia,C
+SP,Braúna,C
+SP,Clementina,C
+SP,Dumont,C
+SP,Ferraz de Vasconcelos,C
+SP,Iacri,C
+SP,Inúbia Paulista,C
+SP,Ipaussu,C
+SP,Ipiguá,C
+SP,Jambeiro,C
+SP,Lutécia,C
+SP,Macedônia,C
+SP,Mirante do Paranapanema,C
+SP,Mirassolândia,C
+SP,Nova Aliança,C
+SP,Orlândia,C
+SP,Ouro Verde,C
+SP,Panorama,C
+SP,Piacatu,C
+SP,Populina,C
+SP,Ribeirão do Sul,C
+SP,Santo Antônio de Posse,C
+SP,São Joaquim da Barra,C
+SP,São Simão,C
+SP,Serra Azul,C
+SP,Taciba,C
+SP,Taguaí,C
+SP,Tarabai,C
+PR,Andirá,C
+PR,Araruna,C
+PR,Balsa Nova,C
+PR,Cruzeiro do Sul,C
+PR,Flórida,C
+PR,Guamiranga,C
+PR,Icaraíma,C
+PR,Itambé,C
+PR,Lupionópolis,C
+PR,Ouro Verde do Oeste,C
+PR,Paiçandu,C
+PR,Pato Bragado,C
+PR,Presidente Castelo Branco,C
+PR,Quatiguá,C
+PR,Quatro Pontes,C
+SC,Balneário Arroio do Silva,C
+SC,Ibiam,C
+SC,Jupiá,C
+SC,Nova Erechim,C
+SC,Novo Horizonte,C
+SC,Pescaria Brava,C
+SC,São Miguel da Boa Vista,C
+RS,Alto Alegre,C
+RS,Ernestina,C
+RS,Faxinalzinho,C
+RS,Gaurama,C
+RS,Jari,C
+RS,Lagoa Bonita do Sul,C
+RS,Lagoa dos Três Cantos,C
+RS,Maçambará,C
+RS,Mariano Moro,C
+RS,Mormaço,C
+RS,Paraí,C
+RS,Paraíso do Sul,C
+RS,Passo do Sobrado,C
+RS,Progresso,C
+RS,Salvador do Sul,C
+RS,Santa Maria do Herval,C
+RS,Santa Margarida do Sul,C
+RS,Santo Augusto,C
+RS,São José do Herval,C
+RS,São Pedro do Sul,C
+RS,Sete de Setembro,C
+RS,Severiano de Almeida,C
+RS,Taquaruçu do Sul,C
+RS,Três Arroios,C
+RS,Unistalda,C
+RS,Vanini,C
+RS,Vila Nova do Sul,C
+MS,Brasilândia,C
+MT,Araguaiana,C
+MT,Campinápolis,C
+MT,Dom Aquino,C
+MT,Marcelândia,C
+MT,Nobres,C
+MT,Novo Horizonte do Norte,C
+MT,Pontes e Lacerda,C
+MT,Santa Terezinha,C
+MT,Tapurah,C
+GO,Crixás,C
+GO,Goianésia,C
+GO,Planaltina,C
+GO,São João dAliança,C
+AC,Capixaba,C
+RR,Iracema,C
+RR,São Luiz,C
+PA,Abel Figueiredo,C
+PA,Magalhães Barata,C
+PA,Nova Timboteua,C
+PA,São Sebastião da Boa Vista,C
+AP,Itaubal,C
+TO,Babaçulândia,C
+TO,Divinópolis do Tocantins,C
+TO,Filadélfia,C
+TO,Goianorte,C
+TO,Pau DArco,C
+TO,Piraquê,C
+TO,Rio Sono,C
+TO,Taipas do Tocantins,C
+MA,Araguanã,C
+MA,Campestre do Maranhão,C
+MA,Gonçalves Dias,C
+MA,Itinga do Maranhão,C
+MA,Lajeado Novo,C
+MA,Nova Olinda do Maranhão,C
+MA,Paulo Ramos,C
+MA,Riachão,C
+MA,São João dos Patos,C
+PI,Bertolínia,C
+PI,Buriti dos Montes,C
+PI,Caldeirão Grande do Piauí,C
+PI,Canavieira,C
+PI,Canto do Buriti,C
+PI,Cristalândia do Piauí,C
+PI,Dirceu Arcoverde,C
+PI,Guadalupe,C
+PI,Lagoa do Piauí,C
+PI,Padre Marcos,C
+PI,Santana do Piauí,C
+PI,São José do Piauí,C
+PI,São Julião,C
+PI,Simões,C
+PI,Simplício Mendes,C
+PI,Socorro do Piauí,C
+CE,Acopiara,C
+CE,Antonina do Norte,C
+CE,Ararendá,C
+CE,Banabuiú,C
+CE,Campos Sales,C
+CE,Caririaçu,C
+CE,Catarina,C
+CE,Farias Brito,C
+CE,Granjeiro,C
+CE,Guaramiranga,C
+CE,Martinópole,C
+CE,Monsenhor Tabosa,C
+CE,Ocara,C
+CE,Santa Quitéria,C
+RN,Baraúna,C
+RN,Bom Jesus,C
+RN,Doutor Severiano,C
+RN,Florânia,C
+RN,Lajes,C
+RN,Maxaranguape,C
+RN,Ouro Branco,C
+RN,Portalegre,C
+RN,Riacho da Cruz,C
+RN,Santo Antônio,C
+RN,São João do Sabugi,C
+RN,Timbaúba dos Batistas,C
+PB,Alcantil,C
+PB,Aroeiras,C
+PB,Bom Sucesso,C
+PB,Cacimba de Dentro,C
+PB,Camalaú,C
+PB,Damião,C
+PB,Gurinhém,C
+PB,Jacaraú,C
+PB,Matinhas,C
+PB,Montadas,C
+PB,Monte Horebe,C
+PB,Pedra Lavrada,C
+PB,Pedras de Fogo,C
+PB,São Francisco,C
+PB,São João do Tigre,C
+PB,Sertãozinho,C
+PB,Tacima,C
+PE,Aliança,C
+PE,Caetés,C
+PE,Calumbi,C
+PE,Lagoa do Ouro,C
+PE,Machados,C
+PE,Manari,C
+PE,Saloá,C
+PE,Santa Cruz da Baixa Verde,C
+PE,Tuparetama,C
+AL,Belém,C
+AL,Roteiro,C
+SE,Aquidabã,C
+SE,Campo do Brito,C
+SE,Nossa Senhora das Dores,C
+SE,Pacatuba,C
+SE,Pirambu,C
+SE,Ribeirópolis,C
+BA,Água Fria,C
+BA,Aracatu,C
+BA,Barra do Choça,C
+BA,Barro Alto,C
+BA,Boninal,C
+BA,Boquira,C
+BA,Caetanos,C
+BA,Caldeirão Grande,C
+BA,Cândido Sales,C
+BA,Canudos,C
+BA,Cocos,C
+BA,Conceição do Jacuípe,C
+BA,Contendas do Sincorá,C
+BA,Cristópolis,C
+BA,Curaçá,C
+BA,Esplanada,C
+BA,Ibirataia,C
+BA,Ibititá,C
+BA,Irajuba,C
+BA,Jaguaripe,C
+BA,Lagoa Real,C
+BA,Licínio de Almeida,C
+BA,Maiquinique,C
+BA,Mortugaba,C
+BA,Novo Horizonte,C
+BA,Ponto Novo,C
+BA,Quijingue,C
+BA,Rodelas,C
+BA,Salinas da Margarida,C
+BA,Santa Brígida,C
+BA,Santaluz,C
+BA,São Felipe,C
+BA,São José do Jacuípe,C
+BA,Seabra,C
+BA,Serrolândia,C
+BA,Tanque Novo,C
+MG,Água Comprida,C
+MG,Angelândia,C
+MG,Aracitaba,C
+MG,Bandeira,C
+MG,Berilo,C
+MG,Biquinhas,C
+MG,Bocaina de Minas,C
+MG,Caetanópolis,C
+MG,Canápolis,C
+MG,Capetinga,C
+MG,Carmo do Paranaíba,C
+MG,Carneirinho,C
+MG,Cedro do Abaeté,C
+MG,Central de Minas,C
+MG,Coração de Jesus,C
+MG,Cordisburgo,C
+MG,Cordislândia,C
+MG,Coromandel,C
+MG,Coronel Murta,C
+MG,Córrego Danta,C
+MG,Córrego do Bom Jesus,C
+MG,Dom Viçoso,C
+MG,Estrela Dalva,C
+MG,Francisco Badaró,C
+MG,Heliodora,C
+MG,Ibertioga,C
+MG,Ibiá,C
+MG,Itaverava,C
+MG,Iturama,C
+MG,Jequeri,C
+MG,Jordânia,C
+MG,Leopoldina,C
+MG,Lontra,C
+MG,Luz,C
+MG,Maravilhas,C
+MG,Marilac,C
+MG,Mata Verde,C
+MG,Monjolos,C
+MG,Monte Alegre de Minas,C
+MG,Morada Nova de Minas,C
+MG,Morro da Garça,C
+MG,Olaria,C
+MG,Prata,C
+MG,Ressaquinha,C
+MG,Rio Paranaíba,C
+MG,Ritápolis,C
+MG,Salto da Divisa,C
+MG,Santa Bárbara do Monte Verde,C
+MG,Santa Fé de Minas,C
+MG,Santana do Deserto,C
+MG,Santa Rita de Jacutinga,C
+MG,Santo Antônio do Aventureiro,C
+MG,Santo Antônio do Retiro,C
+MG,São Domingos das Dores,C
+MG,São João das Missões,C
+MG,São José do Divino,C
+MG,São Tiago,C
+MG,São Tomé das Letras,C
+MG,Sem-Peixe,C
+MG,Serra do Salitre,C
+MG,Tapira,C
+MG,Uruana de Minas,C
+MG,Vargem Bonita,C
+MG,Varzelândia,C
+MG,Volta Grande,C
+MG,Wenceslau Braz,C
+SP,Águas de Santa Bárbara,C
+SP,Álvares Florence,C
+SP,Buri,C
+SP,Cajobi,C
+SP,Cosmorama,C
+SP,Cruzália,C
+SP,Dois Córregos,C
+SP,Dourado,C
+SP,Euclides da Cunha Paulista,C
+SP,Floreal,C
+SP,Flórida Paulista,C
+SP,Guaimbê,C
+SP,Guarani dOeste,C
+SP,Guzolândia,C
+SP,Herculândia,C
+SP,Iaras,C
+SP,Ibaté,C
+SP,Itirapuã,C
+SP,Jardinópolis,C
+SP,Jeriquara,C
+SP,Lavínia,C
+SP,Marabá Paulista,C
+SP,Monte Aprazível,C
+SP,Nova Guataporanga,C
+SP,Ouroeste,C
+SP,Palmital,C
+SP,Paulo de Faria,C
+SP,Pindorama,C
+SP,Piquerobi,C
+SP,Pirapora do Bom Jesus,C
+SP,Pirapozinho,C
+SP,Rincão,C
+SP,Sales,C
+SP,Saltinho,C
+SP,Santa Adélia,C
+SP,Santo Antônio do Aracanguá,C
+SP,São João do Pau dAlho,C
+SP,Três Fronteiras,C
+SP,Tupi Paulista,C
+SP,Urânia,C
+SP,Urupês,C
+PR,Anahy,C
+PR,Arapuã,C
+PR,Atalaia,C
+PR,Céu Azul,C
+PR,Cidade Gaúcha,C
+PR,Coronel Domingos Soares,C
+PR,Francisco Alves,C
+PR,Iguatu,C
+PR,Leópolis,C
+PR,Luiziana,C
+PR,Marilena,C
+PR,Moreira Sales,C
+PR,Palmital,C
+PR,Pérola,C
+PR,Porto Rico,C
+PR,Pranchita,C
+PR,Santa Cruz de Monte Castelo,C
+PR,Santa Isabel do Ivaí,C
+PR,Terra Roxa,C
+SC,Arroio Trinta,C
+SC,Capão Alto,C
+RS,Arvorezinha,C
+RS,Barra do Rio Azul,C
+RS,Camargo,C
+RS,Campo Novo,C
+RS,Capitão,C
+RS,Chuí,C
+RS,Dezesseis de Novembro,C
+RS,Ivorá,C
+RS,Linha Nova,C
+RS,Maratá,C
+RS,Morro Reuter,C
+RS,Pirapó,C
+RS,Pontão,C
+RS,Pouso Novo,C
+RS,Salvador das Missões,C
+RS,Santa Bárbara do Sul,C
+RS,São José do Ouro,C
+RS,São Pedro das Missões,C
+RS,Segredo,C
+RS,Sério,C
+RS,Toropi,C
+RS,Tucunduva,C
+RS,Tuparendi,C
+RS,Vista Gaúcha,C
+MS,Fátima do Sul,C
+MS,Laguna Carapã,C
+MS,Maracaju,C
+MS,Pedro Gomes,C
+MS,Rio Negro,C
+MS,Rochedo,C
+MS,Sidrolândia,C
+MS,Terenos,C
+MT,Araguainha,C
+MT,Bom Jesus do Araguaia,C
+MT,Brasnorte,C
+MT,Lambari DOeste,C
+MT,Pedra Preta,C
+MT,Ponte Branca,C
+MT,São Pedro da Cipa,C
+MT,Santo Antônio do Leste,C
+GO,Abadiânia,C
+GO,Anicuns,C
+GO,Cachoeira Alta,C
+GO,Corumbá de Goiás,C
+GO,Itaberaí,C
+GO,Ivolândia,C
+GO,Jaraguá,C
+GO,Mara Rosa,C
+GO,Novo Brasil,C
+GO,Orizona,C
+GO,Padre Bernardo,C
+GO,Rialma,C
+GO,São Luiz do Norte,C
+GO,São Miguel do Passa Quatro,C
+GO,São Patrício,C
+GO,Urutaí,C
+GO,Vianópolis,C
+RO,Corumbiara,C
+RO,Presidente Médici,C
+RO,Rio Crespo,C
+RO,Cujubim,C
+RO,Monte Negro,C
+RO,Nova União,C
+RO,Teixeirópolis,C
+AC,Acrelândia,C
+PA,Benevides,C
+PA,Bonito,C
+PA,Igarapé-Miri,C
+PA,Inhangapi,C
+PA,Limoeiro do Ajuru,C
+PA,Santa Bárbara do Pará,C
+PA,Santa Izabel do Pará,C
+PA,São Domingos do Araguaia,C
+PA,Sapucaia,C
+PA,Tracuateua,C
+TO,Abreulândia,C
+TO,Arapoema,C
+TO,Bandeirantes do Tocantins,C
+TO,Campos Lindos,C
+TO,Cristalândia,C
+TO,Dianópolis,C
+TO,Tabocão,C
+TO,Itapiratins,C
+TO,Novo Alegre,C
+TO,Pequizeiro,C
+TO,Pindorama do Tocantins,C
+TO,Ponte Alta do Tocantins,C
+TO,Riachinho,C
+TO,Santa Rosa do Tocantins,C
+TO,Silvanópolis,C
+TO,Sítio Novo do Tocantins,C
+TO,Wanderlândia,C
+MA,Anajatuba,C
+MA,Axixá,C
+MA,Bacabeira,C
+MA,Bequimão,C
+MA,Godofredo Viana,C
+MA,Lagoa do Mato,C
+MA,Luís Domingues,C
+MA,Santa Inês,C
+MA,São Domingos do Maranhão,C
+MA,São Francisco do Brejão,C
+MA,Turiaçu,C
+PI,Alvorada do Gurguéia,C
+PI,Angical do Piauí,C
+PI,Barreiras do Piauí,C
+PI,Bela Vista do Piauí,C
+PI,Bocaina,C
+PI,Cocal de Telha,C
+PI,Coivaras,C
+PI,Corrente,C
+PI,Curimatá,C
+PI,Eliseu Martins,C
+PI,Francinópolis,C
+PI,Hugo Napoleão,C
+PI,Isaías Coelho,C
+PI,Madeiro,C
+PI,Manoel Emídio,C
+PI,Marcos Parente,C
+PI,Milton Brandão,C
+PI,Novo Oriente do Piauí,C
+PI,Parnaguá,C
+PI,Pedro Laurentino,C
+PI,Porto Alegre do Piauí,C
+PI,Prata do Piauí,C
+PI,Rio Grande do Piauí,C
+PI,Santa Filomena,C
+PI,Santo Antônio dos Milagres,C
+PI,São Gonçalo do Gurguéia,C
+PI,São João da Varjota,C
+PI,São Luis do Piauí,C
+PI,São Miguel da Baixa Grande,C
+PI,São Miguel do Fidalgo,C
+PI,São Pedro do Piauí,C
+PI,Sebastião Leal,C
+PI,Sussuapara,C
+PI,Tamboril do Piauí,C
+PI,Várzea Grande,C
+CE,Barreira,C
+CE,Capistrano,C
+CE,Ereré,C
+CE,General Sampaio,C
+CE,Guaraciaba do Norte,C
+CE,Mucambo,C
+CE,Paramoti,C
+CE,Santana do Cariri,C
+CE,São Benedito,C
+CE,Solonópole,C
+RN,Afonso Bezerra,C
+RN,Campo Grande,C
+RN,Espírito Santo,C
+RN,Itaú,C
+RN,Janduís,C
+RN,João Dias,C
+RN,Lagoa Salgada,C
+RN,Parazinho,C
+RN,Senador Elói de Souza,C
+RN,Taipu,C
+RN,Triunfo Potiguar,C
+RN,Viçosa,C
+PB,Areia de Baraúnas,C
+PB,Bom Jesus,C
+PB,Boqueirão,C
+PB,Caturité,C
+PB,Coxixola,C
+PB,Vista Serrana,C
+PB,Juripiranga,C
+PB,Nova Floresta,C
+PB,Pilões,C
+PB,Pilõezinhos,C
+PB,Santana de Mangueira,C
+PB,São Domingos,C
+PB,São José dos Ramos,C
+PB,São José de Princesa,C
+PB,São Vicente do Seridó,C
+PB,Taperoá,C
+PB,Teixeira,C
+PB,Triunfo,C
+PE,Afrânio,C
+PE,Fernando de Noronha,C
+PE,Lagoa de Itaenga,C
+PE,Ouricuri,C
+PE,Santa Terezinha,C
+PE,Moreilândia,C
+PE,Tacaratu,C
+AL,Anadia,C
+AL,Cacimbinhas,C
+AL,Japaratinga,C
+AL,Jundiá,C
+SE,Areia Branca,C
+SE,Cumbe,C
+SE,Feira Nova,C
+SE,Itabi,C
+SE,Malhada dos Bois,C
+SE,Nossa Senhora Aparecida,C
+SE,Tomar do Geru,C
+BA,Acajutiba,C
+BA,Baianópolis,C
+BA,Banzaê,C
+BA,Barra da Estiva,C
+BA,Barra do Mendes,C
+BA,Barro Preto,C
+BA,Bom Jesus da Serra,C
+BA,Brejões,C
+BA,Cansanção,C
+BA,Catolândia,C
+BA,Central,C
+BA,Cipó,C
+BA,Cravolândia,C
+BA,Ibiassucê,C
+BA,Jaborandi,C
+BA,Jussiape,C
+BA,Lajedão,C
+BA,Nova Fátima,C
+BA,Pé de Serra,C
+BA,Piatã,C
+BA,Planalto,C
+BA,Potiraguá,C
+BA,Santa Cruz da Vitória,C
+BA,Santa Teresinha,C
+BA,Sapeaçu,C
+BA,Souto Soares,C
+BA,Tabocas do Brejo Velho,C
+BA,Teodoro Sampaio,C
+BA,Umburanas,C
+BA,Utinga,C
+BA,Várzea do Poço,C
+MG,Abaeté,C
+MG,Aiuruoca,C
+MG,Alagoa,C
+MG,Alterosa,C
+MG,Andrelândia,C
+MG,Borda da Mata,C
+MG,Botelhos,C
+MG,Bugre,C
+MG,Campo do Meio,C
+MG,Carmo da Cachoeira,C
+MG,Chiador,C
+MG,Comendador Gomes,C
+MG,Comercinho,C
+MG,Conceição das Pedras,C
+MG,Cônego Marinho,C
+MG,Córrego Fundo,C
+MG,Dom Bosco,C
+MG,Dores do Indaiá,C
+MG,Douradoquara,C
+MG,Funilândia,C
+MG,Guapé,C
+MG,Gurinhatã,C
+MG,Ibitiúra de Minas,C
+MG,Icaraí de Minas,C
+MG,Iguatama,C
+MG,Ijaci,C
+MG,Itambé do Mato Dentro,C
+MG,Jesuânia,C
+MG,Juruaia,C
+MG,Limeira do Oeste,C
+MG,Madre de Deus de Minas,C
+MG,Medeiros,C
+MG,Mendes Pimentel,C
+MG,Natalândia,C
+MG,Nepomuceno,C
+MG,Olhos-dÁgua,C
+MG,Papagaios,C
+MG,Passa Tempo,C
+MG,Pedro Teixeira,C
+MG,Piracema,C
+MG,Santana da Vargem,C
+MG,Santa Rita de Caldas,C
+MG,Santo Antônio do Amparo,C
+MG,São Francisco de Paula,C
+MG,São Francisco do Glória,C
+MG,São José da Safira,C
+MG,São José do Goiabal,C
+MG,São Sebastião do Maranhão,C
+MG,São Tomás de Aquino,C
+MG,Senador Modestino Gonçalves,C
+MG,Senhora dos Remédios,C
+MG,Serra dos Aimorés,C
+MG,Serrania,C
+MG,Sobrália,C
+MG,Veredinha,C
+MG,Vermelho Novo,C
+MG,Virginópolis,C
+SP,Alfredo Marcondes,C
+SP,Anhumas,C
+SP,Aparecida dOeste,C
+SP,Areiópolis,C
+SP,Ariranha,C
+SP,Avaí,C
+SP,Barão de Antonina,C
+SP,Cândido Rodrigues,C
+SP,Cedral,C
+SP,Dolcinópolis,C
+SP,Elisiário,C
+SP,Estrela dOeste,C
+SP,Florínea,C
+SP,Gabriel Monteiro,C
+SP,Guapiaçu,C
+SP,Guaraçaí,C
+SP,Irapuã,C
+SP,Irapuru,C
+SP,Itobi,C
+SP,João Ramalho,C
+SP,Júlio Mesquita,C
+SP,Jumirim,C
+SP,Luiziânia,C
+SP,Lupércio,C
+SP,Manduri,C
+SP,Mesópolis,C
+SP,Mira Estrela,C
+SP,Monções,C
+SP,Motuca,C
+SP,Natividade da Serra,C
+SP,Neves Paulista,C
+SP,Nova Canaã Paulista,C
+SP,Nova Granada,C
+SP,Nova Independência,C
+SP,Nuporanga,C
+SP,Onda Verde,C
+SP,Oriente,C
+SP,Oscar Bressane,C
+SP,Palestina,C
+SP,Palmares Paulista,C
+SP,Palmeira dOeste,C
+SP,Paraíso,C
+SP,Paranapuã,C
+SP,Pracinha,C
+SP,Pradópolis,C
+SP,Presidente Bernardes,C
+SP,Quatá,C
+SP,Ribeirão Corrente,C
+SP,Ribeirão dos Índios,C
+SP,Roseira,C
+SP,Salmourão,C
+SP,Santa Albertina,C
+SP,Santa Mercedes,C
+SP,Santana da Ponte Pensa,C
+SP,Santo Expedito,C
+SP,Santópolis do Aguapeí,C
+SP,São Francisco,C
+SP,São João de Iracema,C
+SP,São José da Bela Vista,C
+SP,Tabapuã,C
+SP,Taiúva,C
+SP,Taquaral,C
+SP,Timburi,C
+SP,Torre de Pedra,C
+SP,Turiúba,C
+SP,Ubirajara,C
+SP,Uchoa,C
+SP,Vera Cruz,C
+SP,Chavantes,C
+PR,Bocaiúva do Sul,C
+PR,Cafeara,C
+PR,Farol,C
+PR,Flor da Serra do Sul,C
+PR,Joaquim Távora,C
+PR,Mariluz,C
+PR,Nossa Senhora das Graças,C
+PR,Santa Maria do Oeste,C
+PR,São Carlos do Ivaí,C
+PR,Uraí,C
+SC,Irati,C
+SC,Matos Costa,C
+SC,Sul Brasil,C
+RS,Augusto Pestana,C
+RS,Barão do Triunfo,C
+RS,Boa Vista do Incra,C
+RS,Bom Jesus,C
+RS,Coronel Barros,C
+RS,Nova Araçá,C
+RS,Nova Pádua,C
+RS,Novo Machado,C
+RS,Quevedos,C
+RS,Sentinela do Sul,C
+RS,Tabaí,C
+RS,Turuçu,C
+RS,Vicente Dutra,C
+MS,Caracol,C
+MS,Corguinho,C
+MS,Inocência,C
+MS,Itaporã,C
+MS,Japorã,C
+MS,Juti,C
+MS,Nova Alvorada do Sul,C
+MS,Sonora,C
+MT,Campos de Júlio,C
+MT,Curvelândia,C
+MT,Guiratinga,C
+MT,São José do Povo,C
+GO,Água Fria de Goiás,C
+GO,Água Limpa,C
+GO,Amorinópolis,C
+GO,Anhanguera,C
+GO,Araçu,C
+GO,Aragarças,C
+GO,Aruanã,C
+GO,Barro Alto,C
+GO,Bom Jesus de Goiás,C
+GO,Buritinópolis,C
+GO,Cachoeira de Goiás,C
+GO,Campo Alegre de Goiás,C
+GO,Campo Limpo de Goiás,C
+GO,Campos Belos,C
+GO,Cromínia,C
+GO,Estrela do Norte,C
+GO,Fazenda Nova,C
+GO,Firminópolis,C
+GO,Flores de Goiás,C
+GO,Goianápolis,C
+GO,Guarinos,C
+GO,Indiara,C
+GO,Iporá,C
+GO,Itaguaru,C
+GO,Itapuranga,C
+GO,Joviânia,C
+GO,Matrinchã,C
+GO,Mimoso de Goiás,C
+GO,Morro Agudo de Goiás,C
+GO,Mossâmedes,C
+GO,Mozarlândia,C
+GO,Niquelândia,C
+GO,Nova América,C
+GO,Nova Iguaçu de Goiás,C
+GO,Nova Veneza,C
+GO,Paraúna,C
+GO,Piracanjuba,C
+GO,Quirinópolis,C
+GO,Rianápolis,C
+GO,Rio Quente,C
+GO,Sanclerlândia,C
+GO,Santa Cruz de Goiás,C
+GO,Santo Antônio de Goiás,C
+GO,Sítio dAbadia,C
+GO,Terezópolis de Goiás,C
+GO,Varjão,C
+RO,Cacaulândia,C
+RO,Ministro Andreazza,C
+RO,Mirante da Serra,C
+RO,Urupá,C
+TO,Araguacema,C
+TO,Aurora do Tocantins,C
+TO,Bernardo Sayão,C
+TO,Brasilândia do Tocantins,C
+TO,Cachoeirinha,C
+TO,Chapada de Areia,C
+TO,Conceição do Tocantins,C
+TO,Darcinópolis,C
+TO,Dois Irmãos do Tocantins,C
+TO,Dueré,C
+TO,Ipueiras,C
+TO,Juarina,C
+TO,Lajeado,C
+TO,Marianópolis do Tocantins,C
+TO,São Bento do Tocantins,C
+TO,Sucupira,C
+TO,Tocantínia,C
+MA,Água Doce do Maranhão,C
+MA,Barão de Grajaú,C
+MA,Buritirana,C
+MA,Cândido Mendes,C
+MA,Central do Maranhão,C
+MA,Governador Newton Bello,C
+MA,Graça Aranha,C
+MA,Joselândia,C
+MA,Loreto,C
+MA,Milagres do Maranhão,C
+MA,Porto Rico do Maranhão,C
+MA,Presidente Médici,C
+MA,São Bento,C
+MA,São Domingos do Azeitão,C
+MA,São José dos Basílios,C
+MA,São Pedro dos Crentes,C
+MA,São Raimundo do Doca Bezerra,C
+MA,Senador Alexandre Costa,C
+MA,Sucupira do Norte,C
+MA,Tasso Fragoso,C
+MA,Zé Doca,C
+PI,Caraúbas do Piauí,C
+PI,Curralinhos,C
+PI,Flores do Piauí,C
+PI,Floresta do Piauí,C
+PI,João Costa,C
+PI,Jurema,C
+PI,Lagoinha do Piauí,C
+PI,Nazaré do Piauí,C
+PI,Riacho Frio,C
+PI,Santa Cruz do Piauí,C
+PI,Santa Luz,C
+PI,São Francisco do Piauí,C
+PI,São Gonçalo do Piauí,C
+PI,São João da Fronteira,C
+PI,São João da Serra,C
+PI,São João do Piauí,C
+PI,Sebastião Barros,C
+PI,Vila Nova do Piauí,C
+PI,Wall Ferraz,C
+CE,Abaiara,C
+CE,Carnaubal,C
+CE,Croatá,C
+CE,Jucás,C
+CE,Poranga,C
+RN,Vera Cruz,C
+PB,Barra de Santa Rosa,C
+PB,Bonito de Santa Fé,C
+PB,Igaracy,C
+PB,Brejo do Cruz,C
+PB,Capim,C
+PB,Curral Velho,C
+PB,Itapororoca,C
+PB,Malta,C
+PB,Quixaba,C
+PB,Riachão do Poço,C
+PB,Santana dos Garrotes,C
+PB,São Domingos do Cariri,C
+PB,São José de Caiana,C
+PB,São Sebastião de Lagoa de Roça,C
+PB,Tavares,C
+PB,Tenório,C
+SE,Macambira,C
+BA,Abaíra,C
+BA,Angical,C
+BA,Anguera,C
+BA,Cabaceiras do Paraguaçu,C
+BA,Conceição da Feira,C
+BA,Firmino Alves,C
+BA,Gentio do Ouro,C
+BA,Ibirapitanga,C
+BA,Itamari,C
+BA,Jussara,C
+BA,Nova Ibiá,C
+BA,Pedrão,C
+BA,Rio Real,C
+BA,Santanópolis,C
+BA,São José da Vitória,C
+BA,Serra Dourada,C
+BA,Tucano,C
+MG,Bom Jesus da Penha,C
+MG,Campos Altos,C
+MG,Capela Nova,C
+MG,Capim Branco,C
+MG,Carrancas,C
+MG,Carvalhópolis,C
+MG,Doresópolis,C
+MG,Estiva,C
+MG,Grupiara,C
+MG,Guarda-Mor,C
+MG,Ipiaçu,C
+MG,Itapagipe,C
+MG,Matutina,C
+MG,Moema,C
+MG,Nova Ponte,C
+MG,Paineiras,C
+MG,Pedra do Indaiá,C
+MG,Pequi,C
+MG,Piedade dos Gerais,C
+MG,Planura,C
+MG,Pratinha,C
+MG,São José da Barra,C
+MG,Senador Amaral,C
+MG,Serra da Saudade,C
+MG,Tapiraí,C
+MG,Vieiras,C
+SP,Avanhandava,C
+SP,Bom Sucesso de Itararé,C
+SP,Canitar,C
+SP,Igaraçu do Tietê,C
+SP,Itapura,C
+SP,Marapoama,C
+SP,Nhandeara,C
+SP,Orindiúva,C
+SP,Santa Salete,C
+SP,São João das Duas Pontes,C
+SP,Taiaçu,C
+SP,Vitória Brasil,C
+PR,Cândido de Abreu,C
+PR,Grandes Rios,C
+PR,Rancho Alegre DOeste,C
+RS,Fazenda Vilanova,C
+RS,Nova Roma do Sul,C
+RS,Pejuçara,C
+RS,Poço das Antas,C
+RS,Xangri-lá,C
+MT,Alto Garças,C
+MT,Nova Brasilândia,C
+GO,Americano do Brasil,C
+GO,Aurilândia,C
+GO,Campestre de Goiás,C
+GO,Campinorte,C
+GO,Campos Verdes,C
+GO,Castelândia,C
+GO,Chapadão do Céu,C
+GO,Cocalzinho de Goiás,C
+GO,Corumbaíba,C
+GO,Cristianópolis,C
+GO,Cumari,C
+GO,Damolândia,C
+GO,Formoso,C
+GO,Goiandira,C
+GO,Guapó,C
+GO,Guaraíta,C
+GO,Iaciara,C
+GO,Inaciolândia,C
+GO,Ipiranga de Goiás,C
+GO,Itaguari,C
+GO,Itajá,C
+GO,Itarumã,C
+GO,Jussara,C
+GO,Mairipotaba,C
+GO,Moiporá,C
+GO,Montividiu,C
+GO,Mundo Novo,C
+GO,Nova Crixás,C
+GO,Ouro Verde de Goiás,C
+GO,Palestina de Goiás,C
+GO,Palmelo,C
+GO,Paranaiguara,C
+GO,Perolândia,C
+GO,Pilar de Goiás,C
+GO,Professor Jamil,C
+GO,Santa Bárbara de Goiás,C
+GO,Santa Fé de Goiás,C
+GO,São João da Paraúna,C
+GO,Serranópolis,C
+GO,Taquaral de Goiás,C
+GO,Trombas,C
+GO,Turvelândia,C
+GO,Uirapuru,C
+RS,Jacutinga,D
+AM,Parintins,D
+PE,Araripina,D
+MG,Santana do Paraíso,D
+PR,Rebouças,D
+GO,Alvorada do Norte,D
+AM,Caapiranga,D
+PA,Alenquer,D
+MA,Bom Jardim,D
+MA,Codó,D
+CE,Crateús,D
+RN,João Câmara,D
+PB,Alagoa Nova,D
+PB,Alhandra,D
+PE,Joaquim Nabuco,D
+SE,Estância,D
+BA,Guanambi,D
+MG,Açucena,D
+MG,Lima Duarte,D
+MG,Piranga,D
+SP,Presidente Prudente,D
+SC,Grão Pará,D
+RS,Agudo,D
+RS,Alpestre,D
+AM,Novo Airão,D
+PA,Cachoeira do Arari,D
+PA,Goianésia do Pará,D
+TO,Araguatins,D
+PI,Uruçuí,D
+CE,Aurora,D
+RN,Luís Gomes,D
+RN,Macau,D
+PE,Parnamirim,D
+PE,Pesqueira,D
+PE,São Vicente Férrer,D
+AL,Feliz Deserto,D
+AL,Olivença,D
+SE,Itabaiana,D
+BA,Itiúba,D
+BA,Mucuri,D
+BA,Porto Seguro,D
+BA,Santo Antônio de Jesus,D
+MG,Itamonte,D
+MG,Morro do Pilar,D
+MG,Santa Bárbara,D
+MG,São João Evangelista,D
+MG,Sardoá,D
+MG,Vargem Alegre,D
+PR,Cerro Azul,D
+PR,Laranjeiras do Sul,D
+SC,Águas Mornas,D
+SC,Antônio Carlos,D
+SC,Imbituba,D
+SC,Quilombo,D
+SC,Urubici,D
+RS,Arroio do Padre,D
+RS,Charqueadas,D
+RS,Dom Pedrito,D
+RS,Mato Castelhano,D
+RS,Pareci Novo,D
+RS,Santana do Livramento,D
+RS,Santa Vitória do Palmar,D
+RS,São Luiz Gonzaga,D
+RS,Vale Real,D
+MS,Bonito,D
+MS,São Gabriel do Oeste,D
+MT,Nova Bandeirantes,D
+MT,Nova Olímpia,D
+GO,Águas Lindas de Goiás,D
+AC,Sena Madureira,D
+AM,Codajás,D
+RR,Pacaraima,D
+PA,Abaetetuba,D
+PA,Água Azul do Norte,D
+PA,Curuá,D
+PA,Dom Eliseu,D
+PA,Novo Repartimento,D
+PA,Prainha,D
+PA,Redenção,D
+PA,Santana do Araguaia,D
+PA,Trairão,D
+MA,Alto Alegre do Pindaré,D
+MA,Tuntum,D
+CE,Mauriti,D
+CE,Novo Oriente,D
+CE,Varjota,D
+RN,Jucurutu,D
+RN,Nova Cruz,D
+PB,Sumé,D
+PE,Buíque,D
+PE,Ibimirim,D
+PE,Ipubi,D
+PE,Paudalho,D
+PE,Sanharó,D
+AL,Palmeira dos Índios,D
+AL,Traipu,D
+BA,Aiquara,D
+BA,Itapetinga,D
+BA,Jequié,D
+BA,Mundo Novo,D
+BA,Prado,D
+BA,Presidente Tancredo Neves,D
+BA,Santa Inês,D
+BA,Santa Luzia,D
+BA,Wanderley,D
+MG,Água Boa,D
+MG,Albertina,D
+MG,Antônio Dias,D
+MG,Capitão Enéas,D
+MG,Careaçu,D
+MG,Cipotânea,D
+MG,Inhapim,D
+MG,Nova União,D
+MG,Juatuba,D
+MG,Machacalis,D
+MG,Matias Cardoso,D
+MG,Pirapetinga,D
+MG,Pouso Alto,D
+MG,Ribeirão Vermelho,D
+MG,Rio Preto,D
+MG,Santo Antônio do Itambé,D
+MG,Varginha,D
+SP,Alumínio,D
+SP,Dracena,D
+SP,Pedra Bela,D
+SP,São Roque,D
+PR,Apucarana,D
+PR,Curiúva,D
+PR,Marquinho,D
+PR,Matinhos,D
+PR,Ribeirão Claro,D
+SC,Alto Bela Vista,D
+SC,Bom Jardim da Serra,D
+SC,Caxambu do Sul,D
+SC,Itá,D
+SC,Praia Grande,D
+SC,Santa Rosa do Sul,D
+SC,São Cristóvão do Sul,D
+RS,Aratiba,D
+RS,Barra do Ribeiro,D
+RS,Boa Vista do Cadeado,D
+RS,Cacique Doble,D
+RS,Cerro Grande do Sul,D
+RS,Colinas,D
+MS,Porto Murtinho,D
+MS,Rio Verde de Mato Grosso,D
+AC,Assis Brasil,D
+AM,Amaturá,D
+AM,Apuí,D
+AM,Japurá,D
+AM,Juruá,D
+AM,Pauini,D
+AM,Urucará,D
+PA,São Caetano de Odivelas,D
+PA,Senador José Porfírio,D
+PA,Ulianópolis,D
+PA,Viseu,D
+AP,Pracuúba,D
+TO,Carrasco Bonito,D
+TO,Paranã,D
+TO,Praia Norte,D
+TO,São Miguel do Tocantins,D
+TO,Tocantinópolis,D
+TO,Xambioá,D
+MA,Alto Parnaíba,D
+MA,Formosa da Serra Negra,D
+MA,Jenipapo dos Vieiras,D
+MA,Paço do Lumiar,D
+MA,Palmeirândia,D
+PI,Aroazes,D
+PI,Batalha,D
+PI,Joca Marques,D
+PI,União,D
+CE,Arneiroz,D
+CE,Baturité,D
+CE,Bela Cruz,D
+CE,Canindé,D
+CE,Ipu,D
+CE,Iracema,D
+CE,Itarema,D
+CE,Madalena,D
+CE,Morrinhos,D
+CE,Redenção,D
+CE,Tururu,D
+RN,Ipanguaçu,D
+RN,São Gonçalo do Amarante,D
+RN,São Vicente,D
+RN,Venha-Ver,D
+PB,Diamante,D
+PB,Junco do Seridó,D
+PB,Natuba,D
+PB,Patos,D
+PB,Rio Tinto,D
+PE,Betânia,D
+PE,Brejinho,D
+PE,Iati,D
+PE,Poção,D
+PE,São Bento do Una,D
+AL,Batalha,D
+SE,Carmópolis,D
+SE,Santana do São Francisco,D
+SE,São Domingos,D
+BA,Aratuípe,D
+BA,Barra,D
+BA,Feira de Santana,D
+BA,Itapicuru,D
+BA,Itapitanga,D
+BA,Olindina,D
+BA,Riachão do Jacuípe,D
+BA,Ribeira do Pombal,D
+BA,Serra do Ramalho,D
+BA,Tanhaçu,D
+BA,Valença,D
+MG,Abre Campo,D
+MG,Belo Vale,D
+MG,Bom Jesus do Galho,D
+MG,Botumirim,D
+MG,Brasília de Minas,D
+MG,Divinolândia de Minas,D
+MG,Dom Cavati,D
+MG,Dores de Guanhães,D
+MG,Esmeraldas,D
+MG,Guarani,D
+MG,Itambacuri,D
+MG,Jequitibá,D
+MG,Joaíma,D
+MG,Manga,D
+MG,Moeda,D
+MG,Ouro Verde de Minas,D
+MG,Pingo-dÁgua,D
+MG,Rio Pardo de Minas,D
+MG,Santa Bárbara do Leste,D
+MG,Sapucaí-Mirim,D
+SP,Cruzeiro,D
+SP,Ibirá,D
+SP,Ilha Comprida,D
+SP,Iporanga,D
+SP,Jacupiranga,D
+SP,Paraibuna,D
+SP,Pilar do Sul,D
+SP,Queluz,D
+SP,Rifaina,D
+SP,Vargem Grande do Sul,D
+PR,Arapoti,D
+PR,Bela Vista do Paraíso,D
+PR,Cantagalo,D
+PR,Lidianópolis,D
+PR,Mamborê,D
+PR,Pitanga,D
+PR,Santana do Itararé,D
+PR,Tijucas do Sul,D
+SC,Armazém,D
+SC,Balneário Barra do Sul,D
+SC,Dionísio Cerqueira,D
+SC,Erval Velho,D
+SC,Guatambú,D
+SC,Leoberto Leal,D
+SC,Morro Grande,D
+SC,Santa Rosa de Lima,D
+SC,São João do Sul,D
+SC,Trombudo Central,D
+SC,Xavantina,D
+RS,Barra do Guarita,D
+RS,Cerro Largo,D
+RS,Iraí,D
+RS,Itaara,D
+RS,Marcelino Ramos,D
+RS,Nova Ramada,D
+RS,Restinga Sêca,D
+RS,Rio Pardo,D
+RS,Santo Cristo,D
+RS,São José dos Ausentes,D
+RS,Tramandaí,D
+MT,Nortelândia,D
+MT,Paranaíta,D
+MT,Santo Antônio do Leverger,D
+MT,Terra Nova do Norte,D
+MT,Nova Monte Verde,D
+GO,Novo Gama,D
+RO,Costa Marques,D
+RO,Campo Novo de Rondônia,D
+AC,Mâncio Lima,D
+AM,Alvarães,D
+AM,Fonte Boa,D
+AM,Rio Preto da Eva,D
+PA,Baião,D
+PA,Brasil Novo,D
+PA,Breves,D
+PA,Bujaru,D
+PA,Chaves,D
+PA,Faro,D
+PA,Gurupá,D
+PA,Jacundá,D
+PA,Placas,D
+PA,Ponta de Pedras,D
+PA,Salinópolis,D
+PA,Salvaterra,D
+PA,Santa Maria das Barreiras,D
+PA,São João de Pirabas,D
+AP,Calçoene,D
+AP,Cutias,D
+AP,Tartarugalzinho,D
+TO,Ananás,D
+TO,Goiatins,D
+MA,Carutapera,D
+MA,Chapadinha,D
+MA,Davinópolis,D
+MA,Duque Bacelar,D
+MA,Icatu,D
+MA,Matões,D
+MA,Parnarama,D
+MA,Santa Luzia,D
+PI,Acauã,D
+PI,Altos,D
+PI,Buriti dos Lopes,D
+PI,Cabeceiras do Piauí,D
+PI,Ilha Grande,D
+PI,Luís Correia,D
+PI,Luzilândia,D
+PI,Queimada Nova,D
+PI,São José do Divino,D
+PI,São Miguel do Tapuio,D
+CE,Boa Viagem,D
+CE,Cariré,D
+CE,Hidrolândia,D
+CE,Jaguaribara,D
+CE,Mombaça,D
+CE,Moraújo,D
+CE,Palhano,D
+CE,Parambu,D
+CE,Quiterianópolis,D
+CE,Viçosa do Ceará,D
+RN,Alto do Rodrigues,D
+RN,Carnaubais,D
+RN,Coronel Ezequiel,D
+RN,Goianinha,D
+RN,Lagoa de Velhos,D
+RN,Macaíba,D
+RN,Marcelino Vieira,D
+RN,Patu,D
+RN,Riachuelo,D
+RN,Rodolfo Fernandes,D
+RN,Ruy Barbosa,D
+PB,Belém,D
+PB,Salgado de São Félix,D
+PB,São José da Lagoa Tapada,D
+PE,Belém do São Francisco,D
+PE,Bom Conselho,D
+PE,Bom Jardim,D
+PE,Carnaubeira da Penha,D
+PE,Flores,D
+PE,Granito,D
+PE,Itacuruba,D
+PE,Ilha de Itamaracá,D
+PE,Jupi,D
+PE,Jurema,D
+PE,Palmeirina,D
+PE,Panelas,D
+PE,Pombos,D
+PE,Riacho das Almas,D
+PE,Santa Maria do Cambucá,D
+PE,São Joaquim do Monte,D
+PE,Timbaúba,D
+PE,Tracunhaém,D
+AL,Jacuípe,D
+AL,Joaquim Gomes,D
+AL,Limoeiro de Anadia,D
+AL,Passo de Camaragibe,D
+SE,Brejo Grande,D
+SE,Laranjeiras,D
+SE,Monte Alegre de Sergipe,D
+SE,Salgado,D
+SE,Simão Dias,D
+BA,Alcobaça,D
+BA,Araci,D
+BA,Barra do Rocha,D
+BA,Canavieiras,D
+BA,Conceição do Almeida,D
+BA,Coração de Maria,D
+BA,Floresta Azul,D
+BA,Gandu,D
+BA,Ibicuí,D
+BA,Itagi,D
+BA,Itaju do Colônia,D
+BA,Itambé,D
+BA,Jaguarari,D
+BA,Mirangaba,D
+BA,Muquém do São Francisco,D
+BA,Mutuípe,D
+BA,Nilo Peçanha,D
+BA,Nordestina,D
+BA,Pau Brasil,D
+BA,Paulo Afonso,D
+BA,Presidente Jânio Quadros,D
+BA,Remanso,D
+BA,São Sebastião do Passé,D
+BA,Serrinha,D
+MG,Abadia dos Dourados,D
+MG,Águas Formosas,D
+MG,Alpercata,D
+MG,Alvinópolis,D
+MG,Amparo do Serra,D
+MG,Araçuaí,D
+MG,Araxá,D
+MG,Arinos,D
+MG,Cachoeira da Prata,D
+MG,Caiana,D
+MG,Caldas,D
+MG,Chapada do Norte,D
+MG,Frei Gaspar,D
+MG,Frei Inocêncio,D
+MG,Itacarambi,D
+MG,Jaguaraçu,D
+MG,Jaíba,D
+MG,Juramento,D
+MG,Lagoa Grande,D
+MG,Materlândia,D
+MG,Matipó,D
+MG,Mesquita,D
+MG,Munhoz,D
+MG,Nova Belém,D
+MG,Nova Resende,D
+MG,Padre Carvalho,D
+MG,Pavão,D
+MG,Pocrane,D
+MG,Raul Soares,D
+MG,Rubelita,D
+MG,Santa Maria de Itabira,D
+MG,Santo Antônio do Grama,D
+MG,São Francisco,D
+MG,São João do Oriente,D
+MG,São Joaquim de Bicas,D
+MG,São Miguel do Anta,D
+MG,Senador Firmino,D
+MG,Simonésia,D
+MG,Teixeiras,D
+MG,Tombos,D
+MG,Vargem Grande do Rio Pardo,D
+RJ,Sapucaia,D
+SP,Cachoeira Paulista,D
+SP,Fernando Prestes,D
+SP,Ipuã,D
+SP,Itaporanga,D
+SP,Pacaembu,D
+SP,Taquaritinga,D
+SP,Estiva Gerbi,D
+PR,Bandeirantes,D
+PR,Laranjal,D
+PR,Mandirituba,D
+PR,Manfrinópolis,D
+PR,Maripá,D
+PR,Porto Vitória,D
+PR,Renascença,D
+PR,Reserva,D
+SC,Agrolândia,D
+SC,Anita Garibaldi,D
+SC,Campo Alegre,D
+SC,Ermo,D
+SC,Imaruí,D
+SC,Irani,D
+SC,Itapoá,D
+SC,Ouro Verde,D
+SC,Planalto Alegre,D
+SC,Romelândia,D
+SC,São Domingos,D
+RS,Amaral Ferrador,D
+RS,Barros Cassal,D
+RS,Cambará do Sul,D
+RS,Espumoso,D
+RS,Ibarama,D
+RS,Ibiraiaras,D
+RS,Imigrante,D
+RS,Ivoti,D
+RS,Mariana Pimentel,D
+RS,Novo Cabrais,D
+RS,Pinheirinho do Vale,D
+RS,Porto Lucena,D
+RS,Protásio Alves,D
+RS,Santana da Boa Vista,D
+RS,São Francisco de Assis,D
+RS,São Jerônimo,D
+RS,São Vendelino,D
+RS,Seberi,D
+RS,Sinimbu,D
+RS,Tupandi,D
+MS,Santa Rita do Pardo,D
+MT,Água Boa,D
+MT,Alta Floresta,D
+MT,Canarana,D
+MT,Juara,D
+GO,Cavalcante,D
+GO,Ouvidor,D
+GO,Simolândia,D
+GO,Valparaíso de Goiás,D
+RO,Rolim de Moura,D
+AM,Itapiranga,D
+AM,Silves,D
+PA,Anajás,D
+PA,Augusto Corrêa,D
+PA,Belterra,D
+PA,Cametá,D
+PA,Concórdia do Pará,D
+PA,Garrafão do Norte,D
+PA,Marapanim,D
+PA,Medicilândia,D
+PA,Moju,D
+PA,Rio Maria,D
+PA,Santa Maria do Pará,D
+PA,Santo Antônio do Tauá,D
+PA,Soure,D
+PA,Tomé-Açu,D
+PA,Tucumã,D
+PA,Uruará,D
+AP,Serra do Navio,D
+TO,Centenário,D
+TO,Formoso do Araguaia,D
+TO,Palmeirante,D
+MA,Alto Alegre do Maranhão,D
+MA,Arari,D
+MA,Barreirinhas,D
+MA,Brejo,D
+MA,Buriti Bravo,D
+MA,Carolina,D
+MA,Lago dos Rodrigues,D
+MA,Paulino Neves,D
+MA,Raposa,D
+MA,Santa Rita,D
+MA,São Luís Gonzaga do Maranhão,D
+PI,Alagoinha do Piauí,D
+PI,Barra DAlcântara,D
+PI,Bonfim do Piauí,D
+PI,Cajueiro da Praia,D
+PI,Caracol,D
+PI,Caxingó,D
+PI,Cocal,D
+PI,Dom Inocêncio,D
+PI,Jardim do Mulato,D
+PI,Júlio Borges,D
+PI,Pio IX,D
+PI,São Braz do Piauí,D
+CE,Aquiraz,D
+CE,Assaré,D
+CE,Caridade,D
+CE,Cariús,D
+CE,Itatira,D
+CE,Pacoti,D
+CE,Pereiro,D
+CE,Pindoretama,D
+CE,Piquet Carneiro,D
+CE,Quixeré,D
+CE,São João do Jaguaribe,D
+CE,Tabuleiro do Norte,D
+RN,Angicos,D
+RN,Felipe Guerra,D
+RN,Fernando Pedroza,D
+RN,Frutuoso Gomes,D
+RN,Ipueira,D
+RN,Jandaíra,D
+RN,Lagoa de Pedras,D
+RN,Lagoa Nova,D
+RN,Nísia Floresta,D
+RN,Pendências,D
+RN,Porto do Mangue,D
+RN,Tibau,D
+RN,São Francisco do Oeste,D
+RN,São José de Mipibu,D
+RN,São José do Campestre,D
+RN,São Rafael,D
+PB,Belém do Brejo do Cruz,D
+PB,Caaporã,D
+PB,Cajazeirinhas,D
+PB,Frei Martinho,D
+PB,Jericó,D
+PB,Livramento,D
+PB,Mogeiro,D
+PB,São José do Sabugi,D
+PB,São Sebastião do Umbuzeiro,D
+PE,Arcoverde,D
+PE,Canhotinho,D
+PE,Correntes,D
+PE,Exu,D
+PE,Ibirajuba,D
+PE,Lagoa dos Gatos,D
+PE,Lagoa Grande,D
+PE,Quixaba,D
+PE,Santa Cruz,D
+PE,Xexéu,D
+AL,Canapi,D
+AL,Flexeiras,D
+AL,Monteirópolis,D
+AL,Paulo Jacinto,D
+AL,Porto Calvo,D
+AL,Santana do Mundaú,D
+SE,Pinhão,D
+SE,Riachão do Dantas,D
+SE,Santo Amaro das Brotas,D
+BA,Abaré,D
+BA,América Dourada,D
+BA,Andaraí,D
+BA,Aurelino Leal,D
+BA,Barrocas,D
+BA,Belo Campo,D
+BA,Boa Nova,D
+BA,Cachoeira,D
+BA,Campo Formoso,D
+BA,Cardeal da Silva,D
+BA,Coaraci,D
+BA,Coronel João Sá,D
+BA,Dom Basílio,D
+BA,Encruzilhada,D
+BA,Filadélfia,D
+BA,Gavião,D
+BA,Ipirá,D
+BA,Iramaia,D
+BA,Itaberaba,D
+BA,Itacaré,D
+BA,Itagibá,D
+BA,Ituaçu,D
+BA,Jiquiriçá,D
+BA,João Dourado,D
+BA,Macarani,D
+BA,Mascote,D
+BA,Morpará,D
+BA,Paripiranga,D
+BA,Rafael Jambeiro,D
+BA,Santa Rita de Cássia,D
+BA,São Félix do Coribe,D
+BA,Serra Preta,D
+BA,Ubatã,D
+BA,Várzea Nova,D
+BA,Xique-Xique,D
+MG,Aguanil,D
+MG,Águas Vermelhas,D
+MG,Ataléia,D
+MG,Bonfim,D
+MG,Campanário,D
+MG,Campo Azul,D
+MG,Cana Verde,D
+MG,Candeias,D
+MG,Carbonita,D
+MG,Coimbra,D
+MG,Conceição de Ipanema,D
+MG,Congonhas do Norte,D
+MG,Crisólita,D
+MG,Cristais,D
+MG,Cristália,D
+MG,Descoberto,D
+MG,Entre Folhas,D
+MG,Fernandes Tourinho,D
+MG,Florestal,D
+MG,Fronteira dos Vales,D
+MG,Fruta de Leite,D
+MG,Galiléia,D
+MG,Goiabeira,D
+MG,Inconfidentes,D
+MG,Jacinto,D
+MG,Jequitaí,D
+MG,Mamonas,D
+MG,Palmópolis,D
+MG,Passa-Vinte,D
+MG,Perdigão,D
+MG,Pintópolis,D
+MG,Presidente Olegário,D
+MG,Reduto,D
+MG,Resende Costa,D
+MG,Riachinho,D
+MG,Rio do Prado,D
+MG,Rio Espera,D
+MG,Santa Bárbara do Tugúrio,D
+MG,Santa Cruz de Salinas,D
+MG,Santa Efigênia de Minas,D
+MG,Santana do Manhuaçu,D
+MG,Santa Rosa da Serra,D
+MG,Sericita,D
+MG,Seritinga,D
+MG,Serra Azul de Minas,D
+MG,Ubaporanga,D
+MG,Urucânia,D
+MG,Virgem da Lapa,D
+SP,Aramina,D
+SP,Arapeí,D
+SP,Aspásia,D
+SP,Barra do Chapéu,D
+SP,Biritiba Mirim,D
+SP,Borborema,D
+SP,Caiuá,D
+SP,Castilho,D
+SP,Emilianópolis,D
+SP,Guapiara,D
+SP,Joanópolis,D
+SP,Mineiros do Tietê,D
+SP,Morro Agudo,D
+SP,Potirendaba,D
+SP,Rinópolis,D
+SP,Santa Cruz da Conceição,D
+SP,Santo Antônio do Jardim,D
+PR,Boa Esperança,D
+PR,Clevelândia,D
+PR,Corumbataí do Sul,D
+PR,Entre Rios do Oeste,D
+PR,Nova Laranjeiras,D
+PR,Paranavaí,D
+PR,Santo Inácio,D
+PR,Tomazina,D
+PR,Uniflor,D
+SC,Balneário Gaivota,D
+SC,Caibi,D
+SC,Calmon,D
+SC,Flor do Sertão,D
+SC,Gravatal,D
+SC,Ibicaré,D
+SC,Imbuia,D
+SC,Palhoça,D
+SC,Pinheiro Preto,D
+SC,Piratuba,D
+SC,São Bonifácio,D
+SC,Balneário Rincão,D
+RS,Áurea,D
+RS,Benjamin Constant do Sul,D
+RS,Boqueirão do Leão,D
+RS,Caibaté,D
+RS,Capão do Cipó,D
+RS,Constantina,D
+RS,Estrela Velha,D
+RS,Gramado dos Loureiros,D
+RS,Herveiras,D
+RS,Itapuca,D
+RS,Monte Alegre dos Campos,D
+RS,Monte Belo do Sul,D
+RS,Morro Redondo,D
+RS,Nova Hartz,D
+RS,Novo Xingu,D
+RS,Três Forquilhas,D
+RS,Victor Graeff,D
+MS,Amambai,D
+MS,Mundo Novo,D
+MS,Nova Andradina,D
+MT,Apiacás,D
+MT,Aripuanã,D
+MT,Campo Novo do Parecis,D
+MT,Carlinda,D
+MT,Castanheira,D
+MT,Colniza,D
+MT,Feliz Natal,D
+MT,Nova Lacerda,D
+MT,Nova Santa Helena,D
+MT,Nova Canaã do Norte,D
+MT,Nova Ubiratã,D
+MT,Reserva do Cabaçal,D
+MT,São José do Rio Claro,D
+GO,Goiatuba,D
+GO,São Luís de Montes Belos,D
+RO,Cabixi,D
+RO,Alvorada DOeste,D
+RO,Itapuã do Oeste,D
+RO,Pimenteiras do Oeste,D
+AC,Manoel Urbano,D
+AC,Porto Acre,D
+AM,Nhamundá,D
+RR,Alto Alegre,D
+RR,Mucajaí,D
+PA,Ananindeua,D
+PA,Anapu,D
+PA,Bagre,D
+PA,Cachoeira do Piriá,D
+PA,Mojuí dos Campos,D
+PA,Muaná,D
+PA,Portel,D
+PA,Santa Luzia do Pará,D
+PA,Tailândia,D
+TO,Araguaçu,D
+TO,Augustinópolis,D
+TO,Couto Magalhães,D
+TO,Esperantina,D
+TO,Figueirópolis,D
+TO,Lagoa da Confusão,D
+TO,Porto Alegre do Tocantins,D
+MA,Aldeias Altas,D
+MA,Amarante do Maranhão,D
+MA,Araioses,D
+MA,Bacuri,D
+MA,Bernardo do Mearim,D
+MA,Coroatá,D
+MA,Esperantinópolis,D
+MA,Fernando Falcão,D
+MA,Fortaleza dos Nogueiras,D
+MA,Igarapé do Meio,D
+MA,Itaipava do Grajaú,D
+MA,Jatobá,D
+MA,Lago Verde,D
+MA,Lima Campos,D
+MA,Pio XII,D
+MA,Santana do Maranhão,D
+MA,Santo Amaro do Maranhão,D
+MA,São Roberto,D
+MA,São Vicente Ferrer,D
+MA,Tufilândia,D
+MA,Tutóia,D
+PI,Agricolândia,D
+PI,Alto Longá,D
+PI,Aroeiras do Itaim,D
+PI,Assunção do Piauí,D
+PI,Bom Jesus,D
+PI,Brasileira,D
+PI,Brejo do Piauí,D
+PI,Campo Alegre do Fidalgo,D
+PI,Campo Grande do Piauí,D
+PI,Conceição do Canindé,D
+PI,Fartura do Piauí,D
+PI,Fronteiras,D
+PI,Itainópolis,D
+PI,Lagoa do Sítio,D
+PI,Marcolândia,D
+PI,Miguel Alves,D
+PI,Morro do Chapéu do Piauí,D
+PI,Paulistana,D
+PI,Santa Cruz dos Milagres,D
+PI,São Francisco de Assis do Piauí,D
+PI,São João do Arraial,D
+PI,São Raimundo Nonato,D
+CE,Araripe,D
+CE,Aratuba,D
+CE,Barro,D
+CE,Guaiúba,D
+CE,Meruoca,D
+CE,Pedra Branca,D
+CE,Pires Ferreira,D
+CE,Quixelô,D
+CE,Salitre,D
+CE,Senador Pompeu,D
+RN,Acari,D
+RN,Almino Afonso,D
+RN,Bento Fernandes,D
+RN,Ceará-Mirim,D
+RN,Coronel João Pessoa,D
+RN,Francisco Dantas,D
+RN,Governador Dix-Sept Rosado,D
+RN,Jardim de Angicos,D
+RN,Lagoa dAnta,D
+RN,Messias Targino,D
+RN,Montanhas,D
+RN,Paraná,D
+RN,Rafael Fernandes,D
+RN,São José do Seridó,D
+RN,São Paulo do Potengi,D
+RN,Senador Georgino Avelino,D
+RN,Serra do Mel,D
+RN,Taboleiro Grande,D
+RN,Tenente Ananias,D
+RN,Tenente Laurentino Cruz,D
+RN,Várzea,D
+PB,Alagoinha,D
+PB,Algodão de Jandaíra,D
+PB,São João do Rio do Peixe,D
+PB,Assunção,D
+PB,Baía da Traição,D
+PB,Barra de São Miguel,D
+PB,Borborema,D
+PB,Cacimba de Areia,D
+PB,Cacimbas,D
+PB,Caraúbas,D
+PB,Condado,D
+PB,Cruz do Espírito Santo,D
+PB,Emas,D
+PB,Fagundes,D
+PB,Juazeirinho,D
+PB,Lucena,D
+PB,Mari,D
+PB,Marizópolis,D
+PB,Mulungu,D
+PB,Olho dÁgua,D
+PB,Pilar,D
+PB,Pitimbu,D
+PB,Remígio,D
+PB,Riachão do Bacamarte,D
+PB,Santa Cruz,D
+PB,Santa Inês,D
+PB,São Bento,D
+PB,São José de Espinharas,D
+PB,São José do Brejo do Cruz,D
+PB,São Miguel de Taipu,D
+PB,Sapé,D
+PB,Soledade,D
+PE,Custódia,D
+PE,Itaíba,D
+PE,Jatobá,D
+PE,Orocó,D
+PE,Pedra,D
+PE,Petrolândia,D
+PE,Santa Filomena,D
+PE,Verdejante,D
+AL,Feira Grande,D
+AL,Palestina,D
+AL,Penedo,D
+AL,Pindoba,D
+AL,São Brás,D
+AL,São Luís do Quitunde,D
+AL,Taquarana,D
+SE,Cedro de São João,D
+SE,Ilha das Flores,D
+SE,Nossa Senhora da Glória,D
+SE,Nossa Senhora de Lourdes,D
+SE,Poço Verde,D
+SE,Santa Rosa de Lima,D
+SE,São Francisco,D
+BA,Almadina,D
+BA,Amargosa,D
+BA,Anagé,D
+BA,Caatiba,D
+BA,Carinhanha,D
+BA,Catu,D
+BA,Caturama,D
+BA,Condeúba,D
+BA,Fátima,D
+BA,Gongogi,D
+BA,Guaratinga,D
+BA,Ibirapuã,D
+BA,Ichu,D
+BA,Igaporã,D
+BA,Itaguaçu da Bahia,D
+BA,Itapé,D
+BA,Jandaíra,D
+BA,Lafaiete Coutinho,D
+BA,Lamarão,D
+BA,Malhada de Pedras,D
+BA,Mirante,D
+BA,Nova Itarana,D
+BA,Pilão Arcado,D
+BA,Piritiba,D
+BA,Planaltino,D
+BA,Presidente Dutra,D
+BA,Rio de Contas,D
+BA,Tanquinho,D
+BA,Tremedal,D
+BA,Ubaitaba,D
+MG,Cachoeira de Pajeú,D
+MG,Bandeira do Sul,D
+MG,Bonito de Minas,D
+MG,Buenópolis,D
+MG,Cachoeira Dourada,D
+MG,Caputira,D
+MG,Carmo da Mata,D
+MG,Carvalhos,D
+MG,Conceição da Barra de Minas,D
+MG,Chapada Gaúcha,D
+MG,Desterro do Melo,D
+MG,Elói Mendes,D
+MG,Glaucilândia,D
+MG,Ilicínea,D
+MG,Lagoa dos Patos,D
+MG,Luislândia,D
+MG,Monte Formoso,D
+MG,Naque,D
+MG,Oratórios,D
+MG,Paraisópolis,D
+MG,Pedra Bonita,D
+MG,Piedade do Rio Grande,D
+MG,Pitangui,D
+MG,Alto Jequitibá,D
+MG,Romaria,D
+MG,Santa Margarida,D
+MG,Santana do Jacaré,D
+MG,Santa Rita de Ibitipoca,D
+MG,São João Batista do Glória,D
+MG,São Pedro dos Ferros,D
+MG,São Sebastião da Bela Vista,D
+MG,Turvolândia,D
+SP,Adamantina,D
+SP,Arandu,D
+SP,Areias,D
+SP,Auriflama,D
+SP,Balbinos,D
+SP,Borá,D
+SP,Buritizal,D
+SP,Cafelândia,D
+SP,Cardoso,D
+SP,Cerqueira César,D
+SP,Conchal,D
+SP,Guaiçara,D
+SP,Icém,D
+SP,Iepê,D
+SP,Itaju,D
+SP,Meridiano,D
+SP,Reginópolis,D
+SP,Riolândia,D
+SP,Suzanápolis,D
+PR,Cafezal do Sul,D
+PR,Goioxim,D
+PR,Itaguajé,D
+PR,Miraselva,D
+PR,Rancho Alegre,D
+PR,Salto do Itararé,D
+PR,Tamboara,D
+PR,Tunas do Paraná,D
+PR,Tupãssi,D
+SC,Angelina,D
+SC,Monte Carlo,D
+SC,Saltinho,D
+RS,Carlos Gomes,D
+RS,Jóia,D
+RS,Mata,D
+RS,Pinhal Grande,D
+RS,Pinto Bandeira,D
+RS,Planalto,D
+RS,Serafina Corrêa,D
+RS,Ubiretama,D
+RS,União da Serra,D
+MS,Cassilândia,D
+MS,Itaquiraí,D
+MT,Alto Araguaia,D
+MT,Arenápolis,D
+MT,Itiquira,D
+MT,Luciara,D
+MT,Mirassol dOeste,D
+MT,Poxoréu,D
+MT,Rosário Oeste,D
+MT,Tabaporã,D
+MT,Tesouro,D
+MT,Torixoréu,D
+GO,Cezarina,D
+GO,Doverlândia,D
+GO,Edéia,D
+GO,São Domingos,D
+GO,Vila Propício,D
+RO,Colorado do Oeste,D
+RO,Santa Luzia DOeste,D
+RO,São Miguel do Guaporé,D
+RO,Candeias do Jamari,D
+RO,Castanheiras,D
+RO,Primavera de Rondônia,D
+RO,Seringueiras,D
+RO,Theobroma,D
+AC,Senador Guiomard,D
+RR,São João da Baliza,D
+PA,Brejo Grande do Araguaia,D
+PA,Igarapé-Açu,D
+PA,Melgaço,D
+PA,Mocajuba,D
+PA,Nova Esperança do Piriá,D
+PA,Oeiras do Pará,D
+PA,Peixe-Boi,D
+PA,Primavera,D
+PA,Santa Cruz do Arari,D
+PA,Santarém Novo,D
+PA,São João da Ponta,D
+TO,Aguiarnópolis,D
+TO,Aliança do Tocantins,D
+TO,Axixá do Tocantins,D
+TO,Barrolândia,D
+TO,Brejinho de Nazaré,D
+TO,Caseara,D
+TO,Itaporã do Tocantins,D
+TO,Monte Santo do Tocantins,D
+TO,Nazaré,D
+TO,Rio da Conceição,D
+TO,Sampaio,D
+TO,São Félix do Tocantins,D
+MA,Afonso Cunha,D
+MA,Altamira do Maranhão,D
+MA,Amapá do Maranhão,D
+MA,Anapurus,D
+MA,Apicum-Açu,D
+MA,Benedito Leite,D
+MA,Bom Lugar,D
+MA,Buriti,D
+MA,Capinzal do Norte,D
+MA,Centro do Guilherme,D
+MA,Cururupu,D
+MA,Dom Pedro,D
+MA,Fortuna,D
+MA,Governador Edison Lobão,D
+MA,Guimarães,D
+MA,Lago do Junco,D
+MA,Maracaçumé,D
+MA,Marajá do Sena,D
+MA,Mirador,D
+MA,Mirinzal,D
+MA,Olinda Nova do Maranhão,D
+MA,Passagem Franca,D
+MA,Pedro do Rosário,D
+MA,Peri Mirim,D
+MA,Peritoró,D
+MA,Porto Franco,D
+MA,Presidente Juscelino,D
+MA,Presidente Vargas,D
+MA,Santa Helena,D
+MA,Santo Antônio dos Lopes,D
+MA,São Benedito do Rio Preto,D
+MA,São Francisco do Maranhão,D
+MA,São João do Paraíso,D
+MA,São Mateus do Maranhão,D
+MA,São Pedro da Água Branca,D
+MA,São Raimundo das Mangabeiras,D
+MA,Satubinha,D
+MA,Serrano do Maranhão,D
+MA,Sucupira do Riachão,D
+MA,Urbano Santos,D
+PI,Boa Hora,D
+PI,Bom Princípio do Piauí,D
+PI,Boqueirão do Piauí,D
+PI,Cajazeiras do Piauí,D
+PI,Cocal dos Alves,D
+PI,Colônia do Gurguéia,D
+PI,Cristino Castro,D
+PI,Curral Novo do Piauí,D
+PI,Domingos Mourão,D
+PI,Elesbão Veloso,D
+PI,Ipiranga do Piauí,D
+PI,Jacobina do Piauí,D
+PI,Jatobá do Piauí,D
+PI,Lagoa Alegre,D
+PI,Massapê do Piauí,D
+PI,Monsenhor Gil,D
+PI,Monsenhor Hipólito,D
+PI,Monte Alegre do Piauí,D
+PI,Pavussu,D
+PI,Nova Santa Rita,D
+PI,Porto,D
+PI,São João da Canabrava,D
+PI,Tanque do Piauí,D
+PI,Valença do Piauí,D
+PI,Várzea Branca,D
+CE,Apuiarés,D
+CE,Chaval,D
+CE,Ibaretama,D
+CE,Milhã,D
+CE,Missão Velha,D
+CE,Pacujá,D
+CE,Potengi,D
+CE,Potiretama,D
+CE,Reriutaba,D
+CE,Saboeiro,D
+CE,São Luís do Curu,D
+CE,Tejuçuoca,D
+RN,Antônio Martins,D
+RN,Caiçara do Rio do Vento,D
+RN,Cerro Corá,D
+RN,Cruzeta,D
+RN,Jaçanã,D
+RN,Januário Cicco,D
+RN,Rio do Fogo,D
+RN,Pedra Grande,D
+RN,Pedra Preta,D
+RN,Pilões,D
+RN,Poço Branco,D
+RN,Rafael Godeiro,D
+RN,Santana do Seridó,D
+RN,São Bento do Norte,D
+RN,São Bento do Trairí,D
+RN,São Tomé,D
+RN,Serrinha dos Pintos,D
+RN,Sítio Novo,D
+PB,Aguiar,D
+PB,Amparo,D
+PB,Araçagi,D
+PB,Boa Vista,D
+PB,Casserengue,D
+PB,Congo,D
+PB,Gado Bravo,D
+PB,Gurjão,D
+PB,Juarez Távora,D
+PB,Lagoa de Dentro,D
+PB,Marcação,D
+PB,Mataraca,D
+PB,Mato Grosso,D
+PB,Nazarezinho,D
+PB,Nova Olinda,D
+PB,Piancó,D
+PB,Pedro Régis,D
+PB,Riachão,D
+PB,Riacho dos Cavalos,D
+PB,Santa Cecília,D
+PB,Santa Luzia,D
+PB,Serra Branca,D
+PB,Sobrado,D
+PB,Umbuzeiro,D
+PB,Vieirópolis,D
+PE,Ferreiros,D
+PE,Itapetim,D
+PE,Itaquitinga,D
+PE,São João,D
+PE,Tacaimbó,D
+AL,Jaramataia,D
+AL,Maribondo,D
+AL,Novo Lino,D
+AL,Olho dÁgua do Casado,D
+AL,Pariconha,D
+SE,Canhoba,D
+SE,Rosário do Catete,D
+SE,Siriri,D
+BA,Aporá,D
+BA,Arataca,D
+BA,Baixa Grande,D
+BA,Bonito,D
+BA,Cafarnaum,D
+BA,Capela do Alto Alegre,D
+BA,Caraíbas,D
+BA,Chorrochó,D
+BA,Coribe,D
+BA,Cotegipe,D
+BA,Crisópolis,D
+BA,Dário Meira,D
+BA,Dom Macedo Costa,D
+BA,Formosa do Rio Preto,D
+BA,Governador Mangabeira,D
+BA,Heliópolis,D
+BA,Iaçu,D
+BA,Igrapiúna,D
+BA,Ipecaetá,D
+BA,Iraquara,D
+BA,Itabela,D
+BA,Itagimirim,D
+BA,Iuiu,D
+BA,Laje,D
+BA,Macajuba,D
+BA,Mairi,D
+BA,Malhada,D
+BA,Maraú,D
+BA,Marcionílio Souza,D
+BA,Muniz Ferreira,D
+BA,Nova Canaã,D
+BA,Paramirim,D
+BA,Ribeirão do Largo,D
+BA,Santa Bárbara,D
+BA,Saúde,D
+BA,Taperoá,D
+BA,Uibaí,D
+BA,Uruçuca,D
+BA,Wenceslau Guimarães,D
+MG,Areado,D
+MG,Bom Repouso,D
+MG,Cantagalo,D
+MG,Cascalho Rico,D
+MG,Catas Altas da Noruega,D
+MG,Congonhal,D
+MG,Divisa Alegre,D
+MG,Estrela do Indaiá,D
+MG,Ferros,D
+MG,Fortuna de Minas,D
+MG,Gameleiras,D
+MG,Ingaí,D
+MG,Iraí de Minas,D
+MG,Itumirim,D
+MG,Jacuí,D
+MG,Lagamar,D
+MG,Martins Soares,D
+MG,Minduri,D
+MG,Miravânia,D
+MG,Onça de Pitangui,D
+MG,Patis,D
+MG,Pedrinópolis,D
+MG,Pequeri,D
+MG,Piau,D
+MG,Piedade de Caratinga,D
+MG,Ponto Chique,D
+MG,Porto Firme,D
+MG,Prudente de Morais,D
+MG,Santo Hipólito,D
+MG,São João da Ponte,D
+MG,São Romão,D
+MG,Senhora do Porto,D
+MG,Serranos,D
+MG,Taquaraçu de Minas,D
+MG,Toledo,D
+MG,União de Minas,D
+MG,Varjão de Minas,D
+MG,Virgínia,D
+MG,Virgolândia,D
+SP,Analândia,D
+SP,Bento de Abreu,D
+SP,Coronel Macedo,D
+SP,Duartina,D
+SP,Echaporã,D
+SP,Estrela do Norte,D
+SP,Fernão,D
+SP,Glicério,D
+SP,Igaratá,D
+SP,Jaci,D
+SP,Marinópolis,D
+SP,Nantes,D
+SP,Pereiras,D
+SP,Platina,D
+SP,Sandovalina,D
+SP,Torrinha,D
+SP,Zacarias,D
+PR,Faxinal,D
+PR,Nova América da Colina,D
+PR,Paranacity,D
+PR,Pinhal de São Bento,D
+SC,Cunhataí,D
+SC,Iomerê,D
+RS,Centenário,D
+RS,Esmeralda,D
+RS,Glorinha,D
+RS,Ipê,D
+RS,Lagoão,D
+RS,Vista Alegre,D
+RS,Vitória das Missões,D
+MT,Canabrava do Norte,D
+MT,Denise,D
+MT,Itaúba,D
+MT,Juruena,D
+MT,Matupá,D
+MT,Novo Santo Antônio,D
+MT,Porto Alegre do Norte,D
+MT,Querência,D
+MT,Ribeirão Cascalheira,D
+MT,Ribeirãozinho,D
+MT,São José do Xingu,D
+MT,Santa Cruz do Xingu,D
+MT,União do Sul,D
+MT,Vale de São Domingos,D
+MT,Vera,D
+GO,Acreúna,D
+GO,Aloândia,D
+GO,Aporé,D
+GO,Avelinópolis,D
+GO,Baliza,D
+GO,Bom Jardim de Goiás,D
+GO,Bonópolis,D
+GO,Brazabrantes,D
+GO,Buriti Alegre,D
+GO,Cachoeira Dourada,D
+GO,Caiapônia,D
+GO,Caldas Novas,D
+GO,Caldazinha,D
+GO,Campinaçu,D
+GO,Colinas do Sul,D
+GO,Gameleira de Goiás,D
+GO,Goianira,D
+GO,Gouvelândia,D
+GO,Heitoraí,D
+GO,Hidrolândia,D
+GO,Israelândia,D
+GO,Jandaia,D
+GO,Mambaí,D
+GO,Monte Alegre de Goiás,D
+GO,Montes Claros de Goiás,D
+GO,Nova Aurora,D
+GO,Nova Roma,D
+GO,Palminópolis,D
+GO,Pontalina,D
+GO,Posse,D
+GO,Santa Terezinha de Goiás,D
+GO,São Simão,D
+GO,Teresina de Goiás,D
+GO,Três Ranchos,D
+GO,Uruana,D
+GO,Vila Boa,D
+RO,Novo Horizonte do Oeste,D
+RO,Chupinguaia,D
+RO,Parecis,D
+RO,Vale do Anari,D
+AC,Bujari,D
+PA,Colares,D
+PA,Palestina do Pará,D
+PA,São Francisco do Pará,D
+PA,Terra Alta,D
+TO,Alvorada,D
+TO,Aparecida do Rio Negro,D
+TO,Aragominas,D
+TO,Barra do Ouro,D
+TO,Bom Jesus do Tocantins,D
+TO,Cariri do Tocantins,D
+TO,Chapada da Natividade,D
+TO,Crixás do Tocantins,D
+TO,Fátima,D
+TO,Itaguatins,D
+TO,Jaú do Tocantins,D
+TO,Lagoa do Tocantins,D
+TO,Lavandeira,D
+TO,Lizarda,D
+TO,Luzinópolis,D
+TO,Mateiros,D
+TO,Monte do Carmo,D
+TO,Muricilândia,D
+TO,Nova Rosalândia,D
+TO,Novo Acordo,D
+TO,Novo Jardim,D
+TO,Oliveira de Fátima,D
+TO,Colméia,D
+TO,Pium,D
+TO,Ponte Alta do Bom Jesus,D
+TO,Presidente Kennedy,D
+TO,Pugmil,D
+TO,Rio dos Bois,D
+TO,Sandolândia,D
+TO,Santa Fé do Araguaia,D
+TO,Santa Maria do Tocantins,D
+TO,Santa Rita do Tocantins,D
+TO,São Salvador do Tocantins,D
+TO,Taguatinga,D
+TO,Tupirama,D
+TO,Tupiratins,D
+MA,Bacurituba,D
+MA,Belágua,D
+MA,Bela Vista do Maranhão,D
+MA,Brejo de Areia,D
+MA,Cachoeira Grande,D
+MA,Cajapió,D
+MA,Cajari,D
+MA,Cedral,D
+MA,Cidelândia,D
+MA,Feira Nova do Maranhão,D
+MA,Governador Archer,D
+MA,Governador Luiz Rocha,D
+MA,Junco do Maranhão,D
+MA,Magalhães de Almeida,D
+MA,Mata Roma,D
+MA,Montes Altos,D
+MA,Nova Colinas,D
+MA,Nova Iorque,D
+MA,Olho dÁgua das Cunhãs,D
+MA,Paraibano,D
+MA,Presidente Sarney,D
+MA,Ribamar Fiquene,D
+MA,Sambaíba,D
+MA,Santa Filomena do Maranhão,D
+MA,São Félix de Balsas,D
+MA,São João do Carú,D
+MA,Turilândia,D
+MA,Viana,D
+MA,Vila Nova dos Martírios,D
+PI,Barro Duro,D
+PI,Campo Largo do Piauí,D
+PI,Capitão Gervásio Oliveira,D
+PI,Francisco Ayres,D
+PI,Gilbués,D
+PI,Guaribas,D
+PI,Jerumenha,D
+PI,Joaquim Pires,D
+PI,Lagoa de São Francisco,D
+PI,Landri Sales,D
+PI,Matias Olímpio,D
+PI,Miguel Leão,D
+PI,Morro Cabeça no Tempo,D
+PI,Nossa Senhora dos Remédios,D
+PI,Novo Santo Antônio,D
+PI,Olho DÁgua do Piauí,D
+PI,Pajeú do Piauí,D
+PI,Palmeira do Piauí,D
+PI,Passagem Franca do Piauí,D
+PI,Pau DArco do Piauí,D
+PI,Redenção do Gurguéia,D
+PI,Ribeira do Piauí,D
+PI,Santo Inácio do Piauí,D
+PI,São José do Peixe,D
+PI,Sigefredo Pacheco,D
+CE,Coreaú,D
+CE,Graça,D
+CE,Miraíma,D
+CE,Penaforte,D
+CE,Senador Sá,D
+CE,Tarrafas,D
+RN,Japi,D
+RN,Pureza,D
+RN,Vila Flor,D
+PB,Arara,D
+PB,Barra de Santana,D
+PB,Caldas Brandão,D
+PB,Catingueira,D
+PB,Cubati,D
+PB,Cuité de Mamanguape,D
+PB,Duas Estradas,D
+PB,Itatuba,D
+PB,Logradouro,D
+PB,Manaíra,D
+PB,Parari,D
+PB,Pocinhos,D
+PB,Prata,D
+PB,Santa Teresinha,D
+PB,São João do Cariri,D
+PB,São José do Bonfim,D
+PB,São José dos Cordeiros,D
+PB,Serra da Raiz,D
+PB,Serra Grande,D
+PB,Serraria,D
+PB,Sossêgo,D
+PE,Buenos Aires,D
+PE,Camutanga,D
+PE,Inajá,D
+PE,Mirandiba,D
+AL,Olho dÁgua Grande,D
+AL,Porto Real do Colégio,D
+SE,Muribeca,D
+BA,Érico Cardoso,D
+BA,Antas,D
+BA,Apuarema,D
+BA,Araçás,D
+BA,Aramari,D
+BA,Botuporã,D
+BA,Brejolândia,D
+BA,Caravelas,D
+BA,Feira da Mata,D
+BA,Ibiquera,D
+BA,Inhambupe,D
+BA,Ipupiara,D
+BA,Itanagra,D
+BA,Matina,D
+BA,Nova Soure,D
+BA,Ouriçangas,D
+BA,Piraí do Norte,D
+BA,Ribeira do Amparo,D
+BA,Sítio do Quinto,D
+BA,Várzea da Roça,D
+BA,Varzedo,D
+BA,Vereda,D
+BA,Wagner,D
+MG,Arapuá,D
+MG,Araújos,D
+MG,Bom Sucesso,D
+MG,Camacho,D
+MG,Campina Verde,D
+MG,Cruzeiro da Fortaleza,D
+MG,Durandé,D
+MG,Engenheiro Navarro,D
+MG,Japaraíba,D
+MG,Quartel Geral,D
+MG,Santana do Garambéu,D
+MG,São Francisco de Sales,D
+MG,São José da Varginha,D
+MG,São José do Mantimento,D
+MG,São Sebastião do Oeste,D
+MG,Veríssimo,D
+SP,Boa Esperança do Sul,D
+SP,Campos Novos Paulista,D
+SP,Dobrada,D
+SP,Nova Castilho,D
+SP,Óleo,D
+SP,Planalto,D
+SP,Pontes Gestal,D
+SP,Queiroz,D
+SP,União Paulista,D
+RS,Alegria,D
+RS,Barra Funda,D
+RS,Eugênio de Castro,D
+RS,Morrinhos do Sul,D
+RS,Paverama,D
+MT,Acorizal,D
+MT,Araputanga,D
+MT,Barão de Melgaço,D
+MT,Conquista DOeste,D
+MT,Cotriguaçu,D
+MT,Gaúcha do Norte,D
+MT,Indiavaí,D
+MT,Jangada,D
+MT,Nova Nazaré,D
+MT,Planalto da Serra,D
+MT,Porto dos Gaúchos,D
+MT,Porto Estrela,D
+MT,São José dos Quatro Marcos,D
+MT,Santo Afonso,D
+MT,Salto do Céu,D
+MT,Santa Rita do Trivelato,D
+MT,Serra Nova Dourada,D
+MT,Nova Guarita,D
+MT,Nova Maringá,D
+GO,Adelândia,D
+GO,Amaralina,D
+GO,Araguapaz,D
+GO,Arenópolis,D
+GO,Buriti de Goiás,D
+GO,Caturaí,D
+GO,Córrego do Ouro,D
+GO,Damianópolis,D
+GO,Davinópolis,D
+GO,Diorama,D
+GO,Edealina,D
+GO,Divinópolis de Goiás,D
+GO,Guarani de Goiás,D
+GO,Itauçu,D
+GO,Jaupaci,D
+GO,Jesúpolis,D
+GO,Marzagão,D
+GO,Maurilândia,D
+GO,Mutunópolis,D
+GO,Nazário,D
+GO,Nova Glória,D
+GO,Novo Planalto,D
+GO,Panamá,D
+GO,Petrolina de Goiás,D
+GO,Porteirão,D
+GO,Portelândia,D
+GO,Santa Rosa de Goiás,D
+GO,Santa Tereza de Goiás,D
+GO,Santo Antônio da Barra,D
+GO,Turvânia,D
+GO,Vicentinópolis,D
+TO,São Valério,D
+MA,Maranhãozinho,D
+CE,Ibiapina,D
+RN,Barcelona,D
+PB,Caiçara,D
+PB,Curral de Cima,D
+PB,Ibiara,D
+PB,Imaculada,D
+MT,Alto Boa Vista,D
+MT,Alto Taquari,D
+MT,Cocalinho,D
+MT,Figueirópolis DOeste,D
+MT,Glória DOeste,D
+MT,Vila Rica,D
+GO,Britânia,D
+GO,São Francisco de Goiás,D
