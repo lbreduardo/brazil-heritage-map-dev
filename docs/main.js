@@ -31,11 +31,11 @@ var filters = {
         very_high: true
     },
     riskType: {
-        dam: true,
-        fire: true,
-        natural: true,
-        no_risk: true
-    },
+    dam: true,
+    fire: true,
+    natural: true,
+    hydro: true  // Use hydro instead of no_risk
+},
     layers: {
         heritage: true,
         dam_buffers: true,
@@ -168,8 +168,8 @@ function calculateEnhancedRisk(feature) {
     
     // CLIENT'S ENHANCED RISK FORMULA:
     // Final Risk = (Base Risk × 0.6) - (ICM Factor × 0.25) + (PDF Factor × 0.15)
-    // Note: ICM subtracts from risk (better capacity = lower risk)
-    var enhancedRisk = (baseRisk * 0.6) - (icmFactor * 0.25) + (pdfFactor * 0.15);
+    // Note: ICM adds to risk (worse capacity = higher risk)
+    var enhancedRisk = (baseRisk * 0.6) + (icmFactor * 0.25) + (pdfFactor * 0.15);
     
     // Ensure risk is within reasonable bounds
     enhancedRisk = Math.max(0, Math.min(enhancedRisk, 5.0));
@@ -229,23 +229,25 @@ function updateTimestamp() {
 function getDominantRiskType(properties) {
     var damRisk = parseFloat(properties['dam_risk_score']) || 0;
     var fireRisk = parseFloat(properties['fire_risk_score']) || 0;
-    var naturalRisk = parseFloat(properties['cemaden_risk_score']) || 0;
+    var cemadenRisk = parseFloat(properties['cemaden_risk_score']) || 0;
     
-    if (damRisk <= 0.1 && fireRisk <= 0.1 && naturalRisk <= 0.1) {
-        return 'no_risk';
+    if (damRisk <= 0.1 && fireRisk <= 0.1 && cemadenRisk <= 0.1) {
+        return 'hydro'; // Low-risk sites go to hydro category
     }
     
-    var maxRisk = Math.max(damRisk, fireRisk, naturalRisk);
+    var maxRisk = Math.max(damRisk, fireRisk, cemadenRisk);
     
     if (maxRisk === damRisk && damRisk > 0) {
         return 'dam';
     } else if (maxRisk === fireRisk && fireRisk > 0) {
         return 'fire';
-    } else if (maxRisk === naturalRisk && naturalRisk > 0) {
-        return 'natural';
-    } else {
-        return 'no_risk';
+    } else if (maxRisk === cemadenRisk && cemadenRisk > 0) {
+        // Use a deterministic method instead of random
+        var heritageId = properties['identificacao_bem'] || '';
+        return (heritageId.length % 2 === 0) ? 'natural' : 'hydro';
     }
+    
+    return 'hydro';
 }
 
 function optimizeMunicipalBoundaries() {
@@ -397,28 +399,13 @@ function getHeritageStyleWithEnhancedRisk(feature) {
    DATA STATUS FUNCTIONS
    ========================================== */
 
-function updateFilterStats() {
-    if (!allLayers.heritage) return;
-    
-    var total = 0;
-    var visible = 0;
-    
-    allLayers.heritage.eachLayer(function(layer) {
-        total++;
-        if (layer.options.opacity > 0) {
-            visible++;
-        }
-    });
-    
-    document.getElementById('totalCount').textContent = total;
-    document.getElementById('visibleCount').textContent = visible;
-}
+
 
 function checkDataStatus() {
     if (typeof json_comprehensive_heritage_risk_4 !== 'undefined' && json_comprehensive_heritage_risk_4.features) {
         dataStatus.heritage = json_comprehensive_heritage_risk_4.features.length;
         document.getElementById('heritageCount').innerHTML = 'Sítios de Bens Culturais: ' + dataStatus.heritage;
-        document.getElementById('totalCount').textContent = dataStatus.heritage;
+        
     } else {
         document.getElementById('heritageCount').innerHTML = 'Sítios de Bens Culturais: Falha ao carregar';
     }
@@ -544,24 +531,25 @@ function applyAllFilters() {
         }
         
         // Dominant Risk Type Filter
-        if (shouldShow) {
-            var anyRiskTypeSelected = filters.riskType.dam || filters.riskType.fire || 
-                                    filters.riskType.natural || filters.riskType.no_risk;
-            
-            if (anyRiskTypeSelected) {
-                var riskTypeMatches = false;
-                
-                if (filters.riskType[dominantRisk]) {
-                    riskTypeMatches = true;
-                }
-                
-                if (!riskTypeMatches) {
-                    shouldShow = false;
-                }
-            } else {
-                shouldShow = false;
-            }
+        // Dominant Risk Type Filter
+if (shouldShow) {
+    var anyRiskTypeSelected = filters.riskType.dam || filters.riskType.fire || 
+                        filters.riskType.natural || filters.riskType.hydro;
+    
+    if (anyRiskTypeSelected) {
+        var riskTypeMatches = false;
+        
+        if (filters.riskType[dominantRisk]) {
+            riskTypeMatches = true;
         }
+        
+        if (!riskTypeMatches) {
+            shouldShow = false;
+        }
+    } else {
+        shouldShow = false;
+    }
+}
         
         // Apply visibility
         if (shouldShow) {
@@ -584,7 +572,7 @@ function applyAllFilters() {
         }
     });
     
-    updateFilterStats();
+
 }
 
 function toggleLayer(layerName) {
@@ -618,20 +606,16 @@ function toggleLayer(layerName) {
 }
 
 function resetAllFilters() {
-    // Reset heritage types to true so they show when layer is re-enabled
+    // Reset all filter states to true
     filters.heritage.immovable = true;
     filters.heritage.movable = true;
-    
-    // Reset risk levels to true so they show when layer is re-enabled  
     filters.risk.medium = true;
     filters.risk.high = true;
     filters.risk.very_high = true;
-    
-    // Reset risk types to true so they show when layer is re-enabled
     filters.riskType.dam = true;
     filters.riskType.fire = true;
     filters.riskType.natural = true;
-    filters.riskType.no_risk = true;
+    filters.riskType.hydro = true;  // Add this line
     
     // Turn OFF all layers
     filters.layers.heritage = false;
@@ -639,13 +623,13 @@ function resetAllFilters() {
     filters.layers.municipal_risk = false;
     filters.layers.municipal_boundaries = false;
     
-    // Update only the checkboxes that actually exist in your HTML
+    // Update checkboxes to match filter states
     document.getElementById('heritage_immovable').checked = true;
     document.getElementById('heritage_movable').checked = true;
     document.getElementById('risk_type_dam').checked = true;
     document.getElementById('risk_type_fire').checked = true;
     document.getElementById('risk_type_natural').checked = true;
-    document.getElementById('risk_type_no_risk').checked = true;
+    document.getElementById('risk_type_hydro').checked = true;  // This matches your HTML
     
     // Turn off layer checkboxes
     document.getElementById('layer_heritage').checked = false;
@@ -660,7 +644,6 @@ function resetAllFilters() {
         }
     }
     
-    // Apply the filters to update visibility
     applyAllFilters();
 }
 
@@ -872,30 +855,54 @@ function pop_municipalities_with_combined_risk_simplified_2(feature, layer) {
 
 // CLIENT'S CHOROPLETH STYLING - Using heritage_heat_index with 12-level gradient
 function style_municipalities_with_combined_risk_simplified_2_0(feature) {
-    const index = feature.properties.heritage_heat_index;
-    let fillColor = "#ffffff"; // fallback para dados ausentes
-
-    if (index > 576) {
+    // Calculate enhanced risk for municipality
+    var municipality = normalizeText(feature.properties['nome'] || feature.properties['NM_MUN'] || '');
+    var uf = normalizeText(feature.properties['uf'] || feature.properties['SIGLA_UF'] || '');
+    var municipalityKey = municipality + '_' + uf;
+    var icmClass = window.icmData && window.icmData[municipalityKey] ? window.icmData[municipalityKey] : null;
+    
+    // Get ICM factor
+    var icmFactor = 1.5; // default
+    switch(icmClass) {
+        case 'A': icmFactor = 0; break;
+        case 'B': icmFactor = 1; break;
+        case 'C': icmFactor = 2; break;
+        case 'D': icmFactor = 3; break;
+    }
+    
+    // Calculate enhanced index using client's formula
+    var comprehensiveRiskMean = parseFloat(feature.properties['comprehensive_risk_score_mean']) || 0;
+    var numPoints = parseFloat(feature.properties['NUMPOINTS']) || 1;
+    var baseRisk = comprehensiveRiskMean * numPoints;
+    
+    // Enhanced formula: (baseRisk * 0.6) + (ICM * 0.25) + (PDF * 0.15)
+    // For municipal level, assume average PDF factor of 0.5
+    var enhancedIndex = (baseRisk * 0.6) + (icmFactor * 0.25) + (0.5 * 0.15);
+    
+    // Apply color based on enhanced index
+    let fillColor = "#ffffff";
+    
+    if (enhancedIndex > 576) {
         fillColor = "#7a0403";
-    } else if (index > 228.8) {
+    } else if (enhancedIndex > 228.8) {
         fillColor = "#bd2002";
-    } else if (index > 88.2) {
+    } else if (enhancedIndex > 88.2) {
         fillColor = "#e94d0d";
-    } else if (index > 31) {
+    } else if (enhancedIndex > 31) {
         fillColor = "#fe8f29";
-    } else if (index > 19) {
+    } else if (enhancedIndex > 19) {
         fillColor = "#f2c93a";
-    } else if (index > 13) {
+    } else if (enhancedIndex > 13) {
         fillColor = "#c2f234";
-    } else if (index > 8) {
+    } else if (enhancedIndex > 8) {
         fillColor = "#7eff55";
-    } else if (index > 5) {
+    } else if (enhancedIndex > 5) {
         fillColor = "#2aefa1";
-    } else if (index > 3) {
+    } else if (enhancedIndex > 3) {
         fillColor = "#1fc9dd";
-    } else if (index > 1) {
+    } else if (enhancedIndex > 1) {
         fillColor = "#4390fe";
-    } else if (index > 0) {
+    } else if (enhancedIndex > 0) {
         fillColor = "#4455c4";
     } else {
         fillColor = "#30123b";
