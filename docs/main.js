@@ -610,15 +610,15 @@ function toggleLayer(layerName) {
 }
 
 function resetAllFilters() {
-    // Reset all filter states to true
-    filters.heritage.immovable = true;
-    filters.heritage.movable = true;
-    filters.risk.medium = true;
-    filters.risk.high = true;
-    filters.risk.very_high = true;
-    filters.riskType.dam = true;
-    filters.riskType.fire = true;
-    filters.riskType.geo_hydro = true;  // Merged natural + hydro
+    // Reset all filter states to false
+    filters.heritage.immovable = false;
+    filters.heritage.movable = false;
+    filters.risk.medium = false;
+    filters.risk.high = false;
+    filters.risk.very_high = false;
+    filters.riskType.dam = false;
+    filters.riskType.fire = false;
+    filters.riskType.geo_hydro = false;  // Merged natural + hydro
     
     // Turn OFF all layers
     filters.layers.heritage = false;
@@ -627,11 +627,11 @@ function resetAllFilters() {
     filters.layers.municipal_boundaries = false;
     
     // Update checkboxes to match filter states
-    document.getElementById('heritage_immovable').checked = true;
-    document.getElementById('heritage_movable').checked = true;
-    document.getElementById('risk_type_dam').checked = true;
-    document.getElementById('risk_type_fire').checked = true;
-    document.getElementById('risk_type_geo_hydro').checked = true;  // Merged checkbox
+    document.getElementById('heritage_immovable').checked = false;
+    document.getElementById('heritage_movable').checked = false;
+    document.getElementById('risk_type_dam').checked = false;
+    document.getElementById('risk_type_fire').checked = false;
+    document.getElementById('risk_type_geo_hydro').checked = false;  // Merged checkbox
     
     // Turn off layer checkboxes
     document.getElementById('layer_heritage').checked = false;
