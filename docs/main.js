@@ -560,7 +560,8 @@ function toggleLayer(layerName) {
                 console.log('Added layer to map');
             }
             if (layerName === 'heritage') {                
-                applyAllFilters();
+                console.log('Heritage layer is always on');
+                return;
             }
         } else {
             if (map.hasLayer(layer)) {
@@ -576,7 +577,6 @@ function toggleLayer(layerName) {
 function resetAllFilters() {
     // Reset all filter states to false
     filters.heritage.immovable = false;
-    filters.heritage.movable = false;
     filters.riskType.dam = false;
     filters.riskType.fire = false;
     filters.riskType.geo_hydro = false;  // Merged natural + hydro
@@ -595,13 +595,13 @@ function resetAllFilters() {
     document.getElementById('risk_type_geo_hydro').checked = false;  // Merged checkbox
     
     // Turn off layer checkboxes
-    document.getElementById('layer_heritage').checked = false;
     document.getElementById('layer_dam_buffers').checked = false;
     document.getElementById('layer_municipal_risk').checked = false;
     document.getElementById('layer_municipal_boundaries').checked = false;
     
     // Remove all layers from map
     for (var layerName in allLayers) {
+        if (layerName === 'heritage') continue; // mantém ligada
         if (allLayers[layerName] && map.hasLayer(allLayers[layerName])) {
             map.removeLayer(allLayers[layerName]);
         }
