@@ -595,14 +595,7 @@ function toggleLayer(layerName) {
                 map.addLayer(layer);
                 console.log('Added layer to map');
             }
-            if (layerName === 'heritage') {
-                filters.heritage.immovable = true;
-                filters.heritage.movable = true;
-
-                // 🔧 Atualiza visualmente os checkboxes dos filtros
-                document.getElementById('heritage_immovable').checked = true;
-                document.getElementById('heritage_movable').checked = true;
-                
+            if (layerName === 'heritage') {                
                 applyAllFilters();
             }
         } else {
@@ -620,9 +613,9 @@ function resetAllFilters() {
     // Reset all filter states to false
     filters.heritage.immovable = false;
     filters.heritage.movable = false;
-    filters.risk.medium = false;
-    filters.risk.high = false;
-    filters.risk.very_high = false;
+    filters.risk.medium = true;
+    filters.risk.high = true;
+    filters.risk.very_high = true
     filters.riskType.dam = false;
     filters.riskType.fire = false;
     filters.riskType.geo_hydro = false;  // Merged natural + hydro
