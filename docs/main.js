@@ -596,6 +596,13 @@ function toggleLayer(layerName) {
                 console.log('Added layer to map');
             }
             if (layerName === 'heritage') {
+                filters.heritage.immovable = true;
+                filters.heritage.movable = true;
+
+                // 🔧 Atualiza visualmente os checkboxes dos filtros
+                document.getElementById('heritage_immovable').checked = true;
+                document.getElementById('heritage_movable').checked = true;
+                
                 applyAllFilters();
             }
         } else {
