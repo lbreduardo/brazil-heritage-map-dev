@@ -582,7 +582,7 @@ function resetAllFilters() {
     filters.riskType.geo_hydro = false;  // Merged natural + hydro
     
     // Turn OFF all layers
-    filters.layers.heritage = false;
+    filters.layers.heritage = true;
     filters.layers.dam_buffers = false;
     filters.layers.municipal_risk = false;
     filters.layers.municipal_boundaries = false;
