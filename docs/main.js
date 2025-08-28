@@ -25,11 +25,6 @@ var filters = {
         immovable: true,
         movable: true
     },
-    risk: {
-        medium: true,
-        high: true,
-        very_high: true
-    },
     riskType: {
     dam: true,
     fire: true,
@@ -450,11 +445,6 @@ function toggleHeritageFilter(type) {
     applyAllFilters();
 }
 
-function toggleRiskFilter(level) {
-    filters.risk[level] = !filters.risk[level];
-    document.getElementById('risk_' + level).checked = filters.risk[level];
-    applyAllFilters();
-}
 
 function toggleRiskTypeFilter(type) {
     filters.riskType[type] = !filters.riskType[type];
@@ -503,33 +493,7 @@ function applyAllFilters() {
             shouldShow = false;
         }
         
-        // Risk Level Filter - Using enhanced risk
-        if (shouldShow) {
-            var riskLevelMatches = false;
-            var anyRiskLevelSelected = filters.risk.medium || filters.risk.high || filters.risk.very_high;
-            
-            if (anyRiskLevelSelected) {
-                if (filters.risk.medium && enhancedRisk > 0 && enhancedRisk <= 0.72) {
-                    riskLevelMatches = true;
-                }
-                if (filters.risk.high && enhancedRisk > 0.72 && enhancedRisk <= 1.5) {
-                    riskLevelMatches = true;
-                }
-                if (filters.risk.very_high && enhancedRisk > 1.5) {
-                    riskLevelMatches = true;
-                }
-                
-                if (enhancedRisk === 0 && filters.risk.medium) {
-                    riskLevelMatches = true;
-                }
-                
-                if (!riskLevelMatches) {
-                    shouldShow = false;
-                }
-            } else {
-                shouldShow = false;
-            }
-        }
+       
         
         // Dominant Risk Type Filter
         // Dominant Risk Type Filter
@@ -613,9 +577,6 @@ function resetAllFilters() {
     // Reset all filter states to false
     filters.heritage.immovable = false;
     filters.heritage.movable = false;
-    filters.risk.medium = true;
-    filters.risk.high = true;
-    filters.risk.very_high = true
     filters.riskType.dam = false;
     filters.riskType.fire = false;
     filters.riskType.geo_hydro = false;  // Merged natural + hydro
