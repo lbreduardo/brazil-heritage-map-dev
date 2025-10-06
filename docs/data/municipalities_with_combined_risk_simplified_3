@@ -1,0 +1,44 @@
+import json
+
+# Caminhos dos arquivos
+input_file = "municipalities_with_combined_risk_simplified_2.js"
+output_file = "municipalities_with_combined_risk_simplified_3.js"
+
+# Prefixo da variável JS
+prefix = "var json_municipalities_with_combined_risk_simplified_2 = "
+
+# Lê o conteúdo JS e extrai o JSON
+with open(input_file, 'r', encoding='utf-8') as f:
+    js_content = f.read()
+
+if not js_content.startswith(prefix):
+    raise ValueError("Arquivo não contém o prefixo JS esperado.")
+
+json_data = json.loads(js_content[len(prefix):])
+
+# Função de cálculo
+def calculate_index(num_points, risk_score):
+    if risk_score is None or num_points == 0:
+        return 0.0
+    return num_points * (1 + risk_score)
+
+# Atualiza cada município
+for feature in json_data["features"]:
+    props = feature["properties"]
+    num_points = props.get("NUMPOINTS") or 0
+    risk_score = props.get("comprehensive_risk_score_mean")
+
+    index = calculate_index(num_points, risk_score)
+    props["heritage_heat_index"] = round(index, 2)
+
+    if index == 0:
+        props["heritage_heat_class"] = "none"
+    elif index < 30:
+        props["heritage_heat_class"] = "low"
+    else:
+        props["heritage_heat_class"] = "high"
+
+# Salva o novo JS com o mesmo formato
+with open(output_file, 'w', encoding='utf-8') as f:
+    f.write(prefix)
+    json.dump(json_data, f, ensure_ascii=False)

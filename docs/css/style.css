@@ -1,0 +1,212 @@
+html, body, #map {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #3498db;
+    margin: 0 0 15px 0;
+    padding-bottom: 5px;
+}
+
+.filter-header button {
+    background: rgba(52, 152, 219, 0.9);
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.filter-panel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(20, 30, 40, 0.95);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    z-index: 1000;
+    font-size: 14px;
+}
+
+.filter-panel h3 {
+    color: #3498db;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section h4 {
+    margin: 0 0 10px 0;
+    color: #ecf0f1;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.filter-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.filter-checkbox:hover {
+    background: rgba(52, 152, 219, 0.2);
+}
+
+.filter-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.filter-checkbox .symbol {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    border: 2px solid white;
+}
+
+.symbol.circle {
+    border-radius: 50%;
+}
+
+.symbol.diamond {
+    width: 10px;
+    height: 10px;
+    margin-right: 14px;
+    border: 2px solid #3498db;
+    transform: rotate(45deg);
+}
+
+.symbol.triangle {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid #27ae60;
+    border-top: none;
+    background: none !important;
+    margin-right: 12px;
+    filter: drop-shadow(0 0 0 2px white);
+}
+
+.symbol.triangle[style*="background-color: #27ae60"] {
+    border-bottom-color: #27ae60 !important;
+}
+
+.risk-color-box {
+    width: 20px;
+    height: 15px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+}
+
+.leaflet-popup-content-wrapper {
+    background: rgba(30, 40, 50, 0.95);
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.leaflet-popup-content {
+    margin: 15px;
+}
+
+.leaflet-popup-content table {
+    background: transparent;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.leaflet-popup-content th {
+    background: rgba(52, 152, 219, 0.8);
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.leaflet-popup-content td {
+    background: rgba(40, 50, 60, 0.8);
+    color: #ffffff;
+    padding: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.heritage-title {
+    background: rgba(231, 76, 60, 0.9) !important;
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.risk-score {
+    background: rgba(230, 126, 34, 0.9) !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.filter-toggle {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: rgba(52, 152, 219, 0.9);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1001;
+    font-size: 14px;
+}
+
+.filter-toggle:hover {
+    background: rgba(41, 128, 185, 1);
+}
+
+.data-status {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(20, 30, 40, 0.95);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 1000;
+}
+
+.loading-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 10000;
+    display: none;
+}
+
+.risk-icon {
+    margin-right: 10px;
+}
