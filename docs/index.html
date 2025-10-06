@@ -1,203 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        
-        <!-- External CSS Libraries -->
-        <link rel="stylesheet" href="css/leaflet.css">
-        <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
+
+        <link rel="stylesheet" href="css/leaflet.css"> <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
         <link rel="stylesheet" href="css/qgis2web.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/leaflet.photon.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
-        
-        <!-- Custom Styles -->
-        <link rel="stylesheet" href="styles.css">
-        
-        <!-- External JavaScript Libraries -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-        
-        <!-- ICM Data - MOVED TO HEAD FOR PRIORITY LOADING -->
-        <script src="icm_data.js"></script>
-        
+        <link rel="stylesheet" href="css/style.css"/>
+
         <title>Avaliação de Risco dos Bens Culturais do Brasil - Mapa Interativo</title>
     </head>
     <body>
-        <!-- Map Container -->
         <div id="map"></div>
-        
-        <!-- Filter Toggle Button -->
-        <button class="filter-toggle" onclick="toggleFilterPanel()">🔧 Filtros</button>
-        
-        <!-- Advanced Filter Panel -->
+
         <div class="filter-panel" id="filterPanel">
-            <h3>Filtros</h3>
-            
-          
-            
-            <!-- Heritage Type Filter -->
-            <div class="filter-section">
-                <h4>🏛 Bem Cultural Material</h4>
-                <div class="filter-checkbox" onclick="toggleHeritageFilter('immovable')">
-                    <input type="checkbox" id="heritage_immovable" checked>
-                    <div class="symbol triangle" style="background-color: #27ae60;"></div>
-                    <span>Bens Imóveis</span>
-                </div>
-                <div class="filter-checkbox" onclick="toggleHeritageFilter('movable')">
-                    <input type="checkbox" id="heritage_movable" checked>
-                    <div class="symbol diamond" style="background-color: #3498db;"></div>
-                    <span>Bens Móveis ou Integrados</span>
-                </div>
+            <div class="filter-header">
+                <h3>🎯 Filtros do Mapa</h3>
+                <button onclick="toggleFilterPanel()"> - </button>
             </div>
-            
-            <!-- Risk Type Filter -->
-            <div class="filter-section">
-    <h4>🔥 Riscos</h4>
-    <div class="filter-checkbox" onclick="toggleRiskTypeFilter('dam')">
-        <input type="checkbox" id="risk_type_dam" checked>
-        <div class="risk-color-box" style="background-color: #e77148;"></div>
-        <span>Desastre Tecnológico</span>
-    </div>
-    <div class="filter-checkbox" onclick="toggleRiskTypeFilter('fire')">
-        <input type="checkbox" id="risk_type_fire" checked>
-        <div class="risk-color-box" style="background-color: #e74c3c;"></div>
-        <span>Incêndio Florestal</span>
-    </div>
-    <div class="filter-checkbox" onclick="toggleRiskTypeFilter('geo_hydro')">
-        <input type="checkbox" id="risk_type_geo_hydro" checked>
-        <div class="risk-color-box" style="background-color: #3498db;"></div>
-        <span>Risco Geo-Hidrológico (CEMADEN)</span>
-    </div>
-</div>
-            
-            <!-- Layer Visibility -->
-            <div class="filter-section">
-                <h4>Camadas</h4>
-                <div id="layer_heritage_container" class="filter-checkbox" onclick="toggleLayer('heritage')" style="display:none;">
-                    <input type="checkbox" id="layer_heritage" checked>
-                    <span>🏛 Bens Culturais Materiais Protegidos</span>
+
+            <div id="filterOptions">
+                <div class="filter-section">
+                    <h4>🏛️ Bem Cultural Material</h4>
+                    <div class="filter-checkbox" onclick="toggleHeritageFilter('immovable')">
+                        <input type="checkbox" id="heritage_immovable" checked>
+                        <div class="symbol triangle" style="background-color: #27ae60;"></div>
+                        <span>Bens Imóveis</span>
+                    </div>
+                    <div class="filter-checkbox" onclick="toggleHeritageFilter('movable')">
+                        <input type="checkbox" id="heritage_movable" checked>
+                        <div class="symbol diamond" style="background-color: #3498db;"></div>
+                        <span>Bens Móveis ou integrados</span>
+                    </div>
                 </div>
-                <div class="filter-checkbox" onclick="toggleLayer('dam_buffers')">
-                    <input type="checkbox" id="layer_dam_buffers" checked>
-                    <span>🏗 Barragens Potencialmente Perigosas</span>
+
+                <div class="filter-section">
+                    <h4>🔥 Riscos</h4>
+                    <div class="filter-checkbox" onclick="toggleRiskTypeFilter('fire')">
+                        <input type="checkbox" id="risk_type_fire" checked>
+                        <div class="risk-icon">🔥</div>
+                        <span>Incêndio Florestal</span>
+                    </div>
+                    <div class="filter-checkbox" onclick="toggleRiskTypeFilter('geological')">
+                        <input type="checkbox" id="risk_type_geological" checked>
+                        <div class="risk-icon">🪨</div>
+                        <span>Risco CEMADEN</span>
+                    </div>
+                    <div class="filter-checkbox" onclick="toggleRiskTypeFilter('none')">
+                        <input type="checkbox" id="risk_type_none" checked>
+                        <div class="risk-icon">🟢</div>
+                        <span>Bens sem risco</span>
+                    </div>
                 </div>
-                <div class="filter-checkbox" onclick="toggleLayer('municipal_risk')">
-                    <input type="checkbox" id="layer_municipal_risk" checked>
-                    <span>🎯 Cloroplético Municipal</span>
-                </div>
-                <div class="filter-checkbox" onclick="toggleLayer('municipal_boundaries')">
-                    <input type="checkbox" id="layer_municipal_boundaries" checked>
-                    <span>🗺 Limites Municipais</span>
-                </div>
-            </div>
-            
-            <!-- State Navigation Dropdown -->
-            <div class="filter-section">
-                <h4>🗺️ Navegação por Estado</h4>
-                <div class="state-selector">
-                    <select id="stateDropdown" onchange="navigateToState()">
-                        <option value="">Selecione um Estado...</option>
-                        <option value="AC">Acre (AC)</option>
-                        <option value="AL">Alagoas (AL)</option>
-                        <option value="AP">Amapá (AP)</option>
-                        <option value="AM">Amazonas (AM)</option>
-                        <option value="BA">Bahia (BA)</option>
-                        <option value="CE">Ceará (CE)</option>
-                        <option value="DF">Distrito Federal (DF)</option>
-                        <option value="ES">Espírito Santo (ES)</option>
-                        <option value="GO">Goiás (GO)</option>
-                        <option value="MA">Maranhão (MA)</option>
-                        <option value="MT">Mato Grosso (MT)</option>
-                        <option value="MS">Mato Grosso do Sul (MS)</option>
-                        <option value="MG">Minas Gerais (MG)</option>
-                        <option value="PA">Pará (PA)</option>
-                        <option value="PB">Paraíba (PB)</option>
-                        <option value="PR">Paraná (PR)</option>
-                        <option value="PE">Pernambuco (PE)</option>
-                        <option value="PI">Piauí (PI)</option>
-                        <option value="RJ">Rio de Janeiro (RJ)</option>
-                        <option value="RN">Rio Grande do Norte (RN)</option>
-                        <option value="RS">Rio Grande do Sul (RS)</option>
-                        <option value="RO">Rondônia (RO)</option>
-                        <option value="RR">Roraima (RR)</option>
-                        <option value="SC">Santa Catarina (SC)</option>
-                        <option value="SP">São Paulo (SP)</option>
-                        <option value="SE">Sergipe (SE)</option>
-                        <option value="TO">Tocantins (TO)</option>
-                    </select>
-                    <button onclick="resetStateSelection()" style="margin-top: 5px; padding: 3px 8px; font-size: 10px; background: #95a5a6; color: white; border: none; border-radius: 3px; cursor: pointer;">Resetar</button>
-                </div>
-                <div class="state-info" id="stateInfo" style="display: none;">
-                    <p><strong>Estado Selecionado:</strong> <span id="selectedStateName"></span></p>
-                    <p><strong>Sítios de Patrimônio:</strong> <span id="stateHeritageCount">0</span></p>
-                    <p><strong>Municípios:</strong> <span id="stateMunicipalityCount">0</span></p>
-                </div>
-            </div>
-            
-            <!-- Document Status Information -->
-            <div class="filter-section" style="display:none;">
-                <h4>📄 Status dos Documentos</h4>
-                <div style="font-size: 12px; color: #7f8c8d; line-height: 1.4;">
-                    <p style="margin: 5px 0;">
-                        <strong>Protocolos Municipais:</strong> Gerenciados pelo administrador
-                    </p>
-                    <p style="margin: 5px 0;">
-                        <strong>Planos de Gestão de Risco:</strong> Atualizados conforme disponibilidade
-                    </p>
-                    <div style="font-size: 10px; color: #bdc3c7; margin-top: 8px; font-style: italic;">
-                        A presença de documentação adequada reduz significativamente os níveis de risco calculados para cada sítio patrimonial.
+
+                <div class="filter-section">
+                    <h4>🗺️ Camadas do Mapa</h4>
+                    <div class="filter-checkbox" onclick="toggleLayer('dam_buffers')">
+                        <input type="checkbox" id="layer_dam_buffers" checked>
+                        <span>🏗️ Barragens Potencialmente Perigosas</span>
+                    </div>
+                    <div class="filter-checkbox" onclick="toggleLayer('municipal_risk')">
+                        <input type="checkbox" id="layer_municipal_risk" checked>
+                        <span>🎯 Cloroplético Municipal</span>
+                    </div>
+                    <div class="filter-checkbox" onclick="toggleLayer('municipal_boundaries')">
+                        <input type="checkbox" id="layer_municipal_boundaries" checked>
+                        <span>🗺️ Limites Municipais</span>
                     </div>
                 </div>
             </div>
-        
-            <!-- Filter Actions -->
-            <div class="filter-section" style="display:none;">
-                <button onclick="resetAllFilters()" style="background: #e74c3c; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; width: 100%; margin-bottom: 5px;">Resetar Todos os Filtros</button>
-                <button onclick="showAllLayers()" style="background: #27ae60; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; width: 100%;">Mostrar Todas as Camadas</button>
-            </div>
         </div>
 
-        
-        <!-- Data Status Panel -->
         <div class="data-status" id="dataStatus">
             <div><strong>📊 Status dos Dados:</strong></div>
-            <div id="heritageCount">🏛️ Bens Culturais Materiais Protegidos: Carregando...</div>
-            <div id="damCount">🏗️ Barragens Potencialmente Perigosas: Carregando...</div>
-            <div id="municipalCount">🗺️ Limites Municipais: Carregando...</div>
-            <div id="riskCount">🎯 Cloroplético Municipal: Carregando...</div>
+            <div id="heritageCount">Sítios de Bens Culturais: Carregando...</div>
+            <div id="damCount">Zonas de Barragens: Carregando...</div>
+            <div id="municipalCount">Municípios: Carregando...</div>
+            <div id="riskCount">Áreas de Risco: Carregando...</div>
             <div id="lastUpdate" class="timestamp">Última Atualização: Carregando...</div>
         </div>
-        
-        <!-- Enhanced Loading Indicator with Progress Bar -->
-        <div id="loadingIndicator" style="
-            position: fixed; 
-            top: 50%; 
-            left: 50%; 
-            transform: translate(-50%, -50%); 
-            background: rgba(44, 62, 80, 0.95); 
-            color: white; 
-            padding: 30px; 
-            border-radius: 10px; 
-            z-index: 10000;
-            min-width: 300px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        ">
-            <div style="text-align: center; margin-bottom: 20px;">
-                <h3 style="margin: 0 0 10px 0; font-size: 18px; color: #ecf0f1;">
-                    Carregando Avaliação de Risco dos Bens Culturais...
-                </h3>
-                <div style="font-size: 14px; color: #bdc3c7;">
-                    Inicializando camadas do mapa e dados...
-                </div>
-            </div>
-        </div>
-        
-        <!-- External JavaScript Libraries -->
+
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
         <script src="js/qgis2web_expressions.js"></script>
         <script src="js/leaflet.js"></script>
         <script src="js/L.Control.Layers.Tree.min.js"></script>
@@ -212,14 +103,16 @@
         <script src="js/labels.js"></script>
         <script src="js/leaflet.photon.js"></script>
         <script src="js/leaflet-measure.js"></script>
-        
-        <!-- Data Files -->
         <script src="data/municipalities_1_simplified_1.js"></script>
         <script src="data/municipalities_with_combined_risk_simplified_2.js"></script>
         <script src="data/snisb_dam_buffers_3.js"></script>
         <script src="data/comprehensive_heritage_risk_4.js"></script>
-        
-        <!-- Custom JavaScript - MAIN.JS STAYS AT THE END -->
-        <script src="main.js"></script>
+
+        <script src="js/filterController.js"></script> 
+        <script src="js/popupsContent.js"></script> 
+        <script src="js/generateLayers.js"></script> 
+        <script src="js/layersStyle.js"></script> 
+        <script src="js/loadDataStatus.js"></script> 
+        <script src="js/script.js"></script> 
     </body>
 </html>
